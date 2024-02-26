@@ -130,6 +130,17 @@ transition: background-color 0.3s;
 border-radius: 10px;
 font-size: 18px;
 }
+.menupesquisa{
+    color: #fff;
+    padding: 5px;
+    margin: 7px 0;
+    margin-left: 5px;
+    margin-right: 3em;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 18px;
+    }
 
 li {
     color: #fff; /* Texto preto */
@@ -196,11 +207,6 @@ img {
 img:hover {
   transform: scale(1.05);
 }
-svg.base-icon-svg.tw-block.tw-cursor-pointer {
-    width: 26em;
-    height: 3em;
-    margin-top: 1.2vh;
-}
 svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
 }
 
@@ -253,10 +259,10 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         font-size: 18px;
     }
     img.imgmobile {
-    width: 60px;
-    position: fixed;
-    border-radius: 0px;
-}
+        width: 60px;
+        position: fixed;
+        border-radius: 0px;
+    }
 
     nav {
         display: flex;
@@ -331,9 +337,8 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         margin-left: 0px;
         padding:0px;
 }
- svg.base-icon-svg.tw-block.tw-cursor-pointer {
+svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 5em;
-    height: 1.5em;
-    margin-top: 1.2vh;
+    margin-right: -5em;
 }
 }
