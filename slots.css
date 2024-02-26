@@ -248,7 +248,6 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
 @media (max-width: 768px) {
     
     ::-webkit-scrollbar {
-        width: 10px;
         height:2px;
     }
 
