@@ -261,6 +261,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
  nav ul li a {
     border: 1px solid white;
     border-radius: 5px;
+ }
     img.imgmobile {
         width: 60px;
         position: fixed;
