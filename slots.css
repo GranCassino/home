@@ -116,7 +116,7 @@ li.menupcselected{
     text-align: center;
     transition: background-color 0.3s;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 17px;
 
     }
 li.menupc{
@@ -128,7 +128,7 @@ margin-right: 5px;
 text-align: center;
 transition: background-color 0.3s;
 border-radius: 10px;
-font-size: 15px;
+font-size: 17px;
 }
 .menupesquisa{
     color: #fff;
