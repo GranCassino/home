@@ -283,6 +283,18 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     nav a:hover {
         background-color: #555;
     }
+
+ .menupesquisa {
+    margin-left: 5px;
+    margin-right: 3em;
+    font-size: 18px;
+}
+ li.menupc {
+    font-size: 18px;
+}
+ li.menupcselected {
+    font-size: 18px;
+}
     .sidebar {
         width: 100%;
         overflow-x: auto;
