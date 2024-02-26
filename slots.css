@@ -40,15 +40,51 @@ header {
     width: 100%;
     border-bottom: 1px solid rgb(241, 226, 138)/* Adiciona a borda branca fina na parte inferior */
 }
-.logo {
+.pcmenu {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 11vh;
+    justify-content: space-between;
 }
-logo img {
-        width: 500px;
-    }
+.mobilemenu {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    margin-right: 1em;
+}
+
+img.imgpc {
+    width: 18em;
+}
+nav {
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    font-family:verdana;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius:5px;
+    color:#000;
+}
+
+
 .sidebar {
     width: 22%;
     background-color: #192733;
@@ -68,6 +104,73 @@ ul {
     list-style: none; /* Remove os marcadores da lista */
     padding: 0; /* Remove o preenchimento padrão da lista */
 }
+li.menupcselected a {color:#000;
+background-color:#fff;
+border-radius:5px;}
+li.menupcselected{
+    color: #fff;
+    padding: 5px;
+    margin: 7px 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 18px;
+    }
+li.menupc{
+color: #fff;
+padding: 5px;
+margin: 7px 0;
+margin-left: 5px;
+margin-right: 5px;
+text-align: center;
+transition: background-color 0.3s;
+border-radius: 10px;
+font-size: 18px;
+}
+
+.submenu sub {color:#000;
+}
+
+li.mobilemenuselected a {color:#000;
+    background-color:#fff;
+    border-radius:5px;}
+    li.mobilemenuselected{
+        color: #fff;
+        padding: 5px;
+        margin: 7px 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        transition: background-color 0.3s;
+        border-radius: 10px;
+        font-size: 18px;
+        }
+    li.mobilemenu{
+    color: #fff;
+    padding: 5px;
+    margin: 7px 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 18px;
+    }
+
+    .submenu {
+        position: absolute;
+        display: none;
+        background-color: #ccc;
+        padding: 0.5em;
+        font-size:14px;
+        border-radius:5px;
+    }
+    
+    .mobilemenu li:hover .submenu {
+        display: block;
+    }
 
 li {
     color: #fff; /* Texto preto */
@@ -153,12 +256,42 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         height:7vh;
     
     }
- .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 7.5vh;
-}
+    .pcmenu {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobilemenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        overflow-x: auto;
+        height: 7vh;
+    }
+    img.imgmobile {
+        width: 52px;
+        position:fixed;
+    }
+    .logo {
+        margin-right: auto;
+    }
+    
+    nav {
+        display: flex;
+        margin-left:65px;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+    
+    nav a:hover {
+        background-color: #555;
+    }
     .sidebar {
         width: 100%;
         overflow-x: auto;
