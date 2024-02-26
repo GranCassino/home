@@ -47,8 +47,6 @@ header {
 }
 .mobilemenu {
     display: none;
-    align-items: center;
-    justify-content: space-between;
 }
 header img {
     margin-right: 1em;
@@ -104,11 +102,13 @@ ul {
     list-style: none; /* Remove os marcadores da lista */
     padding: 0; /* Remove o preenchimento padrão da lista */
 }
+
 li.menupcselected a {color:#000;
 background-color:#fff;
-border-radius:5px;}
+border-radius:5px;
+}
+
 li.menupcselected{
-    color: #fff;
     padding: 5px;
     margin: 7px 0;
     margin-left: 5px;
@@ -117,6 +117,7 @@ li.menupcselected{
     transition: background-color 0.3s;
     border-radius: 10px;
     font-size: 18px;
+
     }
 li.menupc{
 color: #fff;
@@ -129,48 +130,6 @@ transition: background-color 0.3s;
 border-radius: 10px;
 font-size: 18px;
 }
-
-.submenu sub {color:#000;
-}
-
-li.mobilemenuselected a {color:#000;
-    background-color:#fff;
-    border-radius:5px;}
-    li.mobilemenuselected{
-        color: #fff;
-        padding: 5px;
-        margin: 7px 0;
-        margin-left: 5px;
-        margin-right: 5px;
-        text-align: center;
-        transition: background-color 0.3s;
-        border-radius: 10px;
-        font-size: 18px;
-        }
-    li.mobilemenu{
-    color: #fff;
-    padding: 5px;
-    margin: 7px 0;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-align: center;
-    transition: background-color 0.3s;
-    border-radius: 10px;
-    font-size: 18px;
-    }
-
-    .submenu {
-        position: absolute;
-        display: none;
-        background-color: #ccc;
-        padding: 0.5em;
-        font-size:14px;
-        border-radius:5px;
-    }
-    
-    .mobilemenu li:hover .submenu {
-        display: block;
-    }
 
 li {
     color: #fff; /* Texto preto */
@@ -257,8 +216,6 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     }
     .pcmenu {
         display: none;
-        align-items: center;
-        justify-content: space-between;
     }
     .mobilemenu {
         display: flex;
@@ -268,14 +225,38 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         overflow-x: auto;
         height: 7vh;
     }
+    li.mobilemenuselected a {color:#000;
+        background-color:#fff;
+        border-radius:5px;
+    }
+    
+        li.mobilemenuselected{
+            padding: 5px;
+            margin: 7px 0;
+            margin-left: 5px;
+            margin-right: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+            border-radius: 10px;
+            font-size: 18px;
+            }
+            
+        li.mobilemenu{
+        color: #fff;
+        padding: 5px;
+        margin: 7px 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        transition: background-color 0.3s;
+        border-radius: 10px;
+        font-size: 18px;
+    }
     img.imgmobile {
         width: 52px;
         position:fixed;
     }
-    .logo {
-        margin-right: auto;
-    }
-    
+
     nav {
         display: flex;
         margin-left:65px;
@@ -297,8 +278,8 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         height: 7vh;
         margin-top: -3vh;
     } 
-    .sidebar img {width:135px;
-                 }
+    .sidebar img {width:135px;}
+
     .sidebar ul {
         list-style: none;
         padding: 0;
