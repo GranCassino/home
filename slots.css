@@ -253,9 +253,10 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         font-size: 18px;
     }
     img.imgmobile {
-        width: 52px;
-        position:fixed;
-    }
+    width: 60px;
+    position: fixed;
+    border-radius: 0px;
+}
 
     nav {
         display: flex;
