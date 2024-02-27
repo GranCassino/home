@@ -54,6 +54,7 @@ header img {
 
 img.imgpc {
     width: 18em;
+    margin-top:-5px;
 }
 nav {
     padding: 0.5em;
@@ -123,12 +124,10 @@ li.menupc{
 color: #fff;
 padding: 5px;
 margin: 7px 0;
-margin-left: 5px;
-margin-right: 5px;
 text-align: center;
 transition: background-color 0.3s;
 border-radius: 10px;
-font-size: 17px;
+font-size: 16px;
 }
 .menupesquisa{
     color: #fff;
@@ -143,7 +142,7 @@ font-size: 17px;
     }
 
 li {
-    color: #fff; /* Texto preto */
+    color: #fff; 
     padding: 5px; /* Espaçamento interno para melhorar a aparência */
     margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
     margin-left:20px;
