@@ -87,9 +87,9 @@ nav ul li a:hover {
 .sidebar {
     width: 22%;
     background-color: #192733;
-    border-bottom: 1px solid rgb(241, 226, 138);
+    border: 1px solid rgb(241, 226, 138);
     position: fixed;
-    top: 9.7vh;
+    top: 9vh;
     bottom: 0;
     overflow: auto;
 }
