@@ -1,262 +1,381 @@
  /* Estilizando a barra de rolagem vertical */
  ::-webkit-scrollbar {
-  width: 1px; /* Largura da barra de rolagem */
+    width: 1px; /* Largura da barra de rolagem */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #9daab6; /* Cor da barra de rolagem */
+    background: rgb(241, 226, 138); /* Cor da barra de rolagem */
 }
 
 ::-webkit-scrollbar-track {
-  background: #385171; /* Cor da trilha da barra de rolagem */
+    background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem */
 }
 
 /* Estilizando a barra de rolagem horizontal (opcional) */
 ::-webkit-scrollbar-horizontal {
-  height: 1px; /* Altura da barra de rolagem horizontal */
+    height: 1px; /* Altura da barra de rolagem horizontal */
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
-  background: #666; /* Cor da barra de rolagem horizontal */
+    background: #666; /* Cor da barra de rolagem horizontal */
 }
 
 ::-webkit-scrollbar-track:horizontal {
-  background: #385171; /* Cor da trilha da barra de rolagem horizontal */
+    background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem horizontal */
 }
 
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #192733;
+    margin: 0;
+    padding: 0;
+    background-color: #192733;
 }
 
 header {
-  background-color: #181e29;
-  height: 10.5vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid #385171 /* Adiciona a borda branca fina na parte inferior */
+    background-color:#181e29;
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(241, 226, 138)/* Adiciona a borda branca fina na parte inferior */
 }
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 11vh;
+.pcmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-logo img {
-      width: 500px;
-  }
+.mobilemenu {
+    display: none;
+}
+header img {
+    margin-right: 1em;
+}
+
+img.imgpc {
+    width: 18em;
+    margin-top:-5px;
+}
+nav {
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    font-family:verdana;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.4em 1em;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius:5px;
+    color:#000;
+}
+
+
 .sidebar {
-  width: 22%;
-  background-color: #192733;
-  border-bottom: 1px solid #385171;
-  position: fixed;
-  top: 10.6vh;
-  bottom: 0;
-  overflow: auto;
+    width: 22%;
+    background-color: #192733;
+    border-bottom: 1px solid rgb(241, 226, 138);
+    position: fixed;
+    top: 9.7vh;
+    bottom: 0;
+    overflow: auto;
 }
 
 .content {
-  width: 75%;
-  margin-left: 22%;
-  padding: 20px;
+    width: 75%;
+    margin-left: 22%;
+    padding: 20px;
 }
 ul {
-  list-style: none; /* Remove os marcadores da lista */
-  padding: 0; /* Remove o preenchimento padrão da lista */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
 }
 
+li.menupcselected a {color:#000;
+background-color:#fff;
+border-radius:5px;
+}
+
+li.menupcselected{
+    padding: 5px;
+    margin: 7px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 16px;
+
+    }
+li.menupc{
+color: #fff;
+padding: 5px;
+margin: 7px 0;
+text-align: center;
+transition: background-color 0.3s;
+border-radius: 10px;
+font-size: 16px;
+}
+.menupesquisa{
+    color: #fff;
+    padding: 5px;
+    margin: 7px 0;
+    margin-left: 2em;
+    margin-right: 1.5em;
+    text-align: center;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 16px;
+    }
+
 li {
-  color: #fff; /* Texto preto */
-  padding: 5px; /* Espaçamento interno para melhorar a aparência */
-  margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
-  margin-left:20px;
-  margin-right:20px;
-  text-align: center; /* Centraliza o texto horizontalmente */
-  transition: background-color 0.3s; /* Efeito de transição suave */
-  border-radius:10px;
-  font-size:25px;
+    color: #fff; 
+    padding: 5px; /* Espaçamento interno para melhorar a aparência */
+    margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    transition: background-color 0.3s; /* Efeito de transição suave */
+    border-radius:10px;
+    font-size:25px;
 }
 
 img.selected {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 li img:hover {box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  transform: scale(1.03);}
+    transform: scale(1.03);}
 a {color:white;
-  text-decoration: none;
+    text-decoration: none;
 }
 li.select a {
-  background-color: #ddd; /* Fundo cinza mais escuro no hover */
-  color:#333333;
-  text-decoration: none;
+    background-color: #ddd; /* Fundo cinza mais escuro no hover */
+    color:#333333;
+    text-decoration: none;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
-  width: 19%;
-  margin: 1%;
-  float: left;
+    width: 19%;
+    margin: 1%;
+    float: left;
 }
 
 .column img {
-  width: 100%;
+    width: 100%;
 }
 
 .image-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 12vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 12vh;
 }
 
 .image-container a {
-  flex: 0 0 calc(20% - 10px); /* 20% para cada imagem com uma margem de 10px entre elas */
-  margin: 5px;
-  text-align: center;
+    flex: 0 0 calc(20% - 10px); /* 20% para cada imagem com uma margem de 10px entre elas */
+    margin: 5px;
+    text-align: center;
 }
 
 .image-container img {
-  max-width: 100%;
-  height: auto;
-
+    max-width: 100%;
+    height: auto;
+ 
 }
 img {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 img:hover {
-transform: scale(1.05);
-}
-
-#searchInput {
-  padding: 10px;
-  margin: 10px;
-  width: 100%; /* Tamanho ajustável */
-  border: 1px solid white; /* Alterado para aplicar a borda a todos os lados */
-  border-radius: 10px;
-  box-sizing: border-box; /* Inclui padding e bordas na largura total */
-}
-input#searchInput {
-    background: #181e29;
-    color: white;
-}
-
-.search {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
-}
-.group img {width:15em;
-max-width:100%;}
-
-svg {
-    width: 25em;
-    height: 2.5em;
-    margin-top:0.1vh
-}
-svg:hover {transform: scale(1.05);
-}
-svg.base-icon-svg.tw-block.tw-cursor-pointer {
-    width: 25em;
-    height: 3em;
-    margin-top: 1.2vh;
+  transform: scale(1.05);
 }
 svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
 }
-@media (max-width: 768px) {
-  
-  ::-webkit-scrollbar {
-      width: 10px;
-      height:2px;
+#searchInput {
+    padding: 10px;
+    margin: 10px;
+    width: 100%; /* Tamanho ajustável */
+    border: 1px solid white; /* Alterado para aplicar a borda a todos os lados */
+    border-radius: 10px;
+    box-sizing: border-box; /* Inclui padding e bordas na largura total */
   }
+  input#searchInput {
+      background: #181e29;
+      color: white;
+  }
+  
+  .search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  .group img {width:15em;
+  max-width:100%;}
+  
 
-  header {
-      height:7vh;
-  
-  }
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 7.5vh;
+@media (max-width: 768px) {
+    
+    ::-webkit-scrollbar {
+        height:2px;
+    }
+
+    header {
+        height:7vh;
+    
+    }
+    .pcmenu {
+        display: none;
+    }
+    .mobilemenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        overflow-x: auto;
+        height: 7vh;
+    }
+    li.mobilemenuselected a {color:#000;
+        background-color:#fff;
+        border-radius:5px;
+    }
+    
+        li.mobilemenuselected{
+            padding: 5px;
+            margin: 7px 0;
+            margin-left: 5px;
+            margin-right: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+            border-radius: 10px;
+            font-size: 18px;
+            }
+            
+        li.mobilemenu{
+        color: #fff;
+        padding: 5px;
+        margin: 7px 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        transition: background-color 0.3s;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+ nav ul li a {
+    border: 1px solid white;
+    border-radius: 5px;
+ }
+    img.imgmobile {
+        width: 62px;
+        position: fixed;
+        border-radius: 0px;
+    }
+
+    nav {
+        display: flex;
+        margin-left:65px;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+    
+    nav a:hover {
+        background-color: #555;
+    }
+
+ .menupesquisa {
+    margin-left: 5px;
+    margin-right: 3em;
+    font-size: 18px;
 }
-  .sidebar {
-      width: 100%;
-      overflow-x: auto;
-      height: 7vh;
-      margin-top: -3vh;
-  } 
-  .sidebar img {width:135px;
-               }
-  .sidebar ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
-  }
-  
-  .sidebar li {
-      display: inline-block;
-      text-align: center;
-      margin: 5px;
-      border: 2px solid #fff;
-      padding: 2px;
-  }
-img.selected {
-  box-shadow:none;
+ li.menupc {
+    font-size: 18px;
 }
-  li {
-      color: #fff; /* Texto preto */
-      padding: 5px; /* Espaçamento interno para melhorar a aparência */
-      margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
-      margin-left:20px;
-      margin-right:20px;
-      text-align: center; /* Centraliza o texto horizontalmente */
-      transition: background-color 0.3s; /* Efeito de transição suave */
-      border-radius:10px;
-      font-size:15px;
-  }
-li.mobile {
-  border: 2px solid #ff0000;
+ li.menupcselected {
+    font-size: 18px;
 }
-  img {
-      width: 280px;
-  }
-  .image-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 16vh;
-  }
-  .image-container a {
-      flex: 0 0 calc(33.3% - 10px); /* 20% para cada imagem com uma margem de 10px entre elas */
-      margin: 5px;
-      text-align: center;
-  }
-  .content {
-      width: 100%;
-      margin-left: 0px;
-      padding:0px;
+    .sidebar {
+        width: 100%;
+        overflow-x: auto;
+        height: 7vh;
+        margin-top: -2.4vh;
+    } 
+    .sidebar img {width:135px;}
+.mobilemenu1 {
+    margin-top: 0.95em;
 }
-.group img {width:12em;
- grid-area:100%;
- margin-bottom: 0.4em;
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
+    }
+    
+    .sidebar li {
+        display: inline-block;
+        text-align: center;
+        margin: 5px;
+        border: 2px solid #fff;
+        padding: 2px;
+    }
+ img.selected {
+    box-shadow:none;
 }
-svg {
-    width: 4.5em;
-    height: 1em;
+    li {
+        color: #fff; /* Texto preto */
+        padding: 5px; /* Espaçamento interno para melhorar a aparência */
+        margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
+        margin-left:20px;
+        margin-right:20px;
+        text-align: center; /* Centraliza o texto horizontalmente */
+        transition: background-color 0.3s; /* Efeito de transição suave */
+        border-radius:10px;
+        font-size:15px;
+    }
+ li.mobile {
+    border: 2px solid #ff0000;
 }
- svg.base-icon-svg.tw-block.tw-cursor-pointer {
-    width: 4.5em;
-    height: 1.5em;
-    margin-top: 0.8vh;
+    img {
+        width: 280px;
+    }
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 16vh;
+    }
+    .image-container a {
+        flex: 0 0 calc(33.3% - 10px); /* 20% para cada imagem com uma margem de 10px entre elas */
+        margin: 5px;
+        text-align: center;
+    }
+    .content {
+        width: 100%;
+        margin-left: 0px;
+        padding:0px;
+}
+svg.base-icon-svg.tw-block.tw-cursor-pointer {
+    width: 2em;
+    margin-right: -3.8em;
 }
 }
