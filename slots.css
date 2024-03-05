@@ -268,7 +268,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     nav {
         display: flex;
         margin-left:65px;
-     height:60px;
+     height:50px;
     }
     
     nav a {
