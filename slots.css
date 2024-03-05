@@ -1,4 +1,4 @@
- /* Estilizando a barra de rolagem vertical */
+/* Estilizando a barra de rolagem vertical */
  ::-webkit-scrollbar {
     width: 1px; /* Largura da barra de rolagem */
 }
@@ -268,7 +268,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     nav {
         display: flex;
         margin-left:65px;
-     height:50px;
+     height:63px;
     }
     
     nav a {
