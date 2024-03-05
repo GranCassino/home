@@ -172,9 +172,6 @@ margin-top: -28px;
    
    ::-webkit-scrollbar {
        width: 10px;
-       height:2px;}
-   
-      .logo {
-    height: 16px;
-    display: none;}
+       height:2px;
+   }
 }
