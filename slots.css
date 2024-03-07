@@ -10,7 +10,12 @@
 ::-webkit-scrollbar-track {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem */
 }
-
+.pcmenu::-webkit-scrollbar {
+  background-color: transparent;
+}
+.sidebar::-webkit-scrollbar {
+  background-color: transparent;
+}
 /* Estilizando a barra de rolagem horizontal (opcional) */
 ::-webkit-scrollbar-horizontal {
     height: 1px; /* Altura da barra de rolagem horizontal */
