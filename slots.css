@@ -272,7 +272,13 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         margin-left:65px;
      height:63px;
     }
-    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 0em;
+}
     nav a {
         color: #fff;
         text-decoration: none;
