@@ -19,7 +19,6 @@
 }
 .sidebar::-webkit-scrollbar {
   background: rgb(241, 226, 138);
- height: 0px; /* Largura da barra de rolagem */
 }
 /* Estilizando a barra de rolagem horizontal (opcional) */
 ::-webkit-scrollbar-horizontal {
