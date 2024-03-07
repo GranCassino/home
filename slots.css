@@ -108,7 +108,6 @@ nav ul li a:hover {
     top: 9vh;
     bottom: 0;
     overflow: auto;
-   overflow-y:hidden;
 }
 
 .content {
