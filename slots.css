@@ -12,15 +12,15 @@
 }
 .pcmenu::-webkit-scrollbar {
       background: rgb(241, 226, 138);
- height: 1px; /* Largura da barra de rolagem */
+ height: 0px; /* Largura da barra de rolagem */
 }
 .sidebar::-webkit-scrollbar {
   background: rgb(241, 226, 138);
- height: 1px; /* Largura da barra de rolagem */
+ height: 0px; /* Largura da barra de rolagem */
 }
 /* Estilizando a barra de rolagem horizontal (opcional) */
 ::-webkit-scrollbar-horizontal {
-    height: 1px; /* Altura da barra de rolagem horizontal */
+    height: 0px; /* Altura da barra de rolagem horizontal */
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
