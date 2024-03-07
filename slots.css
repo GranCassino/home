@@ -1,6 +1,7 @@
 /* Estilizando a barra de rolagem vertical */
  ::-webkit-scrollbar {
     width: 1px; /* Largura da barra de rolagem */
+   height: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
