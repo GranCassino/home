@@ -46,6 +46,7 @@ header {
     justify-content: space-between;
     overflow-x: auto;
     scrollbar-width: thin;
+    overflow-y: hidden;
 }
 .pcmenu {
     height: 9vh;
