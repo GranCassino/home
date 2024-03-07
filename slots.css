@@ -5,10 +5,12 @@
 
 ::-webkit-scrollbar-thumb {
     background: rgb(241, 226, 138); /* Cor da barra de rolagem */
+ height: 0px;
 }
 
 ::-webkit-scrollbar-track {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem */
+ height: 0px;
 }
 .pcmenu::-webkit-scrollbar {
       background: rgb(241, 226, 138);
@@ -25,10 +27,12 @@
 
 ::-webkit-scrollbar-thumb:horizontal {
     background: #666; /* Cor da barra de rolagem horizontal */
+ height: 0px;
 }
 
 ::-webkit-scrollbar-track:horizontal {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem horizontal */
+ height: 0px;
 }
 
 
