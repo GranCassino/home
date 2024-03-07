@@ -52,7 +52,6 @@ header {
     align-items: center;
     justify-content: space-between;
     overflow-x: auto;
-    scrollbar-width: thin;
     overflow-y: hidden;
 }
 .pcmenu {
@@ -317,7 +316,6 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         overflow-x: auto;
         height: 7vh;
         margin-top: -2.4vh;
-       scrollbar-width: thin;
     } 
     .sidebar img {width:135px;}
 .mobilemenu1 {
