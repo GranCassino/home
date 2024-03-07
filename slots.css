@@ -145,7 +145,6 @@ li {
     color: #fff; 
     padding: 5px; /* Espaçamento interno para melhorar a aparência */
     margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
-    margin-left:20px;
     margin-right:20px;
     text-align: center; /* Centraliza o texto horizontalmente */
     transition: background-color 0.3s; /* Efeito de transição suave */
