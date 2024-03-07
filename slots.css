@@ -45,7 +45,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.pcmenu
+.pcmenu {
     height: 9vh;
 }
 .mobilemenu {
