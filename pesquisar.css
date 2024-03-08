@@ -308,7 +308,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     }
     nav ul {
     list-style: none;
-    margin: 0;
+    margin: 0.75em 0;
     padding: 0;
     display: flex;
     margin-top: 0em;
