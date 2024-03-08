@@ -211,9 +211,11 @@ li.select a {
 .image-container img {
     max-width: 100%;
     height: auto;
-    width: 11.79em;
+    width: 12em;
     }
- 
+ div#imageContainer {
+    text-align: center;
+}
 }
 img {
     border-radius: 10px;
