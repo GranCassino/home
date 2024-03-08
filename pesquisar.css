@@ -253,7 +253,6 @@ input#searchInput {
     ::-webkit-scrollbar {
         height:2px;
     }
-
     header {
         height:7vh;
     
@@ -364,6 +363,7 @@ input#searchInput {
         border: 2px solid #fff;
         padding: 2px;
     }
+    .sidebar{display:none}
  img.selected {
     box-shadow:none;
 }
