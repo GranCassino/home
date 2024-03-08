@@ -154,7 +154,9 @@ font-size: 16px;
     border-radius: 10px;
     font-size: 16px;
     }
-
+div#imageContainer {
+    margin-top: -4vh;
+}
 li {
     color: #fff; 
     padding: 5px; /* Espaçamento interno para melhorar a aparência */
