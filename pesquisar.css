@@ -1,27 +1,31 @@
  /* Estilizando a barra de rolagem vertical */
  ::-webkit-scrollbar {
     width: 1px; /* Largura da barra de rolagem */
-}
+    height:0px;}
 
 ::-webkit-scrollbar-thumb {
     background: rgb(241, 226, 138); /* Cor da barra de rolagem */
+    height:0px;
 }
 
 ::-webkit-scrollbar-track {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem */
+    height:0px;
 }
 
 /* Estilizando a barra de rolagem horizontal (opcional) */
 ::-webkit-scrollbar-horizontal {
-    height: 1px; /* Altura da barra de rolagem horizontal */
+    height: 0px; /* Altura da barra de rolagem horizontal */
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
     background: #666; /* Cor da barra de rolagem horizontal */
+    height:0px;
 }
 
 ::-webkit-scrollbar-track:horizontal {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem horizontal */
+    height:0px;
 }
 
 
@@ -323,7 +327,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     } 
     .sidebar img {width:135px;}
 .mobilemenu1 {
-    margin-top: 0.95em;
+    margin-top: 0.4em;
 }
     .sidebar ul {
         list-style: none;
