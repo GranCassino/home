@@ -214,6 +214,8 @@ li.select a {
     }
  div#imageContainer {
     text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 img {
     border-radius: 10px;
