@@ -389,7 +389,7 @@ input#searchInput {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin-top: 5vh;
+        margin-top: 10vh;
     }
     .image-container a {
         flex: 0 0 calc(33.3% - 10px); /* 20% para cada imagem com uma margem de 10px entre elas */
