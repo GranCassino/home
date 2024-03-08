@@ -109,9 +109,6 @@ nav ul li a:hover {
     bottom: 0;
     overflow: auto;
 }
-.sidebar ul{
-    margin-left: -13%;
-}
 .content {
     width: 75%;
     margin-left: 22%;
