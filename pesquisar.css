@@ -98,6 +98,7 @@ nav ul li a:hover {
     width: 75%;
     margin-left: 22%;
     padding: 20px;
+   text-align:center;
 }
 ul {
     list-style: none; /* Remove os marcadores da lista */
@@ -378,4 +379,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
     margin-right: -3.8em;
 }
+ .group img {
+    width: 8em;
+    max-width: 100%;
 }
