@@ -395,6 +395,12 @@ input#searchInput {
         margin: 5px;
         text-align: center;
     }
+    .image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 8em;
+    border-radius: 5px;
+}
     .content {
         width: 100%;
         margin-left: 0px;
