@@ -410,18 +410,19 @@ input#searchInput {
 }
 svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
-    margin-right: -3.8em;
+    margin-right: -3.8em;}
+    
     input#searchInput {
     width: 98%;
     background: #181e29;
     color: #fff;
     border-radius: 5px;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
     div#imageContainer {
     text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 }
