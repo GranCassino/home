@@ -395,6 +395,10 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         margin-left: 0px;
         padding:0px;
 }
+ .group img {
+    width: 31%;
+    max-width: 100%;
+}
 svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
     margin-right: -3.8em;
