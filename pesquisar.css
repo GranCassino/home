@@ -111,9 +111,7 @@ nav ul li a:hover {
 }
 
 .content {
-    width: 75%;
-    margin-left: 22%;
-    padding: 20px;
+    width: 97%;
 }
 ul {
     list-style: none; /* Remove os marcadores da lista */
@@ -217,7 +215,6 @@ li.select a {
  div#imageContainer {
     text-align: center;
 }
-}
 img {
     border-radius: 10px;
 }
@@ -232,6 +229,8 @@ input#searchInput {
     background: #181e29;
     color: #fff;
     border-radius: 5px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
 }
 .search {
     width: 100%;
