@@ -1,18 +1,25 @@
- /* Estilizando a barra de rolagem vertical */
- ::-webkit-scrollbar {
+/* Estilizando a barra de rolagem vertical */
+::-webkit-scrollbar {
     width: 1px; /* Largura da barra de rolagem */
-    height:0px;}
+   height: 0px;
+}
 
 ::-webkit-scrollbar-thumb {
     background: rgb(241, 226, 138); /* Cor da barra de rolagem */
-    height:0px;
+ height: 0px;
 }
 
 ::-webkit-scrollbar-track {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem */
-    height:0px;
+ height: 0px;
 }
-
+.pcmenu::-webkit-scrollbar {
+      background: rgb(241, 226, 138);
+ height: 0px; /* Largura da barra de rolagem */
+}
+.sidebar::-webkit-scrollbar {
+  background: rgb(241, 226, 138);
+}
 /* Estilizando a barra de rolagem horizontal (opcional) */
 ::-webkit-scrollbar-horizontal {
     height: 0px; /* Altura da barra de rolagem horizontal */
@@ -20,16 +27,13 @@
 
 ::-webkit-scrollbar-thumb:horizontal {
     background: #666; /* Cor da barra de rolagem horizontal */
-    height:0px;
+ height: 0px;
 }
 
 ::-webkit-scrollbar-track:horizontal {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem horizontal */
-    height:0px;
+ height: 0px;
 }
-.pcmenu::-webkit-scrollbar {
-    width: 1px; /* Largura da barra de rolagem */
-    height:0px;}
 
 
 body {
@@ -51,6 +55,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.pcmenu {
+    height: 9vh;
 }
 .mobilemenu {
     display: none;
@@ -60,8 +69,7 @@ header img {
 }
 
 img.imgpc {
-    width: 17.5em;
-    margin-top: 0.55em;
+    width:21%
 }
 nav {
     padding: 0.5em;
@@ -72,6 +80,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    margin-top: 0.9em;
 }
 
 nav ul li {
@@ -94,9 +103,9 @@ nav ul li a:hover {
 .sidebar {
     width: 22%;
     background-color: #192733;
-    border-bottom: 1px solid rgb(241, 226, 138);
+    border: 1px solid rgb(241, 226, 138);
     position: fixed;
-    top: 9.7vh;
+    top: 9vh;
     bottom: 0;
     overflow: auto;
 }
@@ -105,7 +114,6 @@ nav ul li a:hover {
     width: 75%;
     margin-left: 22%;
     padding: 20px;
-   text-align:center;
 }
 ul {
     list-style: none; /* Remove os marcadores da lista */
@@ -151,7 +159,6 @@ li {
     color: #fff; 
     padding: 5px; /* Espaçamento interno para melhorar a aparência */
     margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
-    margin-left:20px;
     margin-right:20px;
     text-align: center; /* Centraliza o texto horizontalmente */
     transition: background-color 0.3s; /* Efeito de transição suave */
@@ -192,7 +199,7 @@ li.select a {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 12vh;
+    margin-top: 8.5vh;
 }
 
 .image-container a {
@@ -214,28 +221,24 @@ img:hover {
 }
 svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
 }
+
+input#searchInput {
+    width: 100%;
+    background: #181e29;
+    color: #fff;
+    border-radius: 5px;
+}
+.search {
+    width: 100%;
+}
 #searchInput {
     padding: 10px;
     margin: 10px;
-    width: 100%; /* Tamanho ajustável */
-    border: 1px solid white; /* Alterado para aplicar a borda a todos os lados */
-    border-radius: 10px;
-    box-sizing: border-box; /* Inclui padding e bordas na largura total */
-  }
-  input#searchInput {
-      background: #181e29;
-      color: white;
-  }
-  
-  .search {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2em;
-  }
-  .group img {width:15em;
-  max-width:100%;}
-  
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
 
 @media (max-width: 768px) {
     
@@ -298,8 +301,15 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     nav {
         display: flex;
         margin-left:65px;
+     height:63px;
     }
-    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 0em;
+}
     nav a {
         color: #fff;
         text-decoration: none;
@@ -330,7 +340,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     } 
     .sidebar img {width:135px;}
 .mobilemenu1 {
-    margin-top: 0.4em;
+    margin-top: 0.95em;
 }
     .sidebar ul {
         list-style: none;
@@ -386,7 +396,4 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
     margin-right: -3.8em;
 }
- .group img {
-    width: 7.5em;
-    max-width: 100%;
 }
