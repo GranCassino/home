@@ -339,6 +339,7 @@ input#searchInput {
  li.menupcselected {
     font-size: 18px;
 }
+    .sidebar{display:none}
     .sidebar {
         width: 100%;
         overflow-x: auto;
