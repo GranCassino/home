@@ -1,38 +1,27 @@
-/* Estilizando a barra de rolagem vertical */
+ /* Estilizando a barra de rolagem vertical */
  ::-webkit-scrollbar {
     width: 1px; /* Largura da barra de rolagem */
-   height: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgb(241, 226, 138); /* Cor da barra de rolagem */
- height: 0px;
 }
 
 ::-webkit-scrollbar-track {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem */
- height: 0px;
 }
-.pcmenu::-webkit-scrollbar {
-      background: rgb(241, 226, 138);
- height: 0px; /* Largura da barra de rolagem */
-}
-.sidebar::-webkit-scrollbar {
-  background: rgb(241, 226, 138);
-}
+
 /* Estilizando a barra de rolagem horizontal (opcional) */
 ::-webkit-scrollbar-horizontal {
-    height: 0px; /* Altura da barra de rolagem horizontal */
+    height: 1px; /* Altura da barra de rolagem horizontal */
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
     background: #666; /* Cor da barra de rolagem horizontal */
- height: 0px;
 }
 
 ::-webkit-scrollbar-track:horizontal {
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem horizontal */
- height: 0px;
 }
 
 
@@ -236,7 +225,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
     justify-content: center;
     margin-bottom: 2em;
   }
-  .group img {width:12em;
+  .group img {width:15em;
   max-width:100%;}
   
 
@@ -300,15 +289,9 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
 
     nav {
         display: flex;
-        margin-left:63px;
+        margin-left:65px;
     }
-    nav ul {
-    list-style: none;
-    margin: 0.75em 0;
-    padding: 0;
-    display: flex;
-    margin-top: 0em;
-}
+    
     nav a {
         color: #fff;
         text-decoration: none;
@@ -338,7 +321,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         margin-top: -2.4vh;
     } 
     .sidebar img {width:135px;}
-    .mobilemenu1 {
+.mobilemenu1 {
     margin-top: 0.95em;
 }
     .sidebar ul {
@@ -346,8 +329,6 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         padding: 0;
         margin: 0;
         white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
-         margin-left: 0%;
-}
     }
     
     .sidebar li {
@@ -381,7 +362,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin-top: 15.5vh;
+        margin-top: 16vh;
     }
     .image-container a {
         flex: 0 0 calc(33.3% - 10px); /* 20% para cada imagem com uma margem de 10px entre elas */
@@ -392,10 +373,6 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
         width: 100%;
         margin-left: 0px;
         padding:0px;
-}
- .group img {
-    width: 7.5em;
-    max-width: 100%;
 }
 svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
