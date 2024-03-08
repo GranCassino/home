@@ -339,12 +339,12 @@ input#searchInput {
  li.menupcselected {
     font-size: 18px;
 }
-    .sidebar{display:none}
     .sidebar {
         width: 100%;
         overflow-x: auto;
         height: 7vh;
         margin-top: -2.4vh;
+        display:none;
     } 
     .sidebar img {width:135px;}
 .mobilemenu1 {
