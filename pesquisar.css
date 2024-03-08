@@ -211,6 +211,8 @@ li.select a {
 .image-container img {
     max-width: 100%;
     height: auto;
+    width: 11.79em;
+    }
  
 }
 img {
