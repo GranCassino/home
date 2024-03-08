@@ -227,7 +227,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
 }
 
 input#searchInput {
-    width: 100%;
+    width: 98%;
     background: #181e29;
     color: #fff;
     border-radius: 5px;
