@@ -55,11 +55,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-.pcmenu {
-    height: 9vh;
 }
 .mobilemenu {
     display: none;
@@ -69,7 +64,8 @@ header img {
 }
 
 img.imgpc {
-    width:21%
+    width: 18em;
+    margin-top:-5px;
 }
 nav {
     padding: 0.5em;
@@ -80,7 +76,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    margin-top: 0.9em;
 }
 
 nav ul li {
@@ -103,17 +98,17 @@ nav ul li a:hover {
 .sidebar {
     width: 22%;
     background-color: #192733;
-    border: 1px solid rgb(241, 226, 138);
+    border-bottom: 1px solid rgb(241, 226, 138);
     position: fixed;
-    top: 9vh;
+    top: 9.7vh;
     bottom: 0;
     overflow: auto;
 }
+
 .content {
     width: 75%;
     margin-left: 22%;
     padding: 20px;
-    text-align: center;
 }
 ul {
     list-style: none; /* Remove os marcadores da lista */
@@ -154,13 +149,12 @@ font-size: 16px;
     border-radius: 10px;
     font-size: 16px;
     }
-div#imageContainer {
-    margin-top: -4vh;
-}
+
 li {
     color: #fff; 
     padding: 5px; /* Espaçamento interno para melhorar a aparência */
     margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
+    margin-left:20px;
     margin-right:20px;
     text-align: center; /* Centraliza o texto horizontalmente */
     transition: background-color 0.3s; /* Efeito de transição suave */
@@ -185,7 +179,6 @@ li.select a {
 .container {
     display: flex;
     flex-wrap: wrap;
- 
 }
 
 .column {
@@ -202,7 +195,7 @@ li.select a {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 9vh;
+    margin-top: 12vh;
 }
 
 .image-container a {
