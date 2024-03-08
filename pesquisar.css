@@ -234,6 +234,9 @@ input#searchInput {
 }
 .search {
     width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 #searchInput {
     padding: 10px;
