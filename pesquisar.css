@@ -27,7 +27,7 @@
     background: rgb(241, 226, 138); /* Cor da trilha da barra de rolagem horizontal */
     height:0px;
 }
-.sidebar::-webkit-scrollbar {
+.mobilemenu1::-webkit-scrollbar {
     width: 1px; /* Largura da barra de rolagem */
     height:0px;}
 
