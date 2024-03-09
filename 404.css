@@ -469,10 +469,11 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     margin-right: 0%;
 }
     img.error {
-    box-shadow: 1px 1px 5px 5px rgba(29, 33, 55, 1);
+    box-shadow: 1px 1px 10px 10px rgba(29, 33, 55, 1);
     position: absolute;
-    right: 4%;
-    top: 20vh;
-    width: 90%;
+    right: 1%;
+    left: 1%;
+    top: 23vh;
+    width: 97%;
 }
 }
