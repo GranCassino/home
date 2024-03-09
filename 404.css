@@ -251,9 +251,10 @@ input#searchInput {
 img.error {
     box-shadow: 1px 1px 10px 10px rgba(29, 33, 55, 1);
     position: absolute;
-    right: 10%;
-    top: 30%;
-    height: 40vh;
+    right: 28%;
+    left: 29%;
+    top: 24%;
+    height: 40vh
 }
 .botao-pagina-inicial {
     display: inline-block;
@@ -265,8 +266,8 @@ img.error {
     font-weight: bold;
     transition: 0.2s;
     position: absolute;
-    left: 18%;
-    top: 63%;
+    left: 44%;
+    top: 66%;
     font-size: 1rem;
 }
 
@@ -274,11 +275,12 @@ img.error {
     background-color: #0056b3;
   }
   h1.error-page__content__title {
-    margin-top: 12%;
-    margin-left: 8%;
+    margin-top: 5%;
+    margin-left: 34%;
     color: #fff;
     text-align: center;
     font-family: vedana;
+    margin-right: 34%;
 }
 h6.error-page__content__descr {
     margin-top: 26%;
