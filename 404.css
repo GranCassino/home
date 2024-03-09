@@ -1,3 +1,4 @@
+/* Estilizando a barra de rolagem vertical */
 ::-webkit-scrollbar {
     width: 1px; /* Largura da barra de rolagem */
    height: 0px;
@@ -15,6 +16,9 @@
 .pcmenu::-webkit-scrollbar {
       background: rgb(241, 226, 138);
  height: 0px; /* Largura da barra de rolagem */
+}
+.sidebar::-webkit-scrollbar {
+  background: rgb(241, 226, 138);
 }
 /* Estilizando a barra de rolagem horizontal (opcional) */
 ::-webkit-scrollbar-horizontal {
@@ -95,6 +99,20 @@ nav ul li a:hover {
     color:#000;
 }
 
+
+.sidebar {
+    width: 22%;
+    background-color: #192733;
+    border: 1px solid rgb(241, 226, 138);
+    position: fixed;
+    top: 9vh;
+    bottom: 0;
+    overflow: auto;
+}
+
+.content {
+    width: 97%;
+}
 ul {
     list-style: none; /* Remove os marcadores da lista */
     padding: 0; /* Remove o preenchimento padrão da lista */
@@ -149,7 +167,8 @@ li {
 img.selected {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-li img:hover {box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);}
+li img:hover {box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.03);}
 a {color:white;
     text-decoration: none;
 }
@@ -190,16 +209,44 @@ li.select a {
 .image-container img {
     max-width: 100%;
     height: auto;
-    width: 12em;
+    width: 15.6em;
     border-radius: 5px;
-    }
+}
  div#imageContainer {
     text-align: center;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 img {
     border-radius: 10px;
 }
+img:hover {
+  transform: scale(1.05);
+}
 svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
+}
+
+input#searchInput {
+    width: 98%;
+    background: #181e29;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.search {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#searchInput {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 img.error {
     margin-top: 40%;
@@ -298,9 +345,32 @@ img.error {
  li.menupcselected {
     font-size: 18px;
 }
+    .sidebar {
+        width: 100%;
+        overflow-x: auto;
+        height: 7vh;
+        margin-top: -2.4vh;
+        display:none;
+    } 
+    .sidebar img {width:135px;}
 .mobilemenu1 {
     margin-top: 0.95em;
 }
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
+    }
+    
+    .sidebar li {
+        display: inline-block;
+        text-align: center;
+        margin: 5px;
+        border: 2px solid #fff;
+        padding: 2px;
+    }
+    .sidebar{display:none}
  img.selected {
     box-shadow:none;
 }
@@ -345,6 +415,19 @@ img.error {
 }
 svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
-    margin-right: -3.8em;
+    margin-right: -3.8em;}
+    
+    input#searchInput {
+    width: 97%;
+    background: #181e29;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+    div#imageContainer {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 }
