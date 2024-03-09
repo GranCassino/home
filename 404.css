@@ -248,12 +248,44 @@ input#searchInput {
     border-radius: 10px;
     box-sizing: border-box;
 }
-    img.error {
+img.error {
     box-shadow: 1px 1px 10px 10px rgba(29, 33, 55, 1);
     position: absolute;
     right: 10%;
     top: 30%;
-    height: 50vh;
+    height: 40vh;
+}
+.botao-pagina-inicial {
+    display: inline-block;
+    padding: 20px 25px;
+    border-radius: 5px;
+    background-color: #3c6de2;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+    position: absolute;
+    left: 18%;
+    top: 63%;
+    font-size: 1rem;
+}
+
+  .botao-pagina-inicial:hover {
+    background-color: #0056b3;
+  }
+  h1.error-page__content__title {
+    margin-top: 12%;
+    margin-left: 8%;
+    color: #fff;
+    text-align: center;
+    font-family: vedana;
+}
+h6.error-page__content__descr {
+    margin-top: 26%;
+    margin-left: -28%;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
 }
 @media (max-width: 768px) {
     
