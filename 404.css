@@ -471,9 +471,9 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     img.error {
     box-shadow: 1px 1px 10px 10px rgba(29, 33, 55, 1);
     position: absolute;
-    right: 1%;
-    left: 1%;
-    top: 23vh;
-    width: 97%;
+   right: 10%;
+    left: 10%;
+    top: 20vh;
+    width: 80%;
 }
 }
