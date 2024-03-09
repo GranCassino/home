@@ -266,10 +266,10 @@ h1.texth1 {
     font-weight: bold;
     transition: 0.2s;
     position: absolute;
-    left: 7%;
+    left: 9%;
     right: 58.5%;
     top: 60vh;
-    font-size: 5vh;
+    font-size: 4.5vh;
     text-align: center;
 }
 
