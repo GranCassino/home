@@ -266,27 +266,22 @@ img.error {
     font-weight: bold;
     transition: 0.2s;
     position: absolute;
-    left: 44%;
+    left: 40%;
+    right: 42%;
     top: 66%;
-    font-size: 1rem;
+    font-size: 17px;
+    text-align: center;
 }
 
   .botao-pagina-inicial:hover {
     background-color: #0056b3;
   }
-  h1.error-page__content__title {
-    margin-top: 5%;
-    margin-left: 34%;
-    color: #fff;
+  h1.texth1 {
+    margin-left: 30%;
+    margin-right: 32%;
+    font-size: 25px;
+    margin-top: 9vh;
     text-align: center;
-    font-family: vedana;
-    margin-right: 34%;
-}
-h6.error-page__content__descr {
-    margin-top: 26%;
-    margin-left: -28%;
-    text-align: center;
-    font-size: 1rem;
     color: #fff;
 }
 @media (max-width: 768px) {
