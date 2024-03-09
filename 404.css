@@ -252,7 +252,7 @@ img.error {
     box-shadow: 1px 1px 10px 10px rgba(29, 33, 55, 1);
     position: absolute;
     right: 4%;
-    left: 52.5%;
+    left: 50.5%;
     top: 25%;
     height: 40vh;
 }
@@ -268,7 +268,7 @@ img.error {
     position: absolute;
     left: 7%;
     right: 58.5%;
-    top: 60vh;
+    top: 55vh;
     font-size: 17px;
     text-align: center;
 }
