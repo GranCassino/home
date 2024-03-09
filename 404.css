@@ -468,4 +468,11 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     margin-left: 0%;
     margin-right: 0%;
 }
+    img.error {
+    box-shadow: 1px 1px 5px 5px rgba(29, 33, 55, 1);
+    position: absolute;
+    right: 4%;
+    top: 20vh;
+    width: 90%;
+}
 }
