@@ -252,7 +252,7 @@ img.error {
     box-shadow: 1px 1px 10px 10px rgba(29, 33, 55, 1);
     position: absolute;
     right: 2%;
-    top: 20%;
+    top: 10%;
 }
 @media (max-width: 768px) {
     
