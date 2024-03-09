@@ -258,7 +258,7 @@ img.error {
 }
 .botao-pagina-inicial {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 20px 25px;
     border-radius: 5px;
     background-color: #3c6de2;
     color: #ffffff;
@@ -266,10 +266,10 @@ img.error {
     font-weight: bold;
     transition: 0.2s;
     position: absolute;
-    left: 9%;
-    right: 72.5%;
-    top: 55vh;
-    font-size: 16px;
+    left: 7%;
+    right: 58.5%;
+    top: 60vh;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -278,8 +278,8 @@ img.error {
   }
   h1.texth1 {
     margin-left: 0%;
-    margin-right: 62%;
-    font-size: 2rem;
+    margin-right: 50%;
+    font-size: 1.5rem;
     margin-top: 20vh;
     text-align: center;
     color: #fff;
