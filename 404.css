@@ -201,6 +201,12 @@ img {
 }
 svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
 }
+img.error {
+    margin-top: 40%;
+    margin-left: 200%;
+    width: 122%;
+    box-shadow: 1px 1px 10px 10px rgba(29, 33, 55, 1);
+}
 @media (max-width: 768px) {
     
     ::-webkit-scrollbar {
