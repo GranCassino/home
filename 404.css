@@ -251,8 +251,8 @@ input#searchInput {
 img.error {
     box-shadow: 1px 1px 10px 10px rgba(29, 33, 55, 1);
     position: absolute;
-    right: 28%;
-    left: 29%;
+    right: 33%;
+    left: 33.5%;
     top: 24%;
     height: 40vh
 }
