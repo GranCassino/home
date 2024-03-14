@@ -164,9 +164,20 @@ margin-top: -28px;
     color:#fff;
      padding: 10px; font-family: Arial, sans-serif; 
      font-size: 16px;
-   text-align:start;
+    text-align:start;
+    margin-top: 3vh;
 }
 .rtp b {color:#dcb76c;}
+img.casaap {
+   width: 38vh;
+   height: 10vh;
+   margin-top: 2vh;
+   border-radius:10px;
+}
+.casa{display:none}
+a.cassino {text-decoration: none;
+color: white;
+}
 
 @media (max-width: 768px) {
    
