@@ -46,6 +46,15 @@ if(document.fullscreenEnabled || document.webkitFullscreenEnabled) {
       var relogioElemento = document.getElementById("relogio");
       relogioElemento.textContent = `${horas}:${minutos}`;
     }
+function toggleCasa() {
+                  var casa = document.querySelector(".casa");
+                  if (casa.style.display === "block") {
+                    casa.style.display = "none";
+                  } else {
+                    casa.style.display = "block";
+                  }
+                }
+
 
     // Atualiza o relógio a cada segundo
     setInterval(atualizarRelogio, 1000);
