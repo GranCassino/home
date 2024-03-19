@@ -54,7 +54,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_3453/Background_1619013414.jpg', alt: 'Perfect Potions Megaways', link: 'perfect-potions-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_11120/Background_1690538322.jpg', alt: 'Piggies And The Bank Mega Fire Blaze', link: 'piggies-and-the-bank-mega-fire-blaze' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_4750/Background_1649153484.jpg', alt: 'Power Of Gods Hades', link: 'power-of-gods-hades' },
-      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_456/Background_1615468400.jpg.jpg', alt: 'Premium Blackjack', link: 'premium-blackjack' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_456/Background_1615468400.jpg', alt: 'Premium Blackjack', link: 'premium-blackjack' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_2665/Background_1623142351.jpg', alt: 'Ramses Book', link: 'ramses-book' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2268/Background_1623061202.jpg', alt: 'Rome Rise Of An Empire', link: 'rome-rise-of-an-empire' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_3648/Background_1619527774.jpg', alt: 'Roulette', link: 'roulette' },
