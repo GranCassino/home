@@ -45,6 +45,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5903/Background_1643718107.png', alt: 'Jack Hammer 2 Fishy Business', link: 'jack-hammer-2-fishy-business' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePariPlay/GameId_11878/Background_1697191579.jpg', alt: 'Jack Potter and the Book of Nubia', link: 'jack-potter-and-the-book-of-nubia' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_11995/Background_1697806159.jpg', alt: 'King Kong Cash Even Bigger Bananas', link: 'king-kong-cash-even-bigger-bananas' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13692/Thumbnail_1708009551489.jpg', alt: 'Leprechaun Riches', link: 'leprechaun-riches' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_3228/Background_1615453803.jpg', alt: 'Mega Fire Blaze Khonsu God of Moon', link: 'mega-fire-blaze-khonsu-god-of-moon' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameOryx/GameId_2582/Background_1623147947.jpg', alt: 'Mission Atlantis', link: 'mission-atlantis' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_3631/Background_1619527773.jpg', alt: 'Multihand Blackjack', link: 'multihand-blackjack' },
