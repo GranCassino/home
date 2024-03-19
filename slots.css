@@ -395,4 +395,6 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
     margin-right: -3.8em;
 }
+ img.selected {
+    border: hidden;
 }
