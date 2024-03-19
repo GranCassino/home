@@ -397,4 +397,6 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
 }
  img.selected {
     border: hidden;
+  box-shadow: none;
 }
+ 
