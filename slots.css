@@ -392,6 +392,7 @@ img.imgmenu {
 img.imgmenu {
     border: hidden;
     border-radius: none;
+    margin-left: 0;
 }
 svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
