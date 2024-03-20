@@ -253,7 +253,7 @@ img.error {
     position: absolute;
     right: 35%;
     left: 35%;
-    top: 22vh;
+    top: 23vh;
     height: 40vh;
 }
 .botao-pagina-inicial {
@@ -268,7 +268,7 @@ img.error {
     position: absolute;
     left: 35%;
     right: 35%;
-    top: 64vh;
+    top: 65vh;
     font-size: 4.5vh;
     text-align: center;
 }
@@ -280,7 +280,7 @@ img.error {
     margin-left: 0%;
     margin-right: 0%;
     font-size: 4.5vh;
-    margin-top: 9vh;
+    margin-top: 10vh;
     text-align: center;
     color: #fff;
 }
