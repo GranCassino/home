@@ -253,7 +253,7 @@ img.error {
     position: absolute;
     right: 35%;
     left: 35%;
-    top: 23vh;
+    top: 25vh;
     height: 40vh;
 }
 .botao-pagina-inicial {
@@ -268,7 +268,7 @@ img.error {
     position: absolute;
     left: 35%;
     right: 35%;
-    top: 65vh;
+    top: 68vh;
     font-size: 4.5vh;
     text-align: center;
 }
@@ -280,7 +280,7 @@ img.error {
     margin-left: 0%;
     margin-right: 0%;
     font-size: 4.5vh;
-    margin-top: 10vh;
+    margin-top: 12vh;
     text-align: center;
     color: #fff;
 }
@@ -480,7 +480,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     .botao-pagina-inicial {
     display: inline-block;
     padding: 2vh 2vh;
-    border-radius: 5px;
+    border-radius: 100px;
     background-color: #3c6de2;
     color: #ffffff;
     text-decoration: none;
