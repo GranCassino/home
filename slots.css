@@ -389,7 +389,6 @@ img.imgmenu {
     box-shadow: none;
     margin-left: 0;
 }
-}
 img.imgmenu {
     border: hidden;
     border-radius: none;
@@ -398,4 +397,4 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
     margin-right: -3.8em;
 }
- 
+}
