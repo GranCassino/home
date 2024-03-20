@@ -54,7 +54,7 @@
    background-color: #385171; /* Cor de fundo vermelha */
    color: #fff; /* Cor do texto em branco */
    border: none; /* Remove a borda padrão */
-   border-radius: 5px; /* Borda arredondada */
+   border-radius: 100px; /* Borda arredondada */
    cursor: pointer; /* Cursor de mão para indicar que é um botão */
    transition: background-color 0.3s; /* Efeito de transição de cor de fundo */
 }
@@ -69,7 +69,7 @@ button#dinheiro-real {
    background-color: #385171; /* Cor de fundo vermelha */
    color: #fff; /* Cor do texto em branco */
    border: none; /* Remove a borda padrão */
-   border-radius: 5px; /* Borda arredondada */
+   border-radius: 100px; /* Borda arredondada */
    cursor: pointer; /* Cursor de mão para indicar que é um botão */
    transition: background-color 0.3s; /* Efeito de transição de cor de fundo */
 }
@@ -171,7 +171,7 @@ img.casaap {
    width: 90%;
    height: 10vh;
    margin-top: 2vh;
-   border-radius:10px;
+   border-radius:100px;
 }
 .casa{display:none}
 a.cassino {text-decoration: none;
