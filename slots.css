@@ -226,11 +226,13 @@ img.selected {
     border: solid 1px #fff;
     border-radius: 100px;
     margin-left: 9.3%;
+    width: 70%;
 }
 img.imgmenu {
     border: solid 1px #fff;
     border-radius: 100px;
     margin-left: 9.3%;
+    width: 70%;
 }
 @media (max-width: 768px) {
     
