@@ -498,7 +498,7 @@ img.banner-bonus {
     margin-top: 1vh;
     justify-content: center;
     align-items: center;
-    margin-left: 18vh;
+    margin-left: 14vh;
 }
 .banner {
     border-right: 1px solid white;
@@ -526,7 +526,7 @@ img.banner-bonus {
     width: 32vh;
     height: 1.8vh;
     margin-top: 0.5vh;
-    margin-left: 22%;
+    margin-left: 7vh;
     background: #3c6de2;
 }
 }
