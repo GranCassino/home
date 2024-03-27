@@ -39,7 +39,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #192733;
+    background-color: #23376d;
 }
 
 header {
@@ -98,6 +98,18 @@ nav ul li a:hover {
     border-radius:5px;
     color:#000;
 }
+
+
+.sidebar {
+    width: 22%;
+    background-color: #192733;
+    border: 1px solid rgb(241, 226, 138);
+    position: fixed;
+    top: 9vh;
+    bottom: 0;
+    overflow: auto;
+}
+
 .content {
     width: 97%;
 }
@@ -213,34 +225,28 @@ img:hover {
 }
 svg.base-icon-svg.tw-block.tw-cursor-pointer:hover {transform: scale(1.05);
 }
-.bonus {
-    background: #181e29;
-    width: 90%;
-    height: 34.2vh;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 6%;
-    border: solid 1px #fff;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-.bonus2 {
-    background: #181e29;
-    width: 90%;
-    height: 34.2vh;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1%;
-    border: solid 1px #fff;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-img.banner-bonus {
 
-    border-radius: 0px;
-    width: 36.1vh;
-    margin-top:13vh;
+input#searchInput {
+    width: 98%;
+    background: #181e29;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
-img.banner-bonus:hover {transform: scale(1.00);
-    
+.search {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#searchInput {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 .review {
     margin-top: -33vh;
@@ -326,6 +332,12 @@ img.banner-bonus:hover {transform: scale(1.00);
     border: 1px solid white;
     border-radius: 5px;
  }
+    img.imgmobile {
+        width: 62px;
+        position: fixed;
+        border-radius: 0px;
+    }
+
     nav {
         display: flex;
         margin-left:65px;
@@ -360,9 +372,32 @@ img.banner-bonus:hover {transform: scale(1.00);
  li.menupcselected {
     font-size: 18px;
 }
+    .sidebar {
+        width: 100%;
+        overflow-x: auto;
+        height: 7vh;
+        margin-top: -2.4vh;
+        display:none;
+    } 
+    .sidebar img {width:135px;}
 .mobilemenu1 {
     margin-top: 0.95em;
 }
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
+    }
+    
+    .sidebar li {
+        display: inline-block;
+        text-align: center;
+        margin: 5px;
+        border: 2px solid #fff;
+        padding: 2px;
+    }
+    .sidebar{display:none}
  img.selected {
     box-shadow:none;
 }
@@ -408,12 +443,7 @@ img.banner-bonus:hover {transform: scale(1.00);
 svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 2em;
     margin-right: -3.8em;}
-    div#imageContainer {
-    text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.bonus {
+    .bonus {
     background: #181e29;
     width: 100%;
     height: 34.2vh;
