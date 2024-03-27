@@ -248,6 +248,35 @@ input#searchInput {
     border-radius: 10px;
     box-sizing: border-box;
 }
+.bonus {
+    background: #181e29;
+    width: 90%;
+    height: 34.2vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    border: solid 1px #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.bonus2 {
+    background: #181e29;
+    width: 90%;
+    height: 34.2vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    border: solid 1px #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+img.banner-bonus {
+
+    border-radius: 0px;
+    width: 36.1vh;
+    margin-top:13vh;
+}
+img.banner-bonus:hover {transform: scale(1.00);
+    
+}
 .review {
     margin-top: -33vh;
     margin-left: 37vh;
