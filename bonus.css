@@ -523,10 +523,10 @@ img.banner-bonus {
     transition: all 0.2s ease-in-out;
     align-items: center;
     justify-content: center;
-    width: 45vh;
+    width: 41vh;
     height: 1.8vh;
     margin-top: 0.5vh;
-    margin-left: 7vh;
+    margin-left: 1vh;
     background: #3c6de2;
 }
 }
