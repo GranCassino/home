@@ -178,16 +178,10 @@ img.casaap {
 a.cassino {text-decoration: none;
 color: white;
 }
-iframe.framemobile {
-    display: none;
-}
 @media (max-width: 768px) {
    
    ::-webkit-scrollbar {
        width: 10px;
        height:2px;
    }
-   iframe.desktop {
-    display: none;
-}
 }
