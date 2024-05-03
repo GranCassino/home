@@ -34,6 +34,7 @@ function searchImages() {
       { src: 'https://i.imgur.com/mi3ByBC.png', alt: 'Deuces Wild Multihand', link: 'deuces-wild-multihand' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5856/Background_1675942063.jpg', alt: 'Divine Fortune Megaways', link: 'divine-fortune-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_6053/Background_1644231460.jpg', alt: 'Dracula s Castle', link: 'draculas-castle' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_13208/Thumbnail_1706776234926.jpg', alt: 'Double Digger', link: 'double-digger' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameOryx/GameId_7936/Background_1684929852.jpg', alt: 'Egyptian Magic', link: 'egyptian-magic' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_7386/Background_1655909421.png', alt: 'European Roulette', link: 'european-roulette' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePariPlay/GameId_5476/Background_1640703039.jpg', alt: 'European Roulette 10c Min', link: 'european-roulette-10c-min' },
