@@ -169,10 +169,10 @@ margin-top: -28px;
 }
 .rtp b {color:#dcb76c;}
 img.casaap {
-   width: 90%;
-   height: 10vh;
-   margin-top: 2vh;
-   border-radius:100px;
+    width: 30vh;
+    height: 6vh;
+    margin-top: 2vh;
+    border-radius: 3vh;
 }
 .casa{display:none}
 a.cassino {text-decoration: none;
