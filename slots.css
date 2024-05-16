@@ -58,6 +58,9 @@ header {
     overflow-x: auto;
     overflow-y: hidden;
 }
+h1 {
+    font-size: 1px;
+}
 .pcmenu {
     height: 9vh;
 }
