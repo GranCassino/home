@@ -75,6 +75,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_456/Background_1615468400.jpg', alt: 'Premium Blackjack', link: 'premium-blackjack' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_2665/Background_1623142351.jpg', alt: 'Ramses Book', link: 'ramses-book' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameiSoftBet/GameId_15258/Thumbnail_1715856110742.jpg', alt: 'Republic Empire Hold And Win', link: 'republic-empire-hold-and-win' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_14146/Thumbnail_1709296908325.jpg', alt: 'Robocop Cash Collect', link: 'robocop-cash-collect' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2268/Background_1623061202.jpg', alt: 'Rome Rise Of An Empire', link: 'rome-rise-of-an-empire' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBooming%20Games/GameId_14733/Thumbnail_1713859141721.jpg', alt: 'Ronaldinho Spins', link: 'ronaldinho-spins' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_3648/Background_1619527774.jpg', alt: 'Roulette', link: 'roulette' },
