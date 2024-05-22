@@ -47,6 +47,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13617/Thumbnail_1707989753348.jpg', alt: 'Fortune Ox', link: 'fortune-ox' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13618/Thumbnail_1707989955446.jpg', alt: 'Fortune Rabbit', link: 'fortune-rabbit' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13619/Thumbnail_1707989994859.jpg', alt: 'Fortune Tiger', link: 'fortune-tiger' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_14856/Thumbnail_1714634140787.jpg', alt: 'Fruity Treats', link: 'fruity-treats' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_1830/Background_1618476156.jpg', alt: 'Game of Gladiators', link: 'game-of-gladiators' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_3588/Background_1619512420.jpg', alt: 'Gates of Olympus', link: 'gates-of-olympus' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameSpribe/GameId_10697/Background_1688556978.jpg', alt: 'Crash Goal', link: 'goal' },
