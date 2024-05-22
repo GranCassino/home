@@ -67,6 +67,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13692/Thumbnail_1708009551489.jpg', alt: 'Leprechaun Riches', link: 'leprechaun-riches' },
       { src: 'https://i.imgur.com/nShBhPE.png', alt: 'Lux Roulette Aovivo', link: 'lux-roulette-aovivo' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_3228/Background_1615453803.jpg', alt: 'Mega Fire Blaze Khonsu God of Moon', link: 'mega-fire-blaze-khonsu-god-of-moon' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5894/Background_1643718106.png', alt: 'Mega Fortune', link: 'megafortune' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameOryx/GameId_2582/Background_1623147947.jpg', alt: 'Mission Atlantis', link: 'mission-atlantis' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_3631/Background_1619527773.jpg', alt: 'Multihand Blackjack', link: 'multihand-blackjack' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_8644/Background_1670583572.jpg', alt: 'Nordic Fire', link: 'nordic-fire' },
