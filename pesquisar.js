@@ -73,6 +73,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_3453/Background_1619013414.jpg', alt: 'Perfect Potions Megaways', link: 'perfect-potions-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_11120/Background_1690538322.jpg', alt: 'Piggies And The Bank Mega Fire Blaze', link: 'piggies-and-the-bank-mega-fire-blaze' },
       { src: 'https://i.imgur.com/LbMO3kK.png', alt: 'Poker Mini Flush', link: 'poker-mini-flush' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_14250/Thumbnail_1709905860115.jpg', alt: 'Pot Of Fortune', link: 'pot-of-fortune' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_4750/Background_1649153484.jpg', alt: 'Power Of Gods Hades', link: 'power-of-gods-hades' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_456/Background_1615468400.jpg', alt: 'Premium Blackjack', link: 'premium-blackjack' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_2665/Background_1623142351.jpg', alt: 'Ramses Book', link: 'ramses-book' },
