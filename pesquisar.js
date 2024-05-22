@@ -18,6 +18,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameSpribe/GameId_3337/Background_1688559153.jpg', alt: 'Crash Aviator', link: 'aviator' },
       { src: 'https://i.imgur.com/hIoKYb9.png', alt: 'Baccarat Multiplayer aovivo', link: 'baccarat-multiplayer-aovivo' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameiSoftBet-Oryx/GameId_13721/Thumbnail_1706174196636.jpg', alt: 'Bad Bass', link: 'bad-bass' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_10653/Background_1686909184.jpg', alt: 'Big Bass Amazon Xtreme', link: 'big-bass-amazon-xtreme' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_7207/Background_1655466135.jpg', alt: 'Big Bass Splash', link: 'big-bass-splash' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_11013/Background_1691567901.jpg', alt: 'Bison Valley', link: 'bison-valley' },
       { src: 'https://i.imgur.com/xQGAbfl.png', alt: 'Bingo Lotto Aovivo', link: 'bingo-lucky-lotto-aovivo' },
