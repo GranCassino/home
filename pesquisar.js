@@ -41,6 +41,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePariPlay/GameId_5474/Background_1640703039.jpg', alt: 'European Roulette High Stakes', link: 'european-roulette-high-stakes' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2201/Background_1623060368.jpg', alt: 'Eye Of Horus Megaways', link: 'eye-of-horus-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_10548/Background_1686036819.jpg', alt: 'Fengs Fortune', link: 'fengs-fortune' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_14789/Thumbnail_1712915761583.jpg', alt: 'Fortune Dragon', link: 'fortune-dragon' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13616/Thumbnail_1707989735906.jpg', alt: 'Fortune Mouse', link: 'fortune-mouse' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13617/Thumbnail_1707989753348.jpg', alt: 'Fortune Ox', link: 'fortune-ox' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13618/Thumbnail_1707989955446.jpg', alt: 'Fortune Rabbit', link: 'fortune-rabbit' },
