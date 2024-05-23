@@ -58,7 +58,6 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameSpribe/GameId_10695/Background_1688556997.jpg', alt: 'Crash Hi Lo', link: 'heart-of-cleopatra' },{ src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_14931/Thumbnail_1714980260525.jpg', alt: 'Heart of Cleopatra', link: 'hilo' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5904/Background_1675941993.jpg', alt: 'Jack Hammer', link: 'jack-hammer' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5903/Background_1643718107.png', alt: 'Jack Hammer 2 Fishy Business', link: 'jack-hammer-2-fishy-business' },
-      { src: 'https://static.gambling-malta.com/casino/CasinoGameEvolution-NetEnt/GameId_14144/Thumbnail_1709296717670.jpg', alt: 'Jack Hammer 3 Diamond Affair', link: 'jack-hammer-3-diamond-affair' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_1690/Background_1618478079.jpg', alt: 'Jackpot Poker', link: 'jackpot-poker' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePariPlay/GameId_11878/Background_1697191579.jpg', alt: 'Jack Potter and the Book of Nubia', link: 'jack-potter-and-the-book-of-nubia' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_4117/Background_1626334123.jpg', alt: 'Jacks or Better', link: 'jacks-or-better' },
