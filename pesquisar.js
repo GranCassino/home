@@ -53,6 +53,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameSpribe/GameId_10697/Background_1688556978.jpg', alt: 'Crash Goal', link: 'goal' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_12062/Background_1698405958.jpg', alt: 'Gold Hit And Link JP bacon And CO', link: 'gold-hit-and-link-j-p-bacon-and-co' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_9198/Background_1674462280.jpg', alt: 'Gold Rush: Cash Collect™', link: 'gold-rush-cash-collect' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_15306/Thumbnail_1715672262540.jpg', alt: 'Gold Trio Futeball', link: 'gold-trio-football' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameOryx/GameId_10411/Background_1684929718.jpg', alt: 'Golden Avalanche', link: 'golden-avalanche' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5835/Background_1675942823.jpg', alt: 'Gonzo Quest', link: 'gonzosquest' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameSpribe/GameId_10695/Background_1688556997.jpg', alt: 'Crash Hi Lo', link: 'heart-of-cleopatra' },{ src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_14931/Thumbnail_1714980260525.jpg', alt: 'Heart of Cleopatra', link: 'hilo' },
