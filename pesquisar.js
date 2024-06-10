@@ -31,6 +31,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_9701/Background_1677853103.jpg', alt: 'Broods of Gods', link: 'brood-of-gods' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_1800/Background_1619088852.jpg', alt: 'Casino Holdem poker', link: 'casino-holdem' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_5984/Background_1644231196.jpg', alt: 'Casino Roulette', link: 'casino-roulette' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_15334/Thumbnail_1715954204524.jpg', alt: 'Colt Lightning Firestorm', link: 'colt-lightning-firestorm' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_6581/Background_1649228484.jpg', alt: 'Deuces Wild', link: 'deuces-wild' },
       { src: 'https://i.imgur.com/mi3ByBC.png', alt: 'Deuces Wild Multihand', link: 'deuces-wild-multihand' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5856/Background_1675942063.jpg', alt: 'Divine Fortune Megaways', link: 'divine-fortune-megaways' },
