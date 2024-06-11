@@ -52,6 +52,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_1830/Background_1618476156.jpg', alt: 'Game of Gladiators', link: 'game-of-gladiators' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_3588/Background_1619512420.jpg', alt: 'Gates of Olympus', link: 'gates-of-olympus' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_13034/Thumbnail_1702296672813.jpg', alt: 'Gates of Olympus 1000', link: 'gates-of-olympus-1000' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_15239/Thumbnail_1715856442121.jpg', alt: 'Gladiator Mega Cash Collect', link: 'gladiator-mega-cash-collect' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameSpribe/GameId_10697/Background_1688556978.jpg', alt: 'Crash Goal', link: 'goal' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_12062/Background_1698405958.jpg', alt: 'Gold Hit And Link JP bacon And CO', link: 'gold-hit-and-link-j-p-bacon-and-co' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_9198/Background_1674462280.jpg', alt: 'Gold Rush: Cash Collect™', link: 'gold-rush-cash-collect' },
