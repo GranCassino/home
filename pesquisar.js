@@ -29,6 +29,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRedTiger/GameId_9200/Background_1674462839.jpg', alt: 'Blood Suckers Megaways', link: 'blood-sucker-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_1593/book_of_dead.jpg', alt: 'Book Of Dead', link: 'book-of-dead' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_9701/Background_1677853103.jpg', alt: 'Broods of Gods', link: 'brood-of-gods' },
+      { src: 'https://i.imgur.com/Aga5a0m.png', alt: 'Cash Mania', link: 'cash-mania' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_1800/Background_1619088852.jpg', alt: 'Casino Holdem poker', link: 'casino-holdem' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_5984/Background_1644231196.jpg', alt: 'Casino Roulette', link: 'casino-roulette' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_15334/Thumbnail_1715954204524.jpg', alt: 'Colt Lightning Firestorm', link: 'colt-lightning-firestorm' },
