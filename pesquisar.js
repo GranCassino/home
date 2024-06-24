@@ -109,8 +109,9 @@ function searchImages() {
       { src: 'https://i.imgur.com/FlbXcSd.png', alt: 'Virtual Roulette Aovivo', link: 'virtual-roulette-aovivo' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameOryx/GameId_10436/Background_1684929723.jpg', alt: 'Wall Street Roulette', link: 'wall-street-roulette' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2223/Background_1623062052.jpg', alt: 'Wolf Legend Megaways', link: 'wolf-legend-megaways' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13644/Thumbnail_1708008390521.jpg', alt: 'Wild Bandito', link: 'wild-bandito' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_4121/Background_1628072727.jpg', alt: 'Wild Hammer Megaways', link: 'wild-hammer-megaways' },
-        { src: 'https://i.imgur.com/jaPTX7t.png', alt: 'Poker Win Three Cards', link: 'poker-win-three-cards' },
+      { src: 'https://i.imgur.com/jaPTX7t.png', alt: 'Poker Win Three Cards', link: 'poker-win-three-cards' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2221/Background_1623062013.jpg', alt: 'Wish Upon a Jackpot MegaWays', link: 'wish-upon-a-jackpot-megaways' },
 
     
