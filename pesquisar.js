@@ -113,6 +113,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRelaxGaming%20-%20PGSoft/GameId_13644/Thumbnail_1708008390521.jpg', alt: 'Wild Bandito', link: 'wild-bandito' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_4121/Background_1628072727.jpg', alt: 'Wild Hammer Megaways', link: 'wild-hammer-megaways' },
       { src: 'https://i.imgur.com/jaPTX7t.png', alt: 'Poker Win Three Cards', link: 'poker-win-three-cards' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_9295/Background_1677141401.jpg', alt: 'Wild West Duels', link: 'wild-west-duels' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2221/Background_1623062013.jpg', alt: 'Wish Upon a Jackpot MegaWays', link: 'wish-upon-a-jackpot-megaways' },
 
     
