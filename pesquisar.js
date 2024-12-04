@@ -97,6 +97,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_12044/Background_1698395528.jpg', alt: 'Sizzling Eggs Halloween Edition', link: 'sizzling-eggs-halloween-edition' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_15238/Thumbnail_1715844266754.jpg', alt: 'Spark Of Genius', link: 'spark-of-genius' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5944/Background_1675941920.jpg', alt: 'Starburst', link: 'starburst' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_14439/Thumbnail_1710839415859.jpg', alt: 'Sugar Rush 1000', link: 'sugar-rush-1000' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameiSoftBet-Oryx/GameId_13244/Thumbnail_1704453671630.jpg', alt: 'Team Winfast', link: 'team-winfast' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_7216/Background_1655466099.jpg', alt: 'Tens or Better', link: 'tens-or-better' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_13182/Thumbnail_1704698980671.jpg', alt: 'The Big Dawgs', link: 'the-big-dawgs' },
