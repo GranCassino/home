@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age of the Gods: God of Storms 3 - Gran Cassino</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="flex items-center">
+            <img src="../titulo.png" alt="Gran Cassino" class="h-8 md:h-10 object-contain">
+        </div>
+        <div class="flex items-center space-x-3">
+            <button onclick="toggleFullScreen()" class="fs-header-btn px-3.5 py-1.5 rounded-xl text-xs font-extrabold transition flex items-center space-x-2 cursor-pointer shadow-lg">
+                <i class="fa-solid fa-expand"></i> <span>Tela Cheia</span>
+            </button>
+            <a href="../" class="bg-white/10 hover:bg-white/20 text-white px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 border border-white/15 cursor-pointer shadow-md">
+                <i class="fa-solid fa-house text-brand"></i> <span>Lobby</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="desktop-layout">
+        <div class="game-column">
+            <div id="gameWrapper" class="game-viewport">
+                <iframe src="https://gamelauncher-uu-pop-stg.playtechone.com/launcher?game=gpas_agstorm3_pop&casino=playtechhorizon&clientplatform=web&clienttype=casino&real=0&currency=USD&language=en"></iframe>
+            </div>
+        </div>
+        <div class="info-column custom-scrollbar">
+            <div class="glass-card rounded-2xl p-4 relative overflow-hidden shadow-xl">
+                <div class="flex flex-col gap-3 items-center text-center">
+                    <img src="https://slotcatalog.com/userfiles/image/games/Playtech-Vikings/29960/Age-of-the-Gods-God-of-Storms-3-6973679_s.jpg" class="w-20 h-20 object-cover rounded-xl shadow-md border border-white/10">
+                    <div class="space-y-1.5 w-full">
+                        <a href="../?op=Playtech" class="inline-block px-2 py-0.5 bg-white/5 hover:bg-brand/20 border border-white/10 hover:border-brand/40 rounded text-[9px] font-semibold uppercase tracking-wider text-brand transition">
+                            Playtech <i class="fa-solid fa-external-link-alt text-[8px] ml-0.5"></i>
+                        </a>
+                        <h2 class="text-lg font-black text-white tracking-tight">Age of the Gods: God of Storms 3</h2>
+                        <p class="text-slate-300 text-[11px] leading-relaxed text-left"><span>Jogue Age of the Gods: God of Storms 3 grátis no modo demonstração no Gran Cassino.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card rounded-2xl p-4 mt-8">
+                <h3 class="text-[11px] font-bold uppercase tracking-widest text-brand mb-2.5 flex items-center space-x-2">
+                    <i class="fa-solid fa-sliders text-brand"></i> <span>Especificações</span>
+                </h3>
+                <div class="grid grid-cols-2 gap-2">
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">RTP</span><span class="text-sm font-extrabold text-white">95.82% FAIXAS DO RTP!</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Volatilidade</span><span class="text-sm font-extrabold text-white">Média-alta</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Prêmio Máximo</span><span class="text-sm font-extrabold text-brand">N/A</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Maneiras</span><span class="text-sm font-extrabold text-white">25</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-6 text-center text-xs text-slate-500 bg-black border-t border-white/10">
+        <p>&copy; 2026 Gran Cassino. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
