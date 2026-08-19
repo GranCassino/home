@@ -6,6 +6,7 @@
     
     <!-- SEO Título e Descrição Otimizados -->
     <title>Gran Cassino | Melhores Slots Online e Caça-Níqueis Grátis</title>
+    <link rel="icon" href="favicon.png" type="image/png">
     <meta name="description" content="Jogue os melhores caça-níqueis e slots online das principais operadoras como PG Soft e Pragmatic Play. Divirta-se com os melhores jogos de cassino com alta qualidade!">
     <meta name="keywords" content="cassino online, slots, caça-níqueis, fortune tiger, pg soft, pragmatic play, jogos de cassino">
     <meta name="author" content="Gran Cassino">
@@ -75,11 +76,13 @@
             text-decoration: none;
         }
 
+        /* Cor padrão dos parênteses e do número (Dourado) */
         .casino-btn .count-badge {
             color: var(--gold);
             transition: color 0.2s ease;
         }
 
+        /* Hover do Botão: Fundo dourado, texto/ícone preto e parênteses+número BRANCO */
         .casino-btn:hover {
             background: var(--gold);
             color: #000000;
@@ -91,6 +94,7 @@
             color: #ffffff !important;
         }
 
+        /* Estado Ativo/Selecionado */
         .casino-btn.active {
             background: var(--gold) !important;
             color: #000000 !important;
@@ -261,6 +265,7 @@
         fetch('games.json')
             .then(res => res.json())
             .then(data => {
+                // Ordena os jogos em ordem alfabética (A-Z) por padrão
                 games = data.sort((a, b) => a.nome_jogo.localeCompare(b.nome_jogo));
 
                 const menuDesktop = document.getElementById('menu-desktop');
@@ -282,16 +287,14 @@
                     mobileDropdown.innerHTML += `<button onclick="filtrarPorOperadora('${op}', this); toggleMenuMobile();" class="casino-btn" data-op="${op}">${op} <span class="count-badge">(${qtd})</span></button>`;
                 });
 
-                // VERIFICA SE EXISTE PARÂMETRO NA URL (Ex: ?op=PG Soft)
+                // Leitura do parâmetro da URL (ex: ?op=PG Soft)
                 const urlParams = new URLSearchParams(window.location.search);
                 const opParam = urlParams.get('op');
 
                 if (opParam && operadorasObj[opParam]) {
-                    // Encontra o botão correspondente e ativa
                     const btnAlvo = Array.from(document.querySelectorAll('.casino-btn')).find(b => b.getAttribute('data-op') === opParam);
                     filtrarPorOperadora(opParam, btnAlvo);
                 } else {
-                    // Padrão: Seleciona "Todas"
                     const btnTodas = document.querySelector('.casino-btn[data-op="Todas"]');
                     filtrarPorOperadora('Todas', btnTodas);
                 }
@@ -314,9 +317,8 @@
 
         function filtrarPorOperadora(operadora, elementoBtn) {
             operadoraAtual = operadora;
-            document.getElementById('searchInput').value =징 = ''; 
+            document.getElementById('searchInput').value = ''; 
 
-            // Atualiza visualmente qual botão está ativo
             document.querySelectorAll('.casino-btn').forEach(btn => {
                 if (btn.getAttribute('data-op') === operadora) {
                     btn.classList.add('active');
@@ -325,7 +327,6 @@
                 }
             });
 
-            // Atualiza a URL sem recarregar a página (opcional, deixa a navegação bonita)
             if (operadora === 'Todas') {
                 window.history.pushState({}, '', window.location.pathname);
             } else {
@@ -340,7 +341,6 @@
         }
 
         function aplicarFiltros() {
-            // Corrige o reset da busca vazia
             const searchInput = document.getElementById('searchInput');
             const termoBusca = searchInput ? searchInput.value.toLowerCase().trim() : '';
             let filtrados = games;
