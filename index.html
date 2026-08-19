@@ -75,13 +75,11 @@
             text-decoration: none;
         }
 
-        /* Cor padrão dos parênteses e do número (Dourado) */
         .casino-btn .count-badge {
             color: var(--gold);
             transition: color 0.2s ease;
         }
 
-        /* Hover do Botão: Fundo dourado, texto/ícone preto e parênteses+número BRANCO */
         .casino-btn:hover {
             background: var(--gold);
             color: #000000;
@@ -93,7 +91,6 @@
             color: #ffffff !important;
         }
 
-        /* Estado Ativo/Selecionado */
         .casino-btn.active {
             background: var(--gold) !important;
             color: #000000 !important;
@@ -223,7 +220,7 @@
     <!-- Header -->
     <header>
         <div class="flex items-center flex-shrink-0">
-            <img src="../titulo.png" alt="Gran Cassino" class="h-8 md:h-10 object-contain">
+            <a href="index.html"><img src="../titulo.png" alt="Gran Cassino" class="h-8 md:h-10 object-contain cursor-pointer"></a>
         </div>
 
         <div class="flex items-center gap-2">
@@ -232,7 +229,7 @@
 
             <!-- Menu de Operadoras (Desktop) -->
             <nav id="menu-desktop">
-                <button onclick="filtrarPorOperadora('Todas', this)" class="casino-btn active" data-op="Todas">Todas <span class="count-badge" id="count-Todas">(0)</span></button>
+                <button onclick="filtrarPorOperadora('Todas', this)" class="casino-btn" data-op="Todas">Todas <span class="count-badge" id="count-Todas">(0)</span></button>
             </nav>
 
             <!-- Menu Hambúrguer (Mobile) -->
@@ -241,7 +238,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <div id="mobileDropdown" class="mobile-dropdown">
-                    <button onclick="filtrarPorOperadora('Todas', this); toggleMenuMobile();" class="casino-btn active" data-op="Todas">Todas <span class="count-badge" id="count-Todas-mob">(0)</span></button>
+                    <button onclick="filtrarPorOperadora('Todas', this); toggleMenuMobile();" class="casino-btn" data-op="Todas">Todas <span class="count-badge" id="count-Todas-mob">(0)</span></button>
                 </div>
             </div>
         </div>
@@ -264,17 +261,14 @@
         fetch('games.json')
             .then(res => res.json())
             .then(data => {
-                // Ordena os jogos em ordem alfabética (A-Z) por padrão
                 games = data.sort((a, b) => a.nome_jogo.localeCompare(b.nome_jogo));
 
                 const menuDesktop = document.getElementById('menu-desktop');
                 const mobileDropdown = document.getElementById('mobileDropdown');
                 
-                // Atualiza o contador do botão "Todas" com os parênteses embutidos
                 document.getElementById('count-Todas').innerText = `(${games.length})`;
                 document.getElementById('count-Todas-mob').innerText = `(${games.length})`;
 
-                // Mapeia e conta quantas vezes cada operadora aparece
                 const operadorasObj = {};
                 games.forEach(g => {
                     operadorasObj[g.operadora] = (operadorasObj[g.operadora] || 0) + 1;
@@ -288,7 +282,19 @@
                     mobileDropdown.innerHTML += `<button onclick="filtrarPorOperadora('${op}', this); toggleMenuMobile();" class="casino-btn" data-op="${op}">${op} <span class="count-badge">(${qtd})</span></button>`;
                 });
 
-                renderizar(games);
+                // VERIFICA SE EXISTE PARÂMETRO NA URL (Ex: ?op=PG Soft)
+                const urlParams = new URLSearchParams(window.location.search);
+                const opParam = urlParams.get('op');
+
+                if (opParam && operadorasObj[opParam]) {
+                    // Encontra o botão correspondente e ativa
+                    const btnAlvo = Array.from(document.querySelectorAll('.casino-btn')).find(b => b.getAttribute('data-op') === opParam);
+                    filtrarPorOperadora(opParam, btnAlvo);
+                } else {
+                    // Padrão: Seleciona "Todas"
+                    const btnTodas = document.querySelector('.casino-btn[data-op="Todas"]');
+                    filtrarPorOperadora('Todas', btnTodas);
+                }
             })
             .catch(err => console.error("Erro ao carregar games.json:", err));
 
@@ -308,9 +314,9 @@
 
         function filtrarPorOperadora(operadora, elementoBtn) {
             operadoraAtual = operadora;
-            document.getElementById('searchInput').value = ''; 
+            document.getElementById('searchInput').value =징 = ''; 
 
-            // Atualiza visualmente qual botão está ativo (tanto no desktop quanto no mobile)
+            // Atualiza visualmente qual botão está ativo
             document.querySelectorAll('.casino-btn').forEach(btn => {
                 if (btn.getAttribute('data-op') === operadora) {
                     btn.classList.add('active');
@@ -318,6 +324,13 @@
                     btn.classList.remove('active');
                 }
             });
+
+            // Atualiza a URL sem recarregar a página (opcional, deixa a navegação bonita)
+            if (operadora === 'Todas') {
+                window.history.pushState({}, '', window.location.pathname);
+            } else {
+                window.history.pushState({}, '', `?op=${encodeURIComponent(operadora)}`);
+            }
 
             aplicarFiltros();
         }
@@ -327,7 +340,9 @@
         }
 
         function aplicarFiltros() {
-            const termoBusca = document.getElementById('searchInput').value.toLowerCase().trim();
+            // Corrige o reset da busca vazia
+            const searchInput = document.getElementById('searchInput');
+            const termoBusca = searchInput ? searchInput.value.toLowerCase().trim() : '';
             let filtrados = games;
 
             if (operadoraAtual !== 'Todas') {
