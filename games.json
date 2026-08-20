@@ -58,5 +58,23 @@
     "nome_jogo": "Fortune Rabbit",
     "imagem": "https://slotcatalog.com/userfiles/image/games/PG-Soft/28970/Fortune-Rabbit-6959451_s.png",
     "link": "/pgsoft/Fortune_Rabbit.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Ox",
+    "imagem": "https://slotcatalog.com/userfiles/image/games/PG-Soft/19443/Fortune-Ox-5634028_s.jpg",
+    "link": "/pgsoft/Fortune_Ox.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Mouse",
+    "imagem": "https://slotcatalog.com/userfiles/image/games/PG-Soft/15754/Fortune-Mouse-2_s.jpg",
+    "link": "/pgsoft/Fortune_Mouse.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Dragon",
+    "imagem": "https://slotcatalog.com/userfiles/image/games/PG-Soft/35240/Fortune-Dragon-PG-Soft-7027932_s.jpg",
+    "link": "/pgsoft/Fortune_Dragon.html"
   }
 ]
