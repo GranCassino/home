@@ -17,19 +17,22 @@
     <meta property="og:description" content="Explore nosso lobby de slots online. Encontre os melhores jogos de PG Soft, Pragmatic Play e muito mais em um só lugar!">
     <meta property="og:image" content="../titulo.png">
 
+    <!-- Google Fonts: Quicksand (Moderna e Arredondada) -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root { 
             --gold: #dfb15b; 
             --gold-light: #f3d58c;
-            --dark-bg: #0c0f1d; 
+            --dark-bg: #111; 
         }
 
         body { 
             background-color: var(--dark-bg); 
             color: #e2e8f0; 
-            font-family: sans-serif; 
+            font-family: 'Quicksand', sans-serif; 
             margin: 0; 
             height: 100vh; 
             display: flex; 
@@ -165,7 +168,7 @@
             position: absolute;
             right: 0;
             top: 50px;
-            background: #0c0f1d;
+            background: #111;
             border: 1px solid rgba(223, 177, 91, 0.4);
             border-radius: 0.75rem;
             padding: 10px;
@@ -200,25 +203,25 @@
             border-top: 1px solid rgba(255, 255, 255, 0.08); 
         }
 
-        /* Cards Modernos */
+        /* Cards com Degradê entre #000 e #111 */
         .glass-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
+            background: linear-gradient(135deg, #000000 0%, #111111 100%);
+            border: 1px solid rgba(223, 177, 91, 0.3);
             transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
         }
 
         .glass-card:hover {
             border-color: var(--gold);
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+            box-shadow: 0 12px 30px rgba(223, 177, 91, 0.3);
         }
 
-        /* Correção para forçar o arredondamento real da imagem */
+        /* Container da Imagem */
         .game-img-container {
-            border-radius: 1rem;
+            border-radius: 0.75rem;
             overflow: hidden;
-            transform: translateZ(0); /* Força o navegador a aplicar o recorte em bordas arredondadas */
+            transform: translateZ(0);
         }
 
         .custom-scrollbar::-webkit-scrollbar { width: 4px; }
@@ -230,7 +233,7 @@
     <!-- Header -->
     <header>
         <div class="flex items-center flex-shrink-0">
-            <a href="index.html"><img src="../titulo.png" alt="Gran Cassino" class="h-12 md:h-10 object-contain cursor-pointer"></a>
+            <a href="index.html"><img src="../titulo.png" alt="Gran Cassino" class="h-8 md:h-10 object-contain cursor-pointer"></a>
         </div>
 
         <div class="flex items-center gap-2">
@@ -255,8 +258,8 @@
     </header>
 
     <!-- Grid de Jogos -->
-    <main class="flex-1 overflow-y-auto p-3 custom-scrollbar">
-        <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-3" id="grid"></div>
+    <main class="flex-1 overflow-y-auto p-4 custom-scrollbar">
+        <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-4" id="grid"></div>
     </main>
 
     <!-- Rodapé -->
@@ -385,9 +388,9 @@
                 const linkCompleto = `${pastaProvedor}/${arquivoJogo}`;
 
                 grid.innerHTML += `
-                    <div class="glass-card rounded-2xl p-2 transition cursor-pointer flex flex-col justify-between" onclick="window.location.href='${linkCompleto}'">
-                        <div class="w-full aspect-[1/1] game-img-container flex items-center justify-center bg-black/20">
-                            <img src="${g.imagem}" alt="${g.nome_jogo}" class="w-full h-full object-contain">
+                    <div class="glass-card rounded-2xl p-2.5 transition cursor-pointer flex flex-col justify-between" onclick="window.location.href='${linkCompleto}'">
+                        <div class="w-full aspect-[300/376] game-img-container">
+                            <img src="${g.imagem}" alt="${g.nome_jogo}" class="w-full h-full object-cover rounded-xl">
                         </div>
                         <div class="pt-2 text-center">
                             <h3 class="text-[10px] font-black text-white uppercase truncate">${g.nome_jogo}</h3>
