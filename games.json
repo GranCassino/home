@@ -1,0 +1,20 @@
+[
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Big Bass Splash 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10bbsplashx/e102e6eb-c3c0-4b5f-988a-d966f5b8f327.png?width=150&height=188",
+    "link": "/pragmaticplay/Big_Bass_Splash_1000.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Tiger",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.126/314533ec-75d0-4ed1-98f7-0e33bd0fbbb1.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Tiger.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Mega Fire Blaze: The Khan",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_mfbkhan_pop/992d91ad-76c8-4c76-bb98-4a079d36ce87.png?width=300&height=376",
+    "link": "/playtech/Mega_Fire_Blaze:_The_Khan.html"
+  }
+]

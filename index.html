@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Título e Descrição Otimizados -->
+    <title>Gran Cassino | Melhores Slots Online e Caça-Níqueis Grátis</title>
+    <meta name="description" content="Jogue os melhores caça-níqueis e slots online das principais operadoras como PG Soft e Pragmatic Play. Divirta-se com os melhores jogos de cassino com alta qualidade!">
+    <meta name="keywords" content="cassino online, slots, caça-níqueis, fortune tiger, pg soft, pragmatic play, jogos de cassino">
+    <meta name="author" content="Gran Cassino">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Redes Sociais -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gran Cassino | Melhores Slots Online e Caça-Níqueis">
+    <meta property="og:description" content="Explore nosso lobby de slots online. Encontre os melhores jogos de PG Soft, Pragmatic Play e muito mais em um só lugar!">
+    <meta property="og:image" content="../titulo.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { 
+            --gold: #dfb15b; 
+            --gold-light: #f3d58c;
+            --dark-bg: #0c0f1d; 
+        }
+
+        body { 
+            background-color: var(--dark-bg); 
+            color: #e2e8f0; 
+            font-family: sans-serif; 
+            margin: 0; 
+            height: 100vh; 
+            display: flex; 
+            flex-direction: column; 
+            overflow: hidden; 
+        }
+
+        /* Header Fixo */
+        header { 
+            height: 60px; 
+            background: rgba(0,0,0,0.85); 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between;
+            padding: 0 1rem; 
+            border-bottom: 1px solid rgba(223, 177, 91, 0.2); 
+            z-index: 40; 
+            flex-shrink: 0; 
+            gap: 15px;
+            position: relative;
+        }
+
+        /* Estilo exato do botão e do input com borda dourada */
+        .casino-btn, .search-input {
+            background: rgba(255, 255, 255, 0.05);
+            color: #ffffff;
+            border: 1px solid rgba(223, 177, 91, 0.3);
+            padding: 0.35rem 0.75rem;
+            border-radius: 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            outline: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            white-space: nowrap;
+        }
+
+        .casino-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        /* Cor padrão dos parênteses e do número (Dourado) */
+        .casino-btn .count-badge {
+            color: var(--gold);
+            transition: color 0.2s ease;
+        }
+
+        /* Hover do Botão: Fundo dourado, texto/ícone preto e parênteses+número BRANCO */
+        .casino-btn:hover {
+            background: var(--gold);
+            color: #000000;
+            border-color: var(--gold);
+            box-shadow: 0 0 15px rgba(223, 177, 91, 0.4);
+        }
+
+        .casino-btn:hover .count-badge {
+            color: #ffffff !important;
+        }
+
+        /* Estado Ativo/Selecionado */
+        .casino-btn.active {
+            background: var(--gold) !important;
+            color: #000000 !important;
+            border-color: var(--gold) !important;
+            box-shadow: 0 0 15px rgba(223, 177, 91, 0.4);
+        }
+
+        .casino-btn.active .count-badge {
+            color: #ffffff !important;
+        }
+
+        /* Estilo específico para o Botão Hambúrguer */
+        .hamburger-btn {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--gold);
+            border: 1px solid rgba(223, 177, 91, 0.4);
+            padding: 0.45rem 0.75rem;
+            border-radius: 0.75rem;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hamburger-btn:hover {
+            background: var(--gold);
+            color: #000000;
+            border-color: var(--gold);
+        }
+
+        .search-input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .search-input:focus {
+            border-color: var(--gold);
+            box-shadow: 0 0 10px rgba(223, 177, 91, 0.3);
+        }
+
+        /* Menu Desktop */
+        #menu-desktop { 
+            display: flex; 
+            gap: 8px; 
+            overflow-x: auto; 
+            scrollbar-width: none; 
+            align-items: center;
+        }
+        #menu-desktop::-webkit-scrollbar { display: none; }
+
+        @media (max-width: 768px) {
+            #menu-desktop { display: none; }
+        }
+
+        /* Botão Hambúrguer e Dropdown Mobile */
+        .hamburger-container {
+            position: relative;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .hamburger-container { display: block; }
+        }
+
+        .mobile-dropdown {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 50px;
+            background: #0c0f1d;
+            border: 1px solid rgba(223, 177, 91, 0.4);
+            border-radius: 0.75rem;
+            padding: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+            flex-direction: column;
+            gap: 6px;
+            min-width: 180px;
+            z-index: 100;
+        }
+
+        .mobile-dropdown.show {
+            display: flex;
+        }
+
+        .mobile-dropdown button {
+            width: 100%;
+            text-align: left;
+            justify-content: flex-start;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        /* Rodapé */
+        footer { 
+            height: 30px; 
+            background: #000; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            font-size: 0.7rem; 
+            color: #64748b; 
+            flex-shrink: 0; 
+            border-top: 1px solid rgba(255, 255, 255, 0.08); 
+        }
+
+        /* Cards Modernos */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        }
+
+        /* Correção para forçar o arredondamento real da imagem */
+        .game-img-container {
+            border-radius: 1rem;
+            overflow: hidden;
+            transform: translateZ(0); /* Força o navegador a aplicar o recorte em bordas arredondadas */
+        }
+
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(223, 177, 91, 0.4); border-radius: 10px; }
+    </style>
+</head>
+<body class="flex flex-col h-screen">
+
+    <!-- Header -->
+    <header>
+        <div class="flex items-center flex-shrink-0">
+            <a href="index.html"><img src="../titulo.png" alt="Gran Cassino" class="h-8 md:h-10 object-contain cursor-pointer"></a>
+        </div>
+
+        <div class="flex items-center gap-2">
+            <!-- Caixa de Busca -->
+            <input type="text" id="searchInput" placeholder="Buscar jogo..." class="search-input" oninput="filtrarJogos()">
+
+            <!-- Menu de Operadoras (Desktop) -->
+            <nav id="menu-desktop">
+                <button onclick="filtrarPorOperadora('Todas', this)" class="casino-btn" data-op="Todas">Todas <span class="count-badge" id="count-Todas">(0)</span></button>
+            </nav>
+
+            <!-- Menu Hambúrguer (Mobile) -->
+            <div class="hamburger-container">
+                <button onclick="toggleMenuMobile()" class="hamburger-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div id="mobileDropdown" class="mobile-dropdown">
+                    <button onclick="filtrarPorOperadora('Todas', this); toggleMenuMobile();" class="casino-btn" data-op="Todas">Todas <span class="count-badge" id="count-Todas-mob">(0)</span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Grid de Jogos -->
+    <main class="flex-1 overflow-y-auto p-3 custom-scrollbar">
+        <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-3" id="grid"></div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Gran Cassino. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        let games = [];
+        let operadoraAtual = 'Todas';
+
+        function limparTexto(texto) {
+            return texto.toLowerCase()
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-+|-+$/g, '');
+        }
+
+        fetch('games.json')
+            .then(res => res.json())
+            .then(data => {
+                games = data.sort((a, b) => a.nome_jogo.localeCompare(b.nome_jogo));
+
+                const menuDesktop = document.getElementById('menu-desktop');
+                const mobileDropdown = document.getElementById('mobileDropdown');
+                
+                document.getElementById('count-Todas').innerText = `(${games.length})`;
+                document.getElementById('count-Todas-mob').innerText = `(${games.length})`;
+
+                const operadorasObj = {};
+                games.forEach(g => {
+                    operadorasObj[g.operadora] = (operadorasObj[g.operadora] || 0) + 1;
+                });
+
+                const operadorasOrdenadas = Object.keys(operadorasObj).sort();
+                
+                operadorasOrdenadas.forEach(op => {
+                    const qtd = operadorasObj[op];
+                    menuDesktop.innerHTML += `<button onclick="filtrarPorOperadora('${op}', this)" class="casino-btn" data-op="${op}">${op} <span class="count-badge">(${qtd})</span></button>`;
+                    mobileDropdown.innerHTML += `<button onclick="filtrarPorOperadora('${op}', this); toggleMenuMobile();" class="casino-btn" data-op="${op}">${op} <span class="count-badge">(${qtd})</span></button>`;
+                });
+
+                const urlParams = new URLSearchParams(window.location.search);
+                const opParam = urlParams.get('op');
+
+                if (opParam && operadorasObj[opParam]) {
+                    const btnAlvo = Array.from(document.querySelectorAll('.casino-btn')).find(b => b.getAttribute('data-op') === opParam);
+                    filtrarPorOperadora(opParam, btnAlvo);
+                } else {
+                    const btnTodas = document.querySelector('.casino-btn[data-op="Todas"]');
+                    filtrarPorOperadora('Todas', btnTodas);
+                }
+            })
+            .catch(err => console.error("Erro ao carregar games.json:", err));
+
+        function toggleMenuMobile() {
+            const dropdown = document.getElementById('mobileDropdown');
+            dropdown.classList.toggle('show');
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.closest('.hamburger-container')) {
+                const dropdown = document.getElementById('mobileDropdown');
+                if (dropdown.classList.contains('show')) {
+                    dropdown.classList.remove('show');
+                }
+            }
+        }
+
+        function filtrarPorOperadora(operadora, elementoBtn) {
+            operadoraAtual = operadora;
+            document.getElementById('searchInput').value = ''; 
+
+            document.querySelectorAll('.casino-btn').forEach(btn => {
+                if (btn.getAttribute('data-op') === operadora) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+
+            if (operadora === 'Todas') {
+                window.history.pushState({}, '', window.location.pathname);
+            } else {
+                window.history.pushState({}, '', `?op=${encodeURIComponent(operadora)}`);
+            }
+
+            aplicarFiltros();
+        }
+
+        function filtrarJogos() {
+            aplicarFiltros();
+        }
+
+        function aplicarFiltros() {
+            const searchInput = document.getElementById('searchInput');
+            const termoBusca = searchInput ? searchInput.value.toLowerCase().trim() : '';
+            let filtrados = games;
+
+            if (operadoraAtual !== 'Todas') {
+                filtrados = filtrados.filter(g => g.operadora === operadoraAtual);
+            }
+
+            if (termoBusca) {
+                filtrados = filtrados.filter(g => g.nome_jogo.toLowerCase().includes(termoBusca));
+            }
+
+            filtrados.sort((a, b) => a.nome_jogo.localeCompare(b.nome_jogo));
+
+            renderizar(filtrados);
+        }
+
+        function renderizar(listaJogos) {
+            const grid = document.getElementById('grid');
+            grid.innerHTML = '';
+
+            if (listaJogos.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center text-slate-400 py-10 text-sm">Nenhum jogo encontrado.</div>`;
+                return;
+            }
+            
+            listaJogos.forEach(g => {
+                const pastaProvedor = limparTexto(g.operadora);
+                const arquivoJogo = limparTexto(g.nome_jogo) + '.html';
+                const linkCompleto = `${pastaProvedor}/${arquivoJogo}`;
+
+                grid.innerHTML += `
+                    <div class="glass-card rounded-2xl p-2 transition cursor-pointer flex flex-col justify-between" onclick="window.location.href='${linkCompleto}'">
+                        <div class="w-full aspect-[1/1] game-img-container flex items-center justify-center bg-black/20">
+                            <img src="${g.imagem}" alt="${g.nome_jogo}" class="w-full h-full object-contain">
+                        </div>
+                        <div class="pt-2 text-center">
+                            <h3 class="text-[10px] font-black text-white uppercase truncate">${g.nome_jogo}</h3>
+                            <p class="text-[8px] text-[var(--gold)] uppercase">${g.operadora}</p>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+    </script>
+</body>
+</html>

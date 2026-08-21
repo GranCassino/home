@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador Completo Unificado - Gran Cassino</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen p-6 font-sans">
+    <div class="max-w-2xl mx-auto space-y-6">
+        <header class="border-b border-slate-800 pb-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-xl font-black tracking-tight text-white">Gerador Completo Unificado</h1>
+                <p class="text-xs text-slate-400 mt-1">Selecione o provedor, cole os códigos e baixe a página pronta.</p>
+            </div>
+            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold rounded-full">Pronto</span>
+        </header>
+
+        <!-- Formulário de Entrada -->
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-4 shadow-xl">
+            
+            <!-- Novo: Seletor de Provedor -->
+            <div class="space-y-1.5">
+                <label class="block text-xs font-bold uppercase tracking-wider text-amber-400">
+                    <i class="fa-solid fa-building mr-1"></i> Selecione o Provedor do Jogo:
+                </label>
+                <select id="providerSelect" class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-amber-500 font-bold cursor-pointer">
+                    <option value="pg">PG Soft</option>
+                    <option value="pragmatic">Pragmatic Play</option>
+                    <option value="playtech">Playtech</option>
+                </select>
+            </div>
+
+            <!-- Campo 1: Card HTML -->
+            <div class="space-y-1.5">
+                <label class="block text-xs font-bold uppercase tracking-wider text-indigo-400">
+                    <i class="fa-solid fa-gamepad mr-1"></i> 1. Cole o HTML do Card (Para Iframe e Imagem):
+                </label>
+                <textarea id="cardInput" rows="3" placeholder='<div class="game-tile-adapter...">...</div>' class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 focus:outline-none focus:border-indigo-500 font-mono"></textarea>
+            </div>
+
+            <!-- Campo 2: HTML Detalhado (Casino Guru) -->
+            <div class="space-y-1.5">
+                <label class="block text-xs font-bold uppercase tracking-wider text-emerald-400">
+                    <i class="fa-solid fa-file-lines mr-1"></i> 2. Cole o HTML Detalhado (Casino Guru - Nome, RTP, Descrição, etc):
+                </label>
+                <textarea id="guruInput" rows="5" placeholder='<div class="section-dark game-detail-wrapper">...</div>' class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 focus:outline-none focus:border-emerald-500 font-mono"></textarea>
+            </div>
+
+            <!-- Botão de Processar / Pré-visualizar -->
+            <button id="btnProcessar" type="button" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 rounded-xl transition text-xs uppercase tracking-wider flex items-center justify-center space-x-2 cursor-pointer shadow-md">
+                <i class="fa-solid fa-magnifying-glass"></i> <span>Extrair e Visualizar Dados</span>
+            </button>
+        </div>
+
+        <!-- Área de Pré-visualização e Cópia -->
+        <div id="previewArea" class="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-4 shadow-xl hidden">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-emerald-400 border-b border-slate-800 pb-2">
+                <i class="fa-solid fa-circle-check mr-1"></i> Dados Capturados:
+            </h2>
+
+            <div class="flex flex-col md:flex-row items-center gap-4 bg-slate-950 p-3 rounded-xl border border-slate-800">
+                <img id="prevImg" src="" class="w-16 h-16 object-cover rounded-lg border border-white/10 shrink-0" alt="Capa">
+                <div class="flex-1 w-full space-y-2 text-xs font-mono">
+                    <div class="flex items-center justify-between bg-slate-900 p-2 rounded border border-slate-800">
+                        <span class="text-slate-400 truncate max-w-[65%]"><b>Nome:</b> <span id="prevName" class="text-white"></span></span>
+                        <button type="button" onclick="copiarTexto('prevName', this)" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 px-2.5 py-1 rounded font-bold transition cursor-pointer">Copiar</button>
+                    </div>
+                    <div class="flex items-center justify-between bg-slate-900 p-2 rounded border border-slate-800">
+                        <span class="text-slate-400 truncate max-w-[65%]"><b>Link Img:</b> <span id="prevImgUrl" class="text-amber-400"></span></span>
+                        <button type="button" onclick="copiarTexto('prevImgUrl', this)" class="bg-slate-800 hover:bg-slate-700 text-amber-300 px-2.5 py-1 rounded font-bold transition cursor-pointer">Copiar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botão Único para Baixar a Página Pronta -->
+            <button id="btnBaixar" type="button" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-xl transition text-xs uppercase tracking-wider flex items-center justify-center space-x-2 cursor-pointer shadow-lg">
+                <i class="fa-solid fa-download"></i> <span>Baixar Página HTML Pronta Completa</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let dadosGlobais = {};
+
+        document.getElementById('btnProcessar').addEventListener('click', function() {
+            const cardHtml = document.getElementById('cardInput').value.trim();
+            const guruHtml = document.getElementById('guruInput').value.trim();
+            const selectedProvider = document.getElementById('providerSelect').value;
+
+            if (!cardHtml && !guruHtml) {
+                alert('Por favor, preencha pelo menos um dos campos de HTML.');
+                return;
+            }
+
+            let imgUrl = '';
+            let iframeUrl = '';
+            let providerName = 'PG Soft';
+
+            // 1. Extrair Card (Imagem)
+            if (cardHtml) {
+                const imgMatch = cardHtml.match(/src="([^"]+)"/);
+                if (imgMatch) imgUrl = imgMatch[1].replace(/&amp;/g, '&');
+            }
+
+            // Se a imagem não veio pelo Card mas veio pelo Guru
+            if (!imgUrl && guruHtml) {
+                const guruImgMatch = guruHtml.match(/<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*width="320"/);
+                if (guruImgMatch) imgUrl = guruImgMatch[1].replace(/&amp;/g, '&');
+            }
+
+            // 2. Montar a URL do Iframe com base na escolha do Menu Seletor
+            if (selectedProvider === 'pg') {
+                providerName = 'PG Soft';
+                let gi = '';
+                const giMatch = imgUrl.match(/pgsoft\.(\d+)\//);
+                if (giMatch) {
+                    gi = giMatch[1];
+                } else {
+                    // Fallback caso não ache na imagem, tenta achar no card
+                    const altMatch = cardHtml.match(/pgsoft[._](\d+)/);
+                    if (altMatch) gi = altMatch[1];
+                }
+                iframeUrl = `https://public.pg-demo.com/demo/?gi=${gi}&lang=pt`;
+
+            } else if (selectedProvider === 'pragmatic') {
+                providerName = 'Pragmatic Play';
+                let gameSymbol = '';
+                const symbolMatch = imgUrl.match(/prg_([a-z0-9]+)/);
+                if (symbolMatch) {
+                    gameSymbol = symbolMatch[1];
+                } else {
+                    // Fallback digitado ou extraído de outra forma
+                    const altMatch = cardHtml.match(/prg_([a-z0-9]+)/);
+                    if (altMatch) gameSymbol = altMatch[1];
+                }
+                iframeUrl = `https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?lang=pt&cur=USD&gameSymbol=${gameSymbol}&websiteUrl=http%3A%2F%2Fdemogamesfree.pragmaticplay.net`;
+
+            } else if (selectedProvider === 'playtech') {
+                providerName = 'Playtech';
+                let gameCode = '';
+                const codeMatch = cardHtml.match(/playtech_([^/]+)/);
+                if (codeMatch) {
+                    gameCode = codeMatch[1].split(';')[0];
+                }
+                iframeUrl = `https://gamelauncher-uu-pop-stg.playtechone.com/launcher?game=${gameCode}&casino=playtechhorizon&clientplatform=web&clienttype=casino&real=0&currency=USD&language=pt`;
+            }
+
+            // 3. Extrair Dados do Guru
+            let gameName = 'Jogo Cassino';
+            let rtp = '96.50%', volatility = 'Média', maxWin = 'x2000.00', type = 'Slot', desc = 'Jogue grátis no modo demonstração no Gran Cassino.';
+
+            if (guruHtml) {
+                const nameMatch = guruHtml.match(/<h2 class="neo-fs-28">\s*([^<]+)\s*<\/h2>/);
+                if (nameMatch) gameName = nameMatch[1].trim();
+                
+                const descMatch = guruHtml.match(/<div class="game-detail-main-overview">.*?<p[^>]*>(.*?)<\/p>/s);
+                if (descMatch) desc = descMatch[1].replace(/<[^>]+>/g, '').trim();
+
+                const rtpMatch = guruHtml.match(/Retorno para o jogador<\/label>\s*<b>\s*([0-9,\.%]+)\s*<\/b>/);
+                if (rtpMatch) rtp = rtpMatch[1].trim();
+
+                const volMatch = guruHtml.match(/Volatilidade\s*<span[^>]*>.*?<\/span>\s*<\/td>\s*<td>\s*([^<]+)\s*<\/td>/s);
+                if (volMatch) volatility = volMatch[1].trim();
+
+                const maxMatch = guruHtml.match(/Ganho Máx\.<\/label>\s*<b>\s*([^<]+)\s*<\/b>/);
+                if (maxMatch) maxWin = maxMatch[1].trim();
+                
+                const typeMatch = guruHtml.match(/Tipo de Jogo<\/label>\s*<b>\s*([^<]+)\s*<\/b>/);
+                if (typeMatch) type = typeMatch[1].trim();
+            }
+
+            if (gameName === 'Jogo Cassino' && cardHtml) {
+                const altMatch = cardHtml.match(/alt="([^"]+)"/);
+                if (altMatch) gameName = altMatch[1].trim();
+            }
+
+            dadosGlobais = { gameName, iframeUrl, imgUrl, rtp, volatility, maxWin, type, provider: providerName, desc };
+
+            document.getElementById('prevName').textContent = gameName;
+            document.getElementById('prevImgUrl').textContent = imgUrl;
+            document.getElementById('prevImg').src = imgUrl;
+            document.getElementById('previewArea').classList.remove('hidden');
+        });
+
+        document.getElementById('btnBaixar').addEventListener('click', function() {
+            const { gameName, iframeUrl, imgUrl, rtp, volatility, maxWin, type, provider, desc } = dadosGlobais;
+
+            let fileName = gameName.toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-+|-+$/g, '') + '.html';
+
+            const template = `<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${gameName} - Jogue Grátis | Gran Cassino</title>
+    <meta name="description" content="${desc}">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"><\/script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="flex items-center">
+            <img src="../titulo.png" alt="Gran Cassino" class="h-8 md:h-10 object-contain">
+        </div>
+        <div class="flex items-center space-x-3">
+            <button onclick="toggleFullScreen()" class="fs-header-btn px-3.5 py-1.5 rounded-xl text-xs font-extrabold transition flex items-center space-x-2 cursor-pointer shadow-lg">
+                <i class="fa-solid fa-expand"></i> <span>Tela Cheia</span>
+            </button>
+            <a href="../" class="bg-white/10 hover:bg-white/20 text-white px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 border border-white/15 cursor-pointer shadow-md">
+                <i class="fa-solid fa-house text-brand"></i> <span>Lobby</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="desktop-layout">
+        <div class="game-column">
+            <div id="gameWrapper" class="game-viewport">
+                <iframe src="${iframeUrl}"></iframe>
+            </div>
+        </div>
+        <div class="info-column custom-scrollbar">
+            <div class="glass-card rounded-2xl p-4 relative overflow-hidden shadow-xl">
+                <div class="flex flex-col gap-3 items-center text-center">
+                    <img src="${imgUrl}" class="w-20 h-20 object-cover rounded-xl shadow-md border border-white/10" alt="${gameName}">
+                    <div class="space-y-1.5 w-full">
+                        <a href="../?op=${encodeURIComponent(provider)}" class="inline-block px-2 py-0.5 bg-white/5 hover:bg-brand/20 border border-white/10 hover:border-brand/40 rounded text-[9px] font-semibold uppercase tracking-wider text-brand transition">
+                            ${provider} <i class="fa-solid fa-external-link-alt text-[8px] ml-0.5"></i>
+                        </a>
+                        <h2 class="text-lg font-black text-white tracking-tight">${gameName}</h2>
+                        <p class="text-slate-300 text-[13px] leading-relaxed text-left"><span>${desc}</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card rounded-2xl p-4 mt-8">
+                <h3 class="text-[11px] font-bold uppercase tracking-widest text-brand mb-2.5 flex items-center space-x-2">
+                    <i class="fa-solid fa-sliders text-brand"></i> <span>Especificações</span>
+                </h3>
+                <div class="grid grid-cols-2 gap-2">
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">RTP</span><span class="text-sm font-extrabold text-white">${rtp}</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Volatilidade</span><span class="text-sm font-extrabold text-white">${volatility}</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Prêmio Máximo</span><span class="text-sm font-extrabold text-brand">${maxWin}</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Tipo / Maneiras</span><span class="text-sm font-extrabold text-white">${type}</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-6 text-center text-xs text-slate-500 bg-black border-t border-white/10">
+        <p>&copy; 2026 Gran Cassino. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleFullScreen() {
+            const elem = document.getElementById('gameWrapper');
+            if (!document.fullscreenElement) {
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        }
+    <\/script>
+</body>
+</html>`;
+
+            const blob = new Blob([template], { type: 'text/html;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+
+        function copiarTexto(elementId, btn) {
+            const texto = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(texto).then(() => {
+                const original = btn.textContent;
+                btn.textContent = 'Copiado!';
+                btn.className = "bg-emerald-600 text-white px-2.5 py-1 rounded font-bold transition";
+                setTimeout(() => {
+                    btn.textContent = original;
+                    btn.className = "bg-slate-800 hover:bg-slate-700 text-indigo-300 px-2.5 py-1 rounded font-bold transition cursor-pointer";
+                }, 1500);
+            });
+        }
+    </script>
+</body>
+</html>

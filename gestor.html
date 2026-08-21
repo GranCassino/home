@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Gestão de Jogos</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #121212; color: #fff; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: #1e1e1e; padding: 20px; border-radius: 12px; }
+        h1 { text-align: center; color: #ffcc00; }
+        .field { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #333; background: #2a2a2a; color: #fff; box-sizing: border-box; }
+        button { padding: 10px 20px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold; margin-right: 10px; }
+        .btn-add { background: #00c853; color: #fff; }
+        .btn-save { background: #2962ff; color: #fff; }
+        .btn-upload { background: #ff9100; color: #fff; }
+        table { width: 100%; margin-top: 20px; border-collapse: collapse; }
+        th, td { border: 1px solid #333; padding: 10px; text-align: left; }
+        .btn-del { background: #d50000; color: #fff; padding: 5px 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Painel de Gerenciamento</h1>
+        
+        <div class="field">
+            <input type="file" id="fileInput" accept=".json" class="btn-upload">
+            <button class="btn-upload" onclick="loadJSON()">Carregar JSON</button>
+        </div>
+
+        <div class="field">
+            <label>Operadora:</label> <input type="text" id="operadora">
+            <label>Nome do Jogo:</label> <input type="text" id="nome_jogo">
+            <label>Link da Imagem:</label> <input type="text" id="link_imagem">
+        </div>
+        <button class="btn-add" onclick="addGame()">Adicionar Jogo</button>
+        <button class="btn-save" onclick="downloadJSON()">Baixar JSON</button>
+
+        <table id="gameTable">
+            <thead>
+                <tr><th>Operadora</th><th>Nome</th><th>Ação</th></tr>
+            </thead>
+            <tbody id="gameBody"></tbody>
+        </table>
+    </div>
+
+    <script>
+        let games = [];
+
+        function loadJSON() {
+            const file = document.getElementById('fileInput').files[0];
+            if (!file) return alert('Selecione um arquivo JSON');
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                games = JSON.parse(e.target.result);
+                renderTable();
+            };
+            reader.readAsText(file);
+        }
+
+        function addGame() {
+            const game = {
+                operadora: document.getElementById('operadora').value,
+                nome_jogo: document.getElementById('nome_jogo').value,
+                imagem: document.getElementById('link_imagem').value,
+                link: `/${document.getElementById('operadora').value.toLowerCase().replace(/ /g,'')}/${document.getElementById('nome_jogo').value.replace(/ /g,'_')}.html`
+            };
+            games.push(game);
+            renderTable();
+        }
+
+        function deleteGame(index) {
+            games.splice(index, 1);
+            renderTable();
+        }
+
+        function renderTable() {
+            const body = document.getElementById('gameBody');
+            body.innerHTML = '';
+            games.forEach((g, i) => {
+                body.innerHTML += `<tr><td>${g.operadora}</td><td>${g.nome_jogo}</td><td><button class="btn-del" onclick="deleteGame(${i})">Excluir</button></td></tr>`;
+            });
+        }
+
+        function downloadJSON() {
+            const blob = new Blob([JSON.stringify(games, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'games.json';
+            a.click();
+        }
+    </script>
+</body>
+</html>
