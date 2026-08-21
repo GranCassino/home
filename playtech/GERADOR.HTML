@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Completo - Extrator & Gerador de Jogos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen p-6 font-sans">
+    <div class="max-w-5xl mx-auto space-y-6">
+        <header class="border-b border-slate-800 pb-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-black tracking-tight text-white">Painel Unificado de Extração</h1>
+                <p class="text-xs text-slate-400 mt-1">Alterne entre o extrator rápido de cards ou o extrator detalhado do Guru.</p>
+            </div>
+            <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold rounded-full">Painel Ativo</span>
+        </header>
+
+        <!-- Navegação por Abas -->
+        <div class="flex space-x-2 border-b border-slate-800 pb-2">
+            <button onclick="mudarAba('cards')" id="tabCards" class="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold transition cursor-pointer shadow-md">
+                <i class="fa-solid fa-th-large mr-1"></i> Extrator de Cards (Playtech)
+            </button>
+            <button onclick="mudarAba('guru')" id="tabGuru" class="px-4 py-2 bg-slate-900 text-slate-400 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer border border-slate-800">
+                <i class="fa-solid fa-file-lines mr-1"></i> Extrator Detalhado & Gerador (Guru)
+            </button>
+        </div>
+
+        <!-- SEÇÃO 1: EXTRATOR DE CARDS -->
+        <div id="secaoCards" class="space-y-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4 shadow-xl">
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-300">
+                    <i class="fa-solid fa-code text-indigo-400 mr-1"></i> Cole o HTML dos cards:
+                </label>
+                <textarea id="htmlInputCards" rows="6" placeholder='Cole os blocos HTML aqui...' class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 focus:outline-none focus:border-indigo-500 font-mono"></textarea>
+                <button type="button" onclick="extrairCards()" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3.5 rounded-xl transition text-xs uppercase tracking-wider flex items-center justify-center space-x-2 cursor-pointer shadow-lg">
+                    <i class="fa-solid fa-bolt"></i> <span>Extrair Dados dos Cards</span>
+                </button>
+            </div>
+
+            <div id="resultCardsArea" class="space-y-4 hidden">
+                <h2 class="text-xs font-bold uppercase tracking-wider text-slate-300">Cards Extraídos:</h2>
+                <div id="outputCardsList" class="space-y-3"></div>
+            </div>
+        </div>
+
+        <!-- SEÇÃO 2: EXTRATOR DETALHADO & GERADOR -->
+        <div id="secaoGuru" class="space-y-6 hidden">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4 shadow-xl">
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-300">
+                    <i class="fa-solid fa-code text-emerald-400 mr-1"></i> Cole o HTML de detalhes do jogo (Casino Guru):
+                </label>
+                <textarea id="htmlInputGuru" rows="8" placeholder='Cole o bloco <div class="section-dark game-detail-wrapper">...</div> aqui...' class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 focus:outline-none focus:border-emerald-500 font-mono"></textarea>
+                <button type="button" onclick="processarGuru()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 rounded-xl transition text-xs uppercase tracking-wider flex items-center justify-center space-x-2 cursor-pointer shadow-lg">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> <span>Extrair Detalhes & Gerar Página</span>
+                </button>
+            </div>
+
+            <div id="resultGuruArea" class="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6 shadow-xl hidden">
+                <div class="flex justify-between items-center border-b border-slate-800 pb-4">
+                    <h2 class="text-sm font-bold uppercase tracking-wider text-emerald-400 flex items-center space-x-2">
+                        <i class="fa-solid fa-circle-check"></i> <span>Informações Extraídas com Sucesso</span>
+                    </h2>
+                    <button type="button" onclick="baixarPaginaPronta()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-xl text-xs font-bold transition flex items-center space-x-2 cursor-pointer shadow-lg">
+                        <i class="fa-solid fa-download"></i> <span>Baixar Página HTML Pronta</span>
+                    </button>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
+                    <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                        <span class="text-slate-500 block mb-1 uppercase font-bold">Nome do Jogo:</span>
+                        <span id="resName" class="text-white font-bold text-sm">--</span>
+                    </div>
+                    <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                        <span class="text-slate-500 block mb-1 uppercase font-bold">Provedor / Estúdio:</span>
+                        <span id="resProvider" class="text-indigo-400 font-bold text-sm">--</span>
+                    </div>
+                    <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                        <span class="text-slate-500 block mb-1 uppercase font-bold">RTP:</span>
+                        <span id="resRtp" class="text-emerald-400 font-bold text-sm">--</span>
+                    </div>
+                    <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                        <span class="text-slate-500 block mb-1 uppercase font-bold">Volatilidade:</span>
+                        <span id="resVolatility" class="text-amber-400 font-bold text-sm">--</span>
+                    </div>
+                    <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                        <span class="text-slate-500 block mb-1 uppercase font-bold">Ganho Máximo:</span>
+                        <span id="resMaxWin" class="text-indigo-300 font-bold text-sm">--</span>
+                    </div>
+                    <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                        <span class="text-slate-500 block mb-1 uppercase font-bold">Tipo de Jogo:</span>
+                        <span id="resType" class="text-white font-bold text-sm">--</span>
+                    </div>
+                </div>
+
+                <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 space-y-1 font-mono text-xs">
+                    <span class="text-slate-500 block uppercase font-bold">Link da Imagem:</span>
+                    <code id="resImg" class="text-amber-300 break-all block">--</code>
+                </div>
+
+                <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 space-y-1 font-mono text-xs">
+                    <span class="text-slate-500 block uppercase font-bold">Link de Embed (Demo):</span>
+                    <code id="resEmbed" class="text-indigo-300 break-all block">--</code>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let dadosGuru = {};
+
+        function mudarAba(aba) {
+            if (aba === 'cards') {
+                document.getElementById('secaoCards').classList.remove('hidden');
+                document.getElementById('secaoGuru').classList.add('hidden');
+                document.getElementById('tabCards').className = "px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold transition cursor-pointer shadow-md";
+                document.getElementById('tabGuru').className = "px-4 py-2 bg-slate-900 text-slate-400 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer border border-slate-800";
+            } else {
+                document.getElementById('secaoGuru').classList.remove('hidden');
+                document.getElementById('secaoCards').classList.add('hidden');
+                document.getElementById('tabGuru').className = "px-4 py-2 bg-emerald-600 text-white rounded-xl text-xs font-bold transition cursor-pointer shadow-md";
+                document.getElementById('tabCards').className = "px-4 py-2 bg-slate-900 text-slate-400 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer border border-slate-800";
+            }
+        }
+
+        // Lógica da Aba 1 (Cards Rápidos via Regex)
+        function extrairCards() {
+            try {
+                const html = document.getElementById('htmlInputCards').value;
+                if (!html.trim()) {
+                    alert('Cole o HTML dos cards na caixa!');
+                    return;
+                }
+
+                const container = document.getElementById('outputCardsList');
+                container.innerHTML = '';
+
+                const imgRegex = /src="([^"]+)"[^>]*alt="([^"]+)"/g;
+                let match;
+                let count = 0;
+
+                while ((match = imgRegex.exec(html)) !== null) {
+                    const imgUrl = match[1].replace(/&amp;/g, '&');
+                    const gameName = match[2].trim();
+
+                    const codeMatch = imgUrl.match(/playtech_([^/]+)/);
+                    if (codeMatch) {
+                        const gameCode = codeMatch[1].split(';')[0];
+                        const launchLink = `https://gamelauncher-uu-pop-stg.playtechone.com/launcher?game=${gameCode}&casino=playtechhorizon&clientplatform=web&clienttype=casino&real=0&currency=USD&language=pt`;
+
+                        count++;
+                        const card = document.createElement('div');
+                        card.className = "bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col md:flex-row items-center gap-4 shadow-md";
+                        card.innerHTML = `
+                            <img src="${imgUrl}" class="w-14 h-14 object-cover rounded-lg border border-white/10 shrink-0" alt="${gameName}">
+                            <div class="flex-1 w-full space-y-2 text-xs font-mono">
+                                <div class="flex items-center justify-between bg-slate-950 p-2 rounded border border-slate-800">
+                                    <span class="text-slate-400 truncate max-w-[70%]"><b>Nome:</b> <span class="text-white">${gameName}</span></span>
+                                    <button type="button" onclick="copiar('${gameName.replace(/'/g, "\\'")}', this)" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 px-2.5 py-1 rounded font-bold transition cursor-pointer">Copiar Nome</button>
+                                </div>
+                                <div class="flex items-center justify-between bg-slate-950 p-2 rounded border border-slate-800">
+                                    <span class="text-slate-400 truncate max-w-[70%]"><b>Link Jogo:</b> <span class="text-emerald-400">${launchLink}</span></span>
+                                    <button type="button" onclick="copiar('${launchLink}', this)" class="bg-slate-800 hover:bg-slate-700 text-emerald-300 px-2.5 py-1 rounded font-bold transition cursor-pointer">Copiar Link</button>
+                                </div>
+                                <div class="flex items-center justify-between bg-slate-950 p-2 rounded border border-slate-800">
+                                    <span class="text-slate-400 truncate max-w-[70%]"><b>Imagem:</b> <span class="text-amber-400">${imgUrl}</span></span>
+                                    <button type="button" onclick="copiar('${imgUrl}', this)" class="bg-slate-800 hover:bg-slate-700 text-amber-300 px-2.5 py-1 rounded font-bold transition cursor-pointer">Copiar Imagem</button>
+                                </div>
+                            </div>
+                        `;
+                        container.appendChild(card);
+                    }
+                }
+
+                if (count > 0) {
+                    document.getElementById('resultCardsArea').classList.remove('hidden');
+                } else {
+                    alert('Nenhum card correspondente foi encontrado. Verifique se o HTML copiado contém as imagens e alt.');
+                }
+            } catch (err) {
+                alert('Erro ao processar: ' + err.message);
+            }
+        }
+
+        // Lógica da Aba 2 (Detalhes Guru & Gerador via Regex/String Matching infalível)
+        function processarGuru() {
+            try {
+                const rawHtml = document.getElementById('htmlInputGuru').value.trim();
+                if (!rawHtml) {
+                    alert('Cole o código HTML detalhado!');
+                    return;
+                }
+
+                // Nome do Jogo
+                const nameMatch = rawHtml.match(/<h2 class="neo-fs-28">\s*([^<]+)\s*<\/h2>/);
+                dadosGuru.name = nameMatch ? nameMatch[1].trim() : 'Jogo Cassino';
+
+                // Imagem do Jogo
+                const imgMatch = rawHtml.match(/<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*width="320"/);
+                dadosGuru.imgUrl = imgMatch ? imgMatch[1].replace(/&amp;/g, '&') : '';
+
+                // Provedor / Estúdio
+                let provider = 'Pragmatic Play';
+                if (rawHtml.includes('Pragmatic Play')) provider = 'Pragmatic Play';
+                else if (rawHtml.includes('Playtech')) provider = 'Playtech';
+                dadosGuru.provider = provider;
+
+                // Volatilidade
+                let volatility = 'Alta';
+                if (rawHtml.includes('<td>\n            Alta') || rawHtml.includes('<td>Alta')) volatility = 'Alta';
+                else if (rawHtml.includes('Média')) volatility = 'Média';
+                else if (rawHtml.includes('Baixa')) volatility = 'Baixa';
+                dadosGuru.volatility = volatility;
+
+                // RTP
+                const rtpMatch = rawHtml.match(/Retorno para o jogador<\/label>\s*<b>\s*([0-9,\.%]+)\s*<\/b>/);
+                dadosGuru.rtp = rtpMatch ? rtpMatch[1].trim() : '96.51%';
+
+                // Ganho Máximo
+                const maxWinMatch = rawHtml.match(/Ganho Máx\.<\/label>\s*<b>\s*([^<]+)\s*<\/b>/);
+                dadosGuru.maxWin = maxWinMatch ? maxWinMatch[1].trim() : 'Desconhecido';
+
+                dadosGuru.type = 'Slots';
+
+                // Link de Embed (Demo)
+                const embedMatch = rawHtml.match(/data-embed-content="([^"]+)"/);
+                dadosGuru.embedUrl = embedMatch ? embedMatch[1].replace(/&amp;/g, '&') : '';
+
+                // Exibir na tela
+                document.getElementById('resName').textContent = dadosGuru.name;
+                document.getElementById('resProvider').textContent = dadosGuru.provider;
+                document.getElementById('resRtp').textContent = dadosGuru.rtp;
+                document.getElementById('resVolatility').textContent = dadosGuru.volatility;
+                document.getElementById('resMaxWin').textContent = dadosGuru.maxWin;
+                document.getElementById('resType').textContent = dadosGuru.type;
+                document.getElementById('resImg').textContent = dadosGuru.imgUrl;
+                document.getElementById('resEmbed').textContent = dadosGuru.embedUrl;
+
+                document.getElementById('resultGuruArea').classList.remove('hidden');
+            } catch (err) {
+                alert('Erro ao extrair dados do Guru: ' + err.message);
+            }
+        }
+
+        function baixarPaginaPronta() {
+            let fileName = dadosGuru.name.toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-+|-+$/g, '') + '.html';
+
+            const template = `<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${dadosGuru.name} - Gran Cassino</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="flex items-center">
+            <img src="../titulo.png" alt="Gran Cassino" class="h-10 md:h-10 object-contain">
+        </div>
+        <div class="flex items-center space-x-3">
+            <button onclick="toggleFullScreen()" class="fs-header-btn px-3.5 py-1.5 rounded-xl text-xs font-extrabold transition flex items-center space-x-2 cursor-pointer shadow-lg">
+                <i class="fa-solid fa-expand"></i> <span>Tela Cheia</span>
+            </button>
+            <a href="../" class="bg-white/10 hover:bg-white/20 text-white px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 border border-white/15 cursor-pointer shadow-md">
+                <i class="fa-solid fa-house text-brand"></i> <span>Lobby</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="desktop-layout">
+        <div class="game-column">
+            <div id="gameWrapper" class="game-viewport">
+                <iframe src="${dadosGuru.embedUrl}"></iframe>
+            </div>
+        </div>
+        <div class="info-column custom-scrollbar">
+            <div class="glass-card rounded-2xl p-4 relative overflow-hidden shadow-xl">
+                <div class="flex flex-col gap-3 items-center text-center">
+                    <img src="${dadosGuru.imgUrl}" class="w-20 h-20 object-cover rounded-xl shadow-md border border-white/10" alt="${dadosGuru.name}">
+                    <div class="space-y-1.5 w-full">
+                        <a href="../?op=${encodeURIComponent(dadosGuru.provider)}" class="inline-block px-2 py-0.5 bg-white/5 hover:bg-brand/20 border border-white/10 hover:border-brand/40 rounded text-[9px] font-semibold uppercase tracking-wider text-brand transition">
+                            ${dadosGuru.provider}<i class="fa-solid fa-external-link-alt text-[8px] ml-0.5"></i>
+                        </a>
+                        <h2 class="text-lg font-black text-white tracking-tight">${dadosGuru.name}</h2>
+                        <p class="text-slate-300 text-[11px] leading-relaxed text-left"><span>Jogue ${dadosGuru.name} grátis no modo demonstração no Gran Cassino.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card rounded-2xl p-4 mt-8">
+                <h3 class="text-[11px] font-bold uppercase tracking-widest text-brand mb-2.5 flex items-center space-x-2">
+                    <i class="fa-solid fa-sliders text-brand"></i> <span>Especificações</span>
+                </h3>
+                <div class="grid grid-cols-2 gap-2">
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">RTP</span><span class="text-sm font-extrabold text-white">${dadosGuru.rtp}</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Volatilidade</span><span class="text-sm font-extrabold text-white">${dadosGuru.volatility}</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Ganho Máx.</span><span class="text-sm font-extrabold text-brand">${dadosGuru.maxWin}</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Tipo</span><span class="text-sm font-extrabold text-white">${dadosGuru.type}</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-6 text-center text-xs text-slate-500 bg-black border-t border-white/10">
+        <p>&copy; 2026 Gran Cassino. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>`;
+
+            const blob = new Blob([template], { type: 'text/html;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function copiar(texto, btn) {
+            navigator.clipboard.writeText(texto).then(() => {
+                const original = btn.textContent;
+                btn.textContent = 'Copiado!';
+                btn.className = "bg-emerald-600 text-white px-2.5 py-1 rounded font-bold transition";
+                setTimeout(() => {
+                    btn.textContent = original;
+                    btn.className = "bg-slate-800 hover:bg-slate-700 text-indigo-300 px-2.5 py-1 rounded font-bold transition cursor-pointer";
+                }, 1500);
+            });
+        }
+    </script>
+</body>
+</html>
