@@ -20,7 +20,7 @@
         <!-- Formulário de Entrada -->
         <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-4 shadow-xl">
             
-            <!-- Novo: Seletor de Provedor -->
+            <!-- Seletor de Provedor -->
             <div class="space-y-1.5">
                 <label class="block text-xs font-bold uppercase tracking-wider text-amber-400">
                     <i class="fa-solid fa-building mr-1"></i> Selecione o Provedor do Jogo:
@@ -29,7 +29,16 @@
                     <option value="pg">PG Soft</option>
                     <option value="pragmatic">Pragmatic Play</option>
                     <option value="playtech">Playtech</option>
+                    <option value="tada">Tada Gaming</option>
                 </select>
+            </div>
+
+            <!-- Novo Campo Específico para o ID do Tada (Inicialmente Oculto) -->
+            <div id="tadaIdGroup" class="space-y-1.5 hidden bg-slate-950/50 p-3 rounded-xl border border-amber-500/30">
+                <label class="block text-xs font-bold uppercase tracking-wider text-amber-300">
+                    <i class="fa-solid fa-hashtag mr-1"></i> ID do Jogo Tada (Ex: 536):
+                </label>
+                <input type="text" id="tadaGameId" placeholder="Digite apenas o número do ID (ex: 536)" class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-amber-500 font-mono">
             </div>
 
             <!-- Campo 1: Card HTML -->
@@ -84,6 +93,16 @@
     <script>
         let dadosGlobais = {};
 
+        // Controlar a visibilidade do campo ID do Tada com base na seleção
+        document.getElementById('providerSelect').addEventListener('change', function() {
+            const tadaGroup = document.getElementById('tadaIdGroup');
+            if (this.value === 'tada') {
+                tadaGroup.classList.remove('hidden');
+            } else {
+                tadaGroup.classList.add('hidden');
+            }
+        });
+
         document.getElementById('btnProcessar').addEventListener('click', function() {
             const cardHtml = document.getElementById('cardInput').value.trim();
             const guruHtml = document.getElementById('guruInput').value.trim();
@@ -118,7 +137,6 @@
                 if (giMatch) {
                     gi = giMatch[1];
                 } else {
-                    // Fallback caso não ache na imagem, tenta achar no card
                     const altMatch = cardHtml.match(/pgsoft[._](\d+)/);
                     if (altMatch) gi = altMatch[1];
                 }
@@ -131,7 +149,6 @@
                 if (symbolMatch) {
                     gameSymbol = symbolMatch[1];
                 } else {
-                    // Fallback digitado ou extraído de outra forma
                     const altMatch = cardHtml.match(/prg_([a-z0-9]+)/);
                     if (altMatch) gameSymbol = altMatch[1];
                 }
@@ -145,6 +162,15 @@
                     gameCode = codeMatch[1].split(';')[0];
                 }
                 iframeUrl = `https://gamelauncher-uu-pop-stg.playtechone.com/launcher?game=${gameCode}&casino=playtechhorizon&clientplatform=web&clienttype=casino&real=0&currency=USD&language=pt`;
+
+            } else if (selectedProvider === 'tada') {
+                providerName = 'Tada Gaming';
+                const tadaId = document.getElementById('tadaGameId').value.trim();
+                if (!tadaId) {
+                    alert('Por favor, informe o ID do jogo da Tada Gaming.');
+                    return;
+                }
+                iframeUrl = `https://tadagaming.com/PlusTrial/${tadaId}/pt-BR`;
             }
 
             // 3. Extrair Dados do Guru
