@@ -1,12 +1,5 @@
 [
   {
-    "operadora": "Pragmatic Play",
-    "nome_jogo": "Big Bass Splash 1000",
-    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10bbsplashx/e102e6eb-c3c0-4b5f-988a-d966f5b8f327.png?width=150&height=188",
-    "link": "/pragmaticplay/Big_Bass_Splash_1000.html"
-  },
-
-  {
     "operadora": "Playtech",
     "nome_jogo": "Mega Fire Blaze: The Khan",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_mfbkhan_pop/992d91ad-76c8-4c76-bb98-4a079d36ce87.png?width=300&height=376",
@@ -80,15 +73,15 @@
   },
   {
     "operadora": "PG Soft",
-    "nome_jogo": "Fortune Mouse",
-    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.68/d5b1ff72-17b0-421f-9b60-e8e790ff5d82.png?width=150&height=188",
-    "link": "/pgsoft/Fortune_Mouse.html"
-  },
-  {
-    "operadora": "PG Soft",
     "nome_jogo": "Fortune Dragon",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1695365/356acac8-a0e9-4166-a850-19163b8b0a91.png?width=150&height=188",
     "link": "/pgsoft/Fortune_Dragon.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Mouse",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.68/d5b1ff72-17b0-421f-9b60-e8e790ff5d82.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Mouse.html"
   },
   {
     "operadora": "PG Soft",
@@ -125,6 +118,65 @@
     "nome_jogo": "Cocktail Nights",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.117/4915aca9-0021-4485-8011-7afc78b22d2b.png?width=150&height=188",
     "link": "/pgsoft/Cocktail_Nights.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Golden Retriever",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10goldenret/33da64ea-d23e-4aff-a75a-ed60077ca35b.png?width=150&height=188",
+    "link": "/pragmaticplay/Golden_Retriever.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Gates of Olympus Super Scatter",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20sbetolympx/8dde5771-c253-45f7-9190-33e8e7a6f1a9.png?width=150&height=188",
+    "link": "/pragmaticplay/Gates_of_Olympus_Super_Scatter.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Big Bass Blast",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10bbasblitz/1bc6261e-6f1b-4f0d-a961-635172dee165.png?width=150&height=188",
+    "link": "/pragmaticplay/Big_Bass_Blast.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Gates of Olympus 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20olympx/af72924d-0ffe-4ca3-bea7-ae4293d23928.png?width=150&height=188",
+    "link": "/pragmaticplay/Gates_of_Olympus_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Cosmic Clusters",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20cjoinclust/8c29f765-9d0e-471a-9924-bc321576415c.png?width=150&height=188",
+    "link": "/pragmaticplay/Cosmic_Clusters.html"
+  },
+   {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Big Bass Splash 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10bbsplashx/e102e6eb-c3c0-4b5f-988a-d966f5b8f327.png?width=150&height=188",
+    "link": "/pragmaticplay/Big_Bass_Splash_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "The Dog House Megaways 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vswaysdh1000/1777cc45-e510-4ad8-a409-7f44c9e993bb.png?width=150&height=188",
+    "link": "/pragmaticplay/The_Dog_House_Megaways_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "777 Wheel Blitz",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs5wheel7s/dbf8d9a9-0a9f-4f7b-be2f-9d041132a8f6.png?width=150&height=188",
+    "link": "/pragmaticplay/777_Wheel_Blitz.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sunnydaze Asylum",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vswayssndzaslm/ee4790a6-dcf1-4312-b046-863bf8610f11.png?width=150&height=188",
+    "link": "/pragmaticplay/Sunnydaze_Asylum.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Candy Rush",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20candyia/dfa225c6-4228-42d1-90a3-60ccc6440be7.png?width=150&height=188",
+    "link": "/pragmaticplay/Candy_Rush.html"
   }
-  
 ]
