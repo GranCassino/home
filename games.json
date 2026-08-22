@@ -5,12 +5,7 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10bbsplashx/e102e6eb-c3c0-4b5f-988a-d966f5b8f327.png?width=150&height=188",
     "link": "/pragmaticplay/Big_Bass_Splash_1000.html"
   },
-  {
-    "operadora": "PG Soft",
-    "nome_jogo": "Fortune Tiger",
-    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.126/314533ec-75d0-4ed1-98f7-0e33bd0fbbb1.png?width=150&height=188",
-    "link": "/pgsoft/Fortune_Tiger.html"
-  },
+
   {
     "operadora": "Playtech",
     "nome_jogo": "Mega Fire Blaze: The Khan",
@@ -70,5 +65,66 @@
     "nome_jogo": "Clover Flip",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_cflipa1_pop/9caddc45-b723-40b4-8f08-adb2d5da9c10.png?width=300&height=376",
     "link": "/playtech/Clover_Flip.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Tiger",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.126/314533ec-75d0-4ed1-98f7-0e33bd0fbbb1.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Tiger.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Rabbit",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1543462/3b9776f9-e3cc-45c5-b769-5959752e09ca.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Rabbit.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Mouse",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.68/d5b1ff72-17b0-421f-9b60-e8e790ff5d82.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Mouse.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Dragon",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1695365/356acac8-a0e9-4166-a850-19163b8b0a91.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Dragon.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Ox",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.98/bf316690-59e0-42c8-b183-b1f9b89d0d3b.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Ox.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Snake",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1879752/12ee7ce6-fa72-4f2c-9816-a86727437f78.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Snake.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Dragon Hatch 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1451122/7b359c8f-89c8-4b91-9f38-23719b653cc1.png?width=150&height=188",
+    "link": "/pgsoft/Dragon_Hatch_2.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Ways of the Qilin",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.106/7b651d86-f8dc-483d-9aca-52d8394da153.png?width=150&height=188",
+    "link": "/pgsoft/Ways_of_the_Qilin.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Geisha’s Revenge",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1702123/0b86fa7e-ee3e-44cd-8695-1d4ad0e5c34c.png?width=150&height=188",
+    "link": "/pgsoft/Geisha’s_Revenge.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Cocktail Nights",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.117/4915aca9-0021-4485-8011-7afc78b22d2b.png?width=150&height=188",
+    "link": "/pgsoft/Cocktail_Nights.html"
   }
+  
 ]
