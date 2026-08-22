@@ -149,7 +149,7 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20cjoinclust/8c29f765-9d0e-471a-9924-bc321576415c.png?width=150&height=188",
     "link": "/pragmaticplay/Cosmic_Clusters.html"
   },
-   {
+  {
     "operadora": "Pragmatic Play",
     "nome_jogo": "Big Bass Splash 1000",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10bbsplashx/e102e6eb-c3c0-4b5f-988a-d966f5b8f327.png?width=150&height=188",
@@ -178,5 +178,11 @@
     "nome_jogo": "Candy Rush",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20candyia/dfa225c6-4228-42d1-90a3-60ccc6440be7.png?width=150&height=188",
     "link": "/pragmaticplay/Candy_Rush.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Garuda 500",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_GARUDA_500/444f85b6-f028-4ca8-bf83-47fb610705d8.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Garuda_500.html"
   }
 ]
