@@ -184,5 +184,59 @@
     "nome_jogo": "Fortune Garuda 500",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_GARUDA_500/444f85b6-f028-4ca8-bf83-47fb610705d8.png?width=150&height=188",
     "link": "/tadagaming/Fortune_Garuda_500.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Lucky Jaguar 500",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_LUCKY_JAGUAR_500/2cce4c11-7234-433f-b6c7-327c06da64ab.png?width=150&height=188",
+    "link": "/tadagaming/Lucky_Jaguar_500.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Gems 500",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_GEMS_500/880840c6-d0ce-4090-95ae-adbbab4b99d8.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Gems_500.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Zombie",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_ZOMBIE/adcf7a29-c1d3-4e27-a5ff-14e9fbc803a6.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Zombie.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Lucky Jaguar 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_LUCKY_JAGUAR_2/092b9870-996a-4084-a6a6-2d56bd89360c.png?width=150&height=188",
+    "link": "/tadagaming/Lucky_Jaguar_2.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Money Coming 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_MONEY_COMING_2/77cac8d9-a5ae-4b5a-ba51-b64b8e149906.png?width=150&height=188",
+    "link": "/tadagaming/Money_Coming_2.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Lucky Tiger (TaDa Gaming)",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_LUCKY_TIGER/e6cb235b-1c63-40fd-99c7-c09114cbda74.png?width=150&height=188",
+    "link": "/tadagaming/Lucky_Tiger_(TaDa_Gaming).html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Coins",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_COINS_UNLIMITED_FORTUNE/92cfa521-6bae-4ae9-b86e-0521d850dc45.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Coins.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Monkey (TaDa Gaming)",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_MONKEY/34c17049-23fb-42bd-81f6-f27da8150740.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Monkey_(TaDa_Gaming).html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "3 Coin Treasures 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_3_COIN_TREASURES_2/127f9f0e-ac33-44e5-811c-a822ef5485af.png?width=150&height=188",
+    "link": "/tadagaming/3_Coin_Treasures_2.html"
   }
 ]
