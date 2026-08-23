@@ -238,5 +238,65 @@
     "nome_jogo": "3 Coin Treasures 2",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_3_COIN_TREASURES_2/127f9f0e-ac33-44e5-811c-a822ef5485af.png?width=150&height=188",
     "link": "/tadagaming/3_Coin_Treasures_2.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "3 Cash Volcanos: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_3-cash-volcanos-hold-and-win/9cb297d0-b10a-4420-8c78-b3da2b62c7b8.png?width=150&height=188",
+    "link": "/octoplay/3_Cash_Volcanos:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "Fire Rail Express: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_fire-rail-express-hold-and-win/27773215-b62f-4c97-a595-fe4ae6582754.png?width=150&height=188",
+    "link": "/octoplay/Fire_Rail_Express:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "Break More Piggy Banks",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_break-more-piggy-banks/75d99b3c-8f2f-4f5c-8ed5-93f86e115d44.png?width=150&height=188",
+    "link": "/octoplay/Break_More_Piggy_Banks.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "Serpent Gold: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_serpent-gold-hold-and-win/c4b6c12c-ab74-4961-b9ed-436599df07be.png?width=150&height=188",
+    "link": "/octoplay/Serpent_Gold:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "Shaolin Panda: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_shaolin-panda-hold-and-win/b2a4a91b-c77d-48ac-9b24-59acab6647e4.png?width=150&height=188",
+    "link": "/octoplay/Shaolin_Panda:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "Super Cash Boost: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_super-cash-boost-hold-and-win/7b0c90c2-1131-45af-aeed-217e1e549e99.png?width=150&height=188",
+    "link": "/octoplay/Super_Cash_Boost:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "The Grand Rooster",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_the-grand-rooster-hold-and-win/9f93d488-9809-4c60-8540-3cf08536def5.png?width=150&height=188",
+    "link": "/octoplay/The_Grand_Rooster.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "3 Lucky Beasts Hold and Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_3-lucky-beasts-hold-and-win/8c976dd5-b554-4a04-a350-9b2bf70d711a.png?width=150&height=188",
+    "link": "/octoplay/3_Lucky_Beasts_Hold_and_Win.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "3 Scarabs of Fortune",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_3-scarabs-of-fortune/145fd93c-3f9f-488c-91e2-49eebc8cd318.png?width=150&height=188",
+    "link": "/octoplay/3_Scarabs_of_Fortune.html"
+  },
+  {
+    "operadora": "OctoPlay",
+    "nome_jogo": "Break the Piggy Bank (OctoPlay)",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_break-the-piggy-bank/9c787fa4-4de3-4f71-afa5-5cab74b0ab50.png?width=150&height=188",
+    "link": "/octoplay/Break_the_Piggy_Bank_(OctoPlay).html"
   }
 ]
