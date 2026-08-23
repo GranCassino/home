@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grand Rooster - Jogue Grátis | Gran Cassino</title>
+    <meta name="description" content="Experimente slot The Grand Rooster online e gratuitamente no modo demo sem download ou registo necessários.">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="flex items-center">
+            <img src="../titulo.png" alt="Gran Cassino" class="h-12 md:h-10 object-contain">
+        </div>
+        <div class="flex items-center space-x-3">
+            <button onclick="toggleFullScreen()" class="fs-header-btn px-3.5 py-1.5 rounded-xl text-xs font-extrabold transition flex items-center space-x-2 cursor-pointer shadow-lg">
+                <i class="fa-solid fa-expand"></i> <span>Tela Cheia</span>
+            </button>
+            <a href="../" class="bg-white/10 hover:bg-white/20 text-white px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 border border-white/15 cursor-pointer shadow-md">
+                <i class="fa-solid fa-house text-brand"></i> <span>Lobby</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="desktop-layout">
+        <div class="game-column">
+            <div id="gameWrapper" class="game-viewport">
+                <iframe src="https://lobby-api.octoplay.com/platform/public/launch/the-grand-rooster-hold-and-win"></iframe>
+            </div>
+        </div>
+        <div class="info-column custom-scrollbar">
+            <div class="glass-card rounded-2xl p-4 relative overflow-hidden shadow-xl">
+                <div class="flex flex-col gap-3 items-center text-center">
+                    <img src="https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_the-grand-rooster-hold-and-win/9f93d488-9809-4c60-8540-3cf08536def5.png?width=150&height=188" class="w-20 h-20 object-cover rounded-xl shadow-md border border-white/10" alt="The Grand Rooster">
+                    <div class="space-y-1.5 w-full">
+                        <a href="../?op=Octoplay" class="inline-block px-2 py-0.5 bg-white/5 hover:bg-brand/20 border border-white/10 hover:border-brand/40 rounded text-[9px] font-semibold uppercase tracking-wider text-brand transition">
+                            Octoplay <i class="fa-solid fa-external-link-alt text-[8px] ml-0.5"></i>
+                        </a>
+                        <h2 class="text-lg font-black text-white tracking-tight">The Grand Rooster</h2>
+                        <p class="text-slate-300 text-[13px] leading-relaxed text-left"><span>Experimente slot The Grand Rooster online e gratuitamente no modo demo sem download ou registo necessários.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card rounded-2xl p-4 mt-8">
+                <h3 class="text-[11px] font-bold uppercase tracking-widest text-brand mb-2.5 flex items-center space-x-2">
+                    <i class="fa-solid fa-sliders text-brand"></i> <span>Especificações</span>
+                </h3>
+                <div class="grid grid-cols-2 gap-2">
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">RTP</span><span class="text-sm font-extrabold text-white">95,71%</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Volatilidade</span><span class="text-sm font-extrabold text-white">Média</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Prêmio Máximo</span><span class="text-sm font-extrabold text-brand">5.500x</span></div>
+                    <div class="bg-black/30 p-2.5 rounded-xl border border-white/5"><span class="text-[9px] text-slate-500 uppercase font-bold block mb-0.5">Tipo / Maneiras</span><span class="text-sm font-extrabold text-white">Slots</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-6 text-center text-xs text-slate-500 bg-black border-t border-white/10">
+        <p>&copy; 2026 Gran Cassino. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleFullScreen() {
+            const elem = document.getElementById('gameWrapper');
+            if (!document.fullscreenElement) {
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
