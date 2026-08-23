@@ -30,10 +30,11 @@
                     <option value="pragmatic">Pragmatic Play</option>
                     <option value="playtech">Playtech</option>
                     <option value="tada">Tada Gaming</option>
+                    <option value="octoplay">Octoplay</option>
                 </select>
             </div>
 
-            <!-- Novo Campo Específico para o ID do Tada (Inicialmente Oculto) -->
+            <!-- Campo Específico para o ID do Tada (Inicialmente Oculto) -->
             <div id="tadaIdGroup" class="space-y-1.5 hidden bg-slate-950/50 p-3 rounded-xl border border-amber-500/30">
                 <label class="block text-xs font-bold uppercase tracking-wider text-amber-300">
                     <i class="fa-solid fa-hashtag mr-1"></i> ID do Jogo Tada (Ex: 536):
@@ -171,6 +172,18 @@
                     return;
                 }
                 iframeUrl = `https://tadagaming.com/PlusTrial/${tadaId}/pt-BR`;
+
+            } else if (selectedProvider === 'octoplay') {
+                providerName = 'Octoplay';
+                let octoSlug = '';
+                const octoMatch = imgUrl.match(/octoplay_([^\/]+)\//);
+                if (octoMatch) {
+                    octoSlug = octoMatch[1];
+                } else {
+                    const altMatch = cardHtml.match(/octoplay_([^\/]+)/);
+                    if (altMatch) octoSlug = altMatch[1];
+                }
+                iframeUrl = `https://lobby-api.octoplay.com/platform/public/launch/${octoSlug}`;
             }
 
             // 3. Extrair Dados do Guru
