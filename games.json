@@ -348,6 +348,12 @@
     "link": "/octoplay/3_Golden_Baskets:_Treasure_Tides.html"
   },
   {
+    "operadora": "Octaplay",
+    "nome_jogo": "Triple Grand Link Express",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_triple-grand-link-express-hold-and-win/0a227a23-98f1-4dac-80b0-61ad060862ed.png?width=150&height=188",
+    "link": "/octaplay/Triple_Grand_Link_Express.html"
+  },
+  {
     "operadora": "Octoplay",
     "nome_jogo": "Cash on Wheels Hold and Win",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_cash-on-wheels-hold-and-win/7549e7dc-b765-47e6-af75-efd01596484a.png?width=150&height=188",
@@ -407,11 +413,11 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.82/5231c25a-6d11-4f48-b0c8-d4684744e693.png?width=150&height=188",
     "link": "/pgsoft/Phoenix_Rises.html"
   },
-  
   {
     "operadora": "PG Soft",
     "nome_jogo": "Muay Thai Champion",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.64/23c3f26d-ee9d-45d6-8242-38d12f55ce61.png?width=150&height=188",
     "link": "/pgsoft/Muay_Thai_Champion.html"
   }
+  
 ]
