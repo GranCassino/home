@@ -325,12 +325,6 @@
   },
   {
     "operadora": "Octoplay",
-    "nome_jogo": "Super Cash Boost: Hold &amp; Win",
-    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_super-cash-boost-hold-and-win/7b0c90c2-1131-45af-aeed-217e1e549e99.png?width=150&height=188",
-    "link": "/octoplay/Super_Cash_Boost:_Hold_&amp;_Win.html"
-  },
-  {
-    "operadora": "Octoplay",
     "nome_jogo": "5 Star Coins: Hold and Win",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_5-star-coins-hold-and-win/d51d9ec0-a0c8-4961-8a5c-c0bfe47fc73c.png?width=150&height=188",
     "link": "/octoplay/5_Star_Coins:_Hold_and_Win.html"
@@ -360,6 +354,12 @@
     "link": "/octoplay/Cash_on_Wheels_Hold_and_Win.html"
   },
   {
+    "operadora": "Octaplay",
+    "nome_jogo": "Super Cash Boost: Big Bad Bonus",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_super-cash-boost-big-bad-bonus/a161fd2d-d27e-42de-be52-073406eea431.png?width=150&height=188",
+    "link": "/octaplay/Super_Cash_Boost:_Big_Bad_Bonus.html"
+  },
+  {
     "operadora": "PG Soft",
     "nome_jogo": "Forbidden Alchemy",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1981965/5ace3774-e8e6-4a85-badf-16f4a26bd813.png?width=150&height=188",
@@ -376,12 +376,6 @@
     "nome_jogo": "Dragon's Treasure Quest",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1897678/ef6f3360-ea24-48a1-a591-c236aa4303bc.png?width=150&height=188",
     "link": "/pgsoft/Dragon's_Treasure_Quest.html"
-  },
-  {
-    "operadora": "PG Soft",
-    "nome_jogo": "Mr. Hallow Win",
-    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.35/71ec809f-3cc1-4b46-9c12-85debe0c72f0.png?width=150&height=188",
-    "link": "/pgsoft/Mr._Hallow_Win.html"
   },
   {
     "operadora": "PG Soft",
@@ -418,5 +412,12 @@
     "nome_jogo": "Phoenix Rises",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.82/5231c25a-6d11-4f48-b0c8-d4684744e693.png?width=150&height=188",
     "link": "/pgsoft/Phoenix_Rises.html"
+  },
+  
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Muay Thai Champion",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.64/23c3f26d-ee9d-45d6-8242-38d12f55ce61.png?width=150&height=188",
+    "link": "/pgsoft/Muay_Thai_Champion.html"
   }
 ]
