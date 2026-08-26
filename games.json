@@ -484,5 +484,65 @@
     "nome_jogo": "Ka Ching Boom",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_kaching_pop/5f4c88d9-3b6b-426c-af5a-44bd6bed3e63.png?width=150&height=188",
     "link": "/playtech/Ka_Ching_Boom.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sweet Bonanza 2500",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20swbon2500/71d07c59-ea73-48e9-a195-6a9d729cb024.png?width=150&height=188",
+    "link": "/pragmaticplay/Sweet_Bonanza_2500.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Bear Crazy",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20bigbbear/a9a3176a-9152-4b43-b87e-27f756717a44.png?width=150&height=188",
+    "link": "/pragmaticplay/Bear_Crazy.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Tigre Sortudo",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs5luckytig/6ad93903-756c-41a6-8feb-e5e50ec4f24e.png?width=150&height=188",
+    "link": "/pragmaticplay/Tigre_Sortudo.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Super Serge",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vswayssparkadv/538054a7-cd4a-4ada-b797-a8282afd7bd1.png?width=150&height=188",
+    "link": "/pragmaticplay/Super_Serge.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Touro Sortudo",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10fortnhs/a4a8bb9a-3904-432e-b990-f23c286a2d7f.png?width=150&height=188",
+    "link": "/pragmaticplay/Touro_Sortudo.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Fury of Anubis",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20wraanu/b8025b5d-2ee8-4a2a-ad06-3137a01da1f7.png?width=150&height=188",
+    "link": "/pragmaticplay/Fury_of_Anubis.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Gates of Olympus Super Scatter",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20olympgold/05b9501c-cde6-4821-893c-70524dd77b10.png?width=150&height=188",
+    "link": "/pragmaticplay/Gates_of_Olympus_Super_Scatter.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sweet Bonanza 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20fruitswx/0263d7ae-ec83-4557-a73c-9f95a220004c.png?width=150&height=188",
+    "link": "/pragmaticplay/Sweet_Bonanza_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sugar Rush 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20sugarrushx/92a3a3b8-84b0-4b7f-aa30-67e6a4356778.png?width=150&height=188",
+    "link": "/pragmaticplay/Sugar_Rush_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sweet Rush Bonanza",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20swrbon/986576e2-e507-4b68-98a1-e0aa17fb7dd9.png?width=150&height=188",
+    "link": "/pragmaticplay/Sweet_Rush_Bonanza.html"
   }
 ]
