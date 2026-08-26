@@ -349,15 +349,15 @@
   },
   {
     "operadora": "Octoplay",
-    "nome_jogo": "Triple Grand Link Express",
-    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_triple-grand-link-express-hold-and-win/0a227a23-98f1-4dac-80b0-61ad060862ed.png?width=150&height=188",
-    "link": "/octaplay/Triple_Grand_Link_Express.html"
-  },
-  {
-    "operadora": "Octoplay",
     "nome_jogo": "Cash on Wheels Hold and Win",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_cash-on-wheels-hold-and-win/7549e7dc-b765-47e6-af75-efd01596484a.png?width=150&height=188",
     "link": "/octoplay/Cash_on_Wheels_Hold_and_Win.html"
+  },
+  {
+    "operadora": "Octaplay",
+    "nome_jogo": "Triple Grand Link Express",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_triple-grand-link-express-hold-and-win/0a227a23-98f1-4dac-80b0-61ad060862ed.png?width=150&height=188",
+    "link": "/octaplay/Triple_Grand_Link_Express.html"
   },
   {
     "operadora": "PG Soft",
@@ -418,6 +418,71 @@
     "nome_jogo": "Muay Thai Champion",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.64/23c3f26d-ee9d-45d6-8242-38d12f55ce61.png?width=150&height=188",
     "link": "/pgsoft/Muay_Thai_Champion.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Red Wizard: Bank It Up",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_rwizw_pop/5c91b81c-87df-4635-a31d-dd734dc26758.png?width=150&height=188",
+    "link": "/playtech/Red_Wizard:_Bank_It_Up.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Rabbit and the Fox",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_rbitfox_pop/1b7b2b4c-fba3-49f0-96e2-561a5a853fd4.png?width=150&height=188",
+    "link": "/playtech/Rabbit_and_the_Fox.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Fire Blaze: White Witch",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_fbww_pop/825f86a7-f2a1-491b-a19b-06b394fefcf2.png?width=150&height=188",
+    "link": "/playtech/Fire_Blaze:_White_Witch.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Age of the Gods: Wheels of Olympus",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_aogwfot_pop/2291a979-ac5e-443d-af21-edb3cf0a7909.png?width=150&height=188",
+    "link": "/playtech/Age_of_the_Gods:_Wheels_of_Olympus.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Triple Money Jackpot",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_reelstrk_pop/e5029d66-5f11-4f7d-aa88-d80d50abf643.png?width=150&height=188",
+    "link": "/playtech/Triple_Money_Jackpot.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Mystic Mines",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_mmines_pop/ec6a3fa8-e55a-450e-8794-c774858bb282.png?width=150&height=188",
+    "link": "/playtech/Mystic_Mines.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Wizzy Trix",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_witr_pop/aca61592-0cec-48df-a4c8-9aaa5e5ebff0.png?width=150&height=188",
+    "link": "/playtech/Wizzy_Trix.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Toucan Mania",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_tmania_pop/9c27688b-07fb-4c46-b25b-4624caca690b.png?width=150&height=188",
+    "link": "/playtech/Toucan_Mania.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Cash Reveal",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_cashrlcr_pop/9ae36de5-0dd6-44c5-ba9e-b62d122daaa7.png?width=150&height=188",
+    "link": "/playtech/Cash_Reveal.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Age of the Gods: Gold Trio",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_aoggt_pop/975e54a9-1d2e-4c4e-94e8-9175d310cd11.png?width=150&height=188",
+    "link": "/playtech/Age_of_the_Gods:_Gold_Trio.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Ka Ching Boom",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_kaching_pop/5f4c88d9-3b6b-426c-af5a-44bd6bed3e63.png?width=150&height=188",
+    "link": "/playtech/Ka_Ching_Boom.html"
   }
-  
 ]
