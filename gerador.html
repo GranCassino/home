@@ -31,6 +31,7 @@
                     <option value="playtech">Playtech</option>
                     <option value="tada">Tada Gaming</option>
                     <option value="octoplay">Octoplay</option>
+                    <option value="netent">NetEnt</option>
                 </select>
             </div>
 
@@ -40,6 +41,14 @@
                     <i class="fa-solid fa-hashtag mr-1"></i> ID do Jogo Tada (Ex: 536):
                 </label>
                 <input type="text" id="tadaGameId" placeholder="Digite apenas o número do ID (ex: 536)" class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-amber-500 font-mono">
+            </div>
+
+            <!-- Campo Específico para o ID da NetEnt (Inicialmente Oculto) -->
+            <div id="netentIdGroup" class="space-y-1.5 hidden bg-slate-950/50 p-3 rounded-xl border border-amber-500/30">
+                <label class="block text-xs font-bold uppercase tracking-wider text-amber-300">
+                    <i class="fa-solid fa-hashtag mr-1"></i> ID do Jogo NetEnt (Ex: starburst0000000):
+                </label>
+                <input type="text" id="netentGameId" placeholder="Digite o ID do jogo (ex: starburst0000000)" class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-amber-500 font-mono">
             </div>
 
             <!-- Campo 1: Card HTML -->
@@ -94,13 +103,18 @@
     <script>
         let dadosGlobais = {};
 
-        // Controlar a visibilidade do campo ID do Tada com base na seleção
+        // Controlar a visibilidade dos campos específicos de ID com base na seleção do provedor
         document.getElementById('providerSelect').addEventListener('change', function() {
             const tadaGroup = document.getElementById('tadaIdGroup');
+            const netentGroup = document.getElementById('netentIdGroup');
+            
+            tadaGroup.classList.add('hidden');
+            netentGroup.classList.add('hidden');
+
             if (this.value === 'tada') {
                 tadaGroup.classList.remove('hidden');
-            } else {
-                tadaGroup.classList.add('hidden');
+            } else if (this.value === 'netent') {
+                netentGroup.classList.remove('hidden');
             }
         });
 
@@ -183,7 +197,16 @@
                     const altMatch = cardHtml.match(/octoplay_([^\/]+)/);
                     if (altMatch) octoSlug = altMatch[1];
                 }
-                iframeUrl = `https://lobby-api.octoplay.com/platform/public/launch/${octoSlug}`;
+                iframeUrl = `https://lobby-api.octoplay.com/platform/public/launch/${octoSlug}?language=pt-BR`;
+
+            } else if (selectedProvider === 'netent') {
+                providerName = 'NetEnt';
+                const netentId = document.getElementById('netentGameId').value.trim();
+                if (!netentId) {
+                    alert('Por favor, informe o ID do jogo da NetEnt.');
+                    return;
+                }
+                iframeUrl = `https://beta.netent.com/demo/${netentId}?language=pt-BR`;
             }
 
             // 3. Extrair Dados do Guru
