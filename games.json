@@ -1,6 +1,4 @@
 [
-
-
   {
     "operadora": "Octoplay",
     "nome_jogo": "3 Cash Volcanos: Hold &amp; Win",
@@ -61,7 +59,7 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_break-the-piggy-bank/9c787fa4-4de3-4f71-afa5-5cab74b0ab50.png?width=150&height=188",
     "link": "/octoplay/Break_the_Piggy_Bank_(octoplay).html"
   },
-   {
+  {
     "operadora": "PG Soft",
     "nome_jogo": "Fortune Tiger",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.126/314533ec-75d0-4ed1-98f7-0e33bd0fbbb1.png?width=150&height=188",
@@ -97,7 +95,6 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1879752/12ee7ce6-fa72-4f2c-9816-a86727437f78.png?width=150&height=188",
     "link": "/pgsoft/Fortune_Snake.html"
   },
-
   {
     "operadora": "PG Soft",
     "nome_jogo": "Dragon Hatch 2",
@@ -182,7 +179,6 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_cflipa1_pop/9caddc45-b723-40b4-8f08-adb2d5da9c10.png?width=300&height=376",
     "link": "/playtech/Clover_Flip.html"
   },
- 
   {
     "operadora": "Pragmatic Play",
     "nome_jogo": "Golden Retriever",
@@ -303,7 +299,66 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_3_COIN_TREASURES_2/127f9f0e-ac33-44e5-811c-a822ef5485af.png?width=150&height=188",
     "link": "/tadagaming/3_Coin_Treasures_2.html"
   },
-  
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Tomb Of Nefertiti",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_tombofneftitidx1/987d8b76-f29a-48ee-a2fe-596ff5b44586.png?width=150&height=188",
+    "link": "/netent/Tomb_Of_Nefertiti.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Arcane Reel Chaos",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_arcane0000000000/ff37211a-2f2b-485f-b236-c9db69c830ca.png?width=150&height=188",
+    "link": "/netent/Arcane_Reel_Chaos.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Archangels Salvation",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_archangels000000/3b0912a8-aaf5-43e6-aa60-a5452eaecca3.png?width=150&height=188",
+    "link": "/netent/Archangels_Salvation.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Asgardian Stones",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_asgardianstones0/560d872e-bec8-4dc2-a310-7c26ab24d253.png?width=150&height=188",
+    "link": "/netent/Asgardian_Stones.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Bee Hive Bonanza",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_beehivebonanza00/cb00bb60-aad2-4575-94b7-254cba48da9a.png?width=150&height=188",
+    "link": "/netent/Bee_Hive_Bonanza.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Creature From The Black Lagoon",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_blacklagoon00000/542ee2a8-6794-461f-acf8-5af2a6e67911.png?width=150&height=188",
+    "link": "/netent/Creature_From_The_Black_Lagoon.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Blood Suckers II",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_bloodsuckers2000/86527977-fc5f-43af-a3d7-33721a458812.png?width=150&height=188",
+    "link": "/netent/Blood_Suckers_II.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Blood Suckers",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_bloodsuckersj0r4/781dada5-0690-414b-86f2-cebebcb8286c.png?width=150&height=188",
+    "link": "/netent/Blood_Suckers.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Busters Bones",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_bustersboesr94f1/a822b926-cf16-4f2d-b099-2fbfdf27ef13.png?width=150&height=188",
+    "link": "/netent/Busters_Bones.html"
+  },
+  {
+    "operadora": "Netent",
+    "nome_jogo": "Butterfly Staxx",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_butterflystaxxr4/14b95100-858c-48d0-a244-e70290845c83.png?width=150&height=188",
+    "link": "/netent/Butterfly_Staxx.html"
+  }
   {
     "operadora": "Octoplay",
     "nome_jogo": "Flame &amp; Fortune: Hold &amp; Win",
@@ -358,11 +413,11 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_cash-on-wheels-hold-and-win/7549e7dc-b765-47e6-af75-efd01596484a.png?width=150&height=188",
     "link": "/octoplay/Cash_on_Wheels_Hold_and_Win.html"
   },
-   {
-    "operadora": "Octoplay",
+  {
+    "operadora": "Octaplay",
     "nome_jogo": "Triple Grand Link Express",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_triple-grand-link-express-hold-and-win/0a227a23-98f1-4dac-80b0-61ad060862ed.png?width=150&height=188",
-    "link": "/octaplay/Triple_Grand_Link_Express.html"
+    "link": "/octoplay/Triple_Grand_Link_Express.html"
   },
   {
     "operadora": "PG Soft",
@@ -424,7 +479,6 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.64/23c3f26d-ee9d-45d6-8242-38d12f55ce61.png?width=150&height=188",
     "link": "/pgsoft/Muay_Thai_Champion.html"
   },
- 
   {
     "operadora": "Playtech",
     "nome_jogo": "Red Wizard: Bank It Up",
@@ -611,4 +665,5 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_OCEAN_KING_JACKPOT/4b4246dc-5b59-43d4-86be-d892b379e0e1.png?width=150&height=188",
     "link": "/tadagaming/Dinosaur_Tycoon_2.html"
   }
+  
 ]
