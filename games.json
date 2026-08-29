@@ -14,7 +14,7 @@
   {
     "operadora": "NetEnt",
     "nome_jogo": "Cash-O-Matic",
-    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cashomatic000000/cc31f252-d78c-4fd7-948d-5a23929469fc.png?width=150&height=188",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cashnoire0000000/5c954b9d-2fa7-4af3-be80-818367c682aa.png?width=150&height=188",
     "link": "/netent/Cash-O-Matic.html"
   },
   {
@@ -724,5 +724,35 @@
     "nome_jogo": "Dinosaur Tycoon 2",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_OCEAN_KING_JACKPOT/4b4246dc-5b59-43d4-86be-d892b379e0e1.png?width=150&height=188",
     "link": "/tadagaming/Dinosaur_Tycoon_2.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dead or Alive",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_deadoralive00000/dcf1646c-585d-4292-a416-d782faabf40b.png?width=150&height=188",
+    "link": "/netent/Dead_or_Alive.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dead or Alive 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_deadoralive2fb00/f81f5776-87d3-4e0a-a283-7abef6e98314.png?width=150&height=188",
+    "link": "/netent/Dead_or_Alive_2.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dead or Alive 3 Wanted",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_deadalive3r94f10/9c6af55b-9739-489a-91ee-224a75331ca5.png?width=150&height=188",
+    "link": "/netent/Dead_or_Alive_3_Wanted.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dead West",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_deadwestr94f0000/568fa196-8efd-44a7-b761-8562b473d44a.png?width=150&height=188",
+    "link": "/netent/Dead_West.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Divine Fortune Black",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_divinefortur94f1/9ecff611-43e7-45d9-bc60-4c8de53288b8.avif?width=150&height=188",
+    "link": "/netent/Divine_Fortune_Black.html"
   }
 ]
