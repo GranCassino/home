@@ -1,0 +1,758 @@
+[
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Butterfly Staxx 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_butterflystaxx20/c9073afb-7510-4043-899e-1b2fdcc085bd.png?width=150&height=188",
+    "link": "/netent/Butterfly_Staxx_2.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cash Noire",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cashnoire0000000/5c954b9d-2fa7-4af3-be80-818367c682aa.png?width=150&height=188",
+    "link": "/netent/Cash_Noire.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cash-O-Matic",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cashnoire0000000/5c954b9d-2fa7-4af3-be80-818367c682aa.png?width=150&height=188",
+    "link": "/netent/Cash-O-Matic.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Codex of Fortune",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_codexoffortune00/ebc64a7c-2fe6-4486-b745-7c4d4b53ed7b.png?width=150&height=188",
+    "link": "/netent/Codex_of_Fortune.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Spinata Grande",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_colossalpinatas0/572fff82-289a-412c-9811-ab0570fdb1cd.png?width=150&height=188",
+    "link": "/netent/Spinata_Grande.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cornelius",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_corneliusf100000/d0cd8ecb-97f7-4e36-a8f9-59bdb7d82275.png?width=150&height=188",
+    "link": "/netent/Cornelius.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cupcakes",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cupcakesf1000000/5472c643-678a-4d9c-ab99-8743446f89c0.png?width=150&height=188",
+    "link": "/netent/Cupcakes.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cursed Treasure",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cursedtreasr96f1/c1261b71-2fb9-424b-b536-c4ac6095e30b.png?width=150&height=188",
+    "link": "/netent/Cursed_Treasure.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dazzle Me",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_dazzle0000000000/deb8dd2b-554b-456a-b240-33263a861c06.png?width=150&height=188",
+    "link": "/netent/Dazzle_Me.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dazzle Me Megaways",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_dazzlemwr2000000/23e55517-1923-4d01-97b8-b509dbefa357.png?width=150&height=188",
+    "link": "/netent/Dazzle_Me_Megaways.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "3 Cash Volcanos: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_3-cash-volcanos-hold-and-win/9cb297d0-b10a-4420-8c78-b3da2b62c7b8.png?width=150&height=188",
+    "link": "/octoplay/3_Cash_Volcanos:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Fire Rail Express: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_fire-rail-express-hold-and-win/27773215-b62f-4c97-a595-fe4ae6582754.png?width=150&height=188",
+    "link": "/octoplay/Fire_Rail_Express:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Break More Piggy Banks",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_break-more-piggy-banks/75d99b3c-8f2f-4f5c-8ed5-93f86e115d44.png?width=150&height=188",
+    "link": "/octoplay/Break_More_Piggy_Banks.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Serpent Gold: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_serpent-gold-hold-and-win/c4b6c12c-ab74-4961-b9ed-436599df07be.png?width=150&height=188",
+    "link": "/octoplay/Serpent_Gold:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Shaolin Panda: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_shaolin-panda-hold-and-win/b2a4a91b-c77d-48ac-9b24-59acab6647e4.png?width=150&height=188",
+    "link": "/octoplay/Shaolin_Panda:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Super Cash Boost: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_super-cash-boost-hold-and-win/7b0c90c2-1131-45af-aeed-217e1e549e99.png?width=150&height=188",
+    "link": "/octoplay/Super_Cash_Boost:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "The Grand Rooster",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_the-grand-rooster-hold-and-win/9f93d488-9809-4c60-8540-3cf08536def5.png?width=150&height=188",
+    "link": "/octoplay/The_Grand_Rooster.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "3 Lucky Beasts Hold and Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_3-lucky-beasts-hold-and-win/8c976dd5-b554-4a04-a350-9b2bf70d711a.png?width=150&height=188",
+    "link": "/octoplay/3_Lucky_Beasts_Hold_and_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "3 Scarabs of Fortune",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_3-scarabs-of-fortune/145fd93c-3f9f-488c-91e2-49eebc8cd318.png?width=150&height=188",
+    "link": "/octoplay/3_Scarabs_of_Fortune.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Break the Piggy Bank (octoplay)",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_break-the-piggy-bank/9c787fa4-4de3-4f71-afa5-5cab74b0ab50.png?width=150&height=188",
+    "link": "/octoplay/Break_the_Piggy_Bank_(octoplay).html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Tiger",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.126/314533ec-75d0-4ed1-98f7-0e33bd0fbbb1.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Tiger.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Rabbit",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1543462/3b9776f9-e3cc-45c5-b769-5959752e09ca.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Rabbit.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Dragon",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1695365/356acac8-a0e9-4166-a850-19163b8b0a91.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Dragon.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Mouse",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.68/d5b1ff72-17b0-421f-9b60-e8e790ff5d82.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Mouse.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Ox",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.98/bf316690-59e0-42c8-b183-b1f9b89d0d3b.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Ox.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Fortune Snake",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1879752/12ee7ce6-fa72-4f2c-9816-a86727437f78.png?width=150&height=188",
+    "link": "/pgsoft/Fortune_Snake.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Dragon Hatch 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1451122/7b359c8f-89c8-4b91-9f38-23719b653cc1.png?width=150&height=188",
+    "link": "/pgsoft/Dragon_Hatch_2.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Ways of the Qilin",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.106/7b651d86-f8dc-483d-9aca-52d8394da153.png?width=150&height=188",
+    "link": "/pgsoft/Ways_of_the_Qilin.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Geisha’s Revenge",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1702123/0b86fa7e-ee3e-44cd-8695-1d4ad0e5c34c.png?width=150&height=188",
+    "link": "/pgsoft/Geisha’s_Revenge.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Cocktail Nights",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.117/4915aca9-0021-4485-8011-7afc78b22d2b.png?width=150&height=188",
+    "link": "/pgsoft/Cocktail_Nights.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Mega Fire Blaze: The Khan",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_mfbkhan_pop/992d91ad-76c8-4c76-bb98-4a079d36ce87.png?width=300&height=376",
+    "link": "/playtech/Mega_Fire_Blaze:_The_Khan.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "King Blitz",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_bprog_pop/8f45f2f2-937c-4c1c-8fdd-01b04b86c3b2.png?width=300&height=376",
+    "link": "/playtech/King_Blitz.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Age of the Gods: King Of Olympus Megaways",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_mgaogkolbf_pop/bb9c52e7-496d-4bee-9f26-afe70cbb3ab0.png?width=300&height=376",
+    "link": "/playtech/Age_of_the_Gods:_King_Of_Olympus_Megaways.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Age of the Gods: God of Storms 3",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_agstorm3_pop/d19c38c9-36ae-43b2-b7b0-9e18eae3a728.png?width=300&height=376",
+    "link": "/playtech/Age_of_the_Gods:_God_of_Storms_3.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Age of the Gods: God of Storms Fire Blaze",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_aoggosfb_pop/8eb77aa1-0153-4950-b40d-6e9ecce12d97.png?width=300&height=376",
+    "link": "/playtech/Age_of_the_Gods:_God_of_Storms_Fire_Blaze.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Mega Fire Blaze: Big Circus!",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_bcircus_pop/337f14c0-a208-4e8a-b7ee-4260a8b99f3a.png?width=300&height=376",
+    "link": "/playtech/Mega_Fire_Blaze:_Big_Circus!.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Silver Bullet Bandit Cash Collect",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_sbullet_pop/a3b9d85c-77f4-4f33-8ec5-fb79b24c248f.png?width=300&height=376",
+    "link": "/playtech/Silver_Bullet_Bandit_Cash_Collect.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Fire Blaze: Red Wizard",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_rwizard_pop/36a9dc2a-5671-4918-beee-2295f6c298f6.png?width=300&height=376",
+    "link": "/playtech/Fire_Blaze:_Red_Wizard.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Diamond Rise",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_drise_pop/d8163a1d-4a18-4a03-94f0-9a9ac752dc10.png?width=300&height=376",
+    "link": "/playtech/Diamond_Rise.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Clover Flip",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_cflipa1_pop/9caddc45-b723-40b4-8f08-adb2d5da9c10.png?width=300&height=376",
+    "link": "/playtech/Clover_Flip.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Golden Retriever",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10goldenret/33da64ea-d23e-4aff-a75a-ed60077ca35b.png?width=150&height=188",
+    "link": "/pragmaticplay/Golden_Retriever.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Gates of Olympus Super Scatter",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20sbetolympx/8dde5771-c253-45f7-9190-33e8e7a6f1a9.png?width=150&height=188",
+    "link": "/pragmaticplay/Gates_of_Olympus_Super_Scatter.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Big Bass Blast",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10bbasblitz/1bc6261e-6f1b-4f0d-a961-635172dee165.png?width=150&height=188",
+    "link": "/pragmaticplay/Big_Bass_Blast.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Gates of Olympus 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20olympx/af72924d-0ffe-4ca3-bea7-ae4293d23928.png?width=150&height=188",
+    "link": "/pragmaticplay/Gates_of_Olympus_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Cosmic Clusters",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20cjoinclust/8c29f765-9d0e-471a-9924-bc321576415c.png?width=150&height=188",
+    "link": "/pragmaticplay/Cosmic_Clusters.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Big Bass Splash 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10bbsplashx/e102e6eb-c3c0-4b5f-988a-d966f5b8f327.png?width=150&height=188",
+    "link": "/pragmaticplay/Big_Bass_Splash_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "The Dog House Megaways 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vswaysdh1000/1777cc45-e510-4ad8-a409-7f44c9e993bb.png?width=150&height=188",
+    "link": "/pragmaticplay/The_Dog_House_Megaways_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "777 Wheel Blitz",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs5wheel7s/dbf8d9a9-0a9f-4f7b-be2f-9d041132a8f6.png?width=150&height=188",
+    "link": "/pragmaticplay/777_Wheel_Blitz.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sunnydaze Asylum",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vswayssndzaslm/ee4790a6-dcf1-4312-b046-863bf8610f11.png?width=150&height=188",
+    "link": "/pragmaticplay/Sunnydaze_Asylum.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Candy Rush",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20candyia/dfa225c6-4228-42d1-90a3-60ccc6440be7.png?width=150&height=188",
+    "link": "/pragmaticplay/Candy_Rush.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Garuda 500",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_GARUDA_500/444f85b6-f028-4ca8-bf83-47fb610705d8.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Garuda_500.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Lucky Jaguar 500",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_LUCKY_JAGUAR_500/2cce4c11-7234-433f-b6c7-327c06da64ab.png?width=150&height=188",
+    "link": "/tadagaming/Lucky_Jaguar_500.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Gems 500",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_GEMS_500/880840c6-d0ce-4090-95ae-adbbab4b99d8.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Gems_500.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Zombie",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_ZOMBIE/adcf7a29-c1d3-4e27-a5ff-14e9fbc803a6.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Zombie.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Lucky Jaguar 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_LUCKY_JAGUAR_2/092b9870-996a-4084-a6a6-2d56bd89360c.png?width=150&height=188",
+    "link": "/tadagaming/Lucky_Jaguar_2.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Money Coming 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_MONEY_COMING_2/77cac8d9-a5ae-4b5a-ba51-b64b8e149906.png?width=150&height=188",
+    "link": "/tadagaming/Money_Coming_2.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Lucky Tiger (TaDa Gaming)",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_LUCKY_TIGER/e6cb235b-1c63-40fd-99c7-c09114cbda74.png?width=150&height=188",
+    "link": "/tadagaming/Lucky_Tiger_(TaDa_Gaming).html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Coins",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_COINS_UNLIMITED_FORTUNE/92cfa521-6bae-4ae9-b86e-0521d850dc45.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Coins.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Monkey (TaDa Gaming)",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_MONKEY/34c17049-23fb-42bd-81f6-f27da8150740.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Monkey_(TaDa_Gaming).html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "3 Coin Treasures 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_3_COIN_TREASURES_2/127f9f0e-ac33-44e5-811c-a822ef5485af.png?width=150&height=188",
+    "link": "/tadagaming/3_Coin_Treasures_2.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Tomb Of Nefertiti",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_tombofneftitidx1/987d8b76-f29a-48ee-a2fe-596ff5b44586.png?width=150&height=188",
+    "link": "/netent/Tomb_Of_Nefertiti.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Arcane Reel Chaos",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_arcane0000000000/ff37211a-2f2b-485f-b236-c9db69c830ca.png?width=150&height=188",
+    "link": "/netent/Arcane_Reel_Chaos.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Archangels Salvation",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_archangels000000/3b0912a8-aaf5-43e6-aa60-a5452eaecca3.png?width=150&height=188",
+    "link": "/netent/Archangels_Salvation.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Asgardian Stones",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_asgardianstones0/560d872e-bec8-4dc2-a310-7c26ab24d253.png?width=150&height=188",
+    "link": "/netent/Asgardian_Stones.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Bee Hive Bonanza",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_beehivebonanza00/cb00bb60-aad2-4575-94b7-254cba48da9a.png?width=150&height=188",
+    "link": "/netent/Bee_Hive_Bonanza.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Creature From The Black Lagoon",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_blacklagoon00000/542ee2a8-6794-461f-acf8-5af2a6e67911.png?width=150&height=188",
+    "link": "/netent/Creature_From_The_Black_Lagoon.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Blood Suckers II",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_bloodsuckers2000/86527977-fc5f-43af-a3d7-33721a458812.png?width=150&height=188",
+    "link": "/netent/Blood_Suckers_II.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Blood Suckers",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_bloodsuckersj0r4/781dada5-0690-414b-86f2-cebebcb8286c.png?width=150&height=188",
+    "link": "/netent/Blood_Suckers.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Busters Bones",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_bustersboesr94f1/a822b926-cf16-4f2d-b099-2fbfdf27ef13.png?width=150&height=188",
+    "link": "/netent/Busters_Bones.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Butterfly Staxx",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_butterflystaxxr4/14b95100-858c-48d0-a244-e70290845c83.png?width=150&height=188",
+    "link": "/netent/Butterfly_Staxx.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Flame &amp; Fortune: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_flame-and-fortune-hold-and-win/9cb084eb-4437-440b-b0cb-ae97b4a14bcf.png?width=150&height=188",
+    "link": "/octoplay/Flame_&amp;_Fortune:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Super Cash Boost: Big Bad Bonus",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_super-cash-boost-big-bad-bonus/a161fd2d-d27e-42de-be52-073406eea431.png?width=150&height=188",
+    "link": "/octoplay/Super_Cash_Boost:_Big_Bad_Bonus.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "777 Hot Reels",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_777-hot-reels/a3c1a2a4-3132-45cb-bff1-2d2e0acdbb33.png?width=150&height=188",
+    "link": "/octoplay/777_Hot_Reels.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Cash Hit: Blaze to 1000x",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_cash-hit-blaze-to-1000x/3711fcb0-5ce3-4834-8469-6c0bce6b6eee.png?width=150&height=188",
+    "link": "/octoplay/Cash_Hit:_Blaze_to_1000x.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "5 Star Coins: Hold and Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_5-star-coins-hold-and-win/d51d9ec0-a0c8-4961-8a5c-c0bfe47fc73c.png?width=150&height=188",
+    "link": "/octoplay/5_Star_Coins:_Hold_and_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "5 Golden Relics: Hold &amp; Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_5-golden-relics-hold-and-win/3ff1d309-246a-49fd-af0c-a25a0efe51ef.png?width=150&height=188",
+    "link": "/octoplay/5_Golden_Relics:_Hold_&amp;_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Mega Cash Boost",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_mega-cash-boost-hold-and-win/7f58163b-dde3-4666-abdd-6051914c1897.png?width=150&height=188",
+    "link": "/octoplay/Mega_Cash_Boost.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "3 Golden Baskets: Treasure Tides",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_3-golden-baskets-treasure-tides/a452df52-2aa8-4295-8c2d-d3dcb40dd8af.png?width=150&height=188",
+    "link": "/octoplay/3_Golden_Baskets:_Treasure_Tides.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Cash on Wheels Hold and Win",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_cash-on-wheels-hold-and-win/7549e7dc-b765-47e6-af75-efd01596484a.png?width=150&height=188",
+    "link": "/octoplay/Cash_on_Wheels_Hold_and_Win.html"
+  },
+  {
+    "operadora": "Octoplay",
+    "nome_jogo": "Triple Grand Link Express",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_triple-grand-link-express-hold-and-win/0a227a23-98f1-4dac-80b0-61ad060862ed.png?width=150&height=188",
+    "link": "/octoplay/Triple_Grand_Link_Express.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Forbidden Alchemy",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1981965/5ace3774-e8e6-4a85-badf-16f4a26bd813.png?width=150&height=188",
+    "link": "/pgsoft/Forbidden_Alchemy.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Pinata Wins",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1492288/40b3b80e-9c47-49b1-8ae9-6046054a4005.png?width=150&height=188",
+    "link": "/pgsoft/Pinata_Wins.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Dragon's Treasure Quest",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1897678/ef6f3360-ea24-48a1-a591-c236aa4303bc.png?width=150&height=188",
+    "link": "/pgsoft/Dragon's_Treasure_Quest.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Kraken Gold Rush",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1929177/aa025e4d-4aca-44ad-8ac0-427da8060c24.png?width=150&height=188",
+    "link": "/pgsoft/Kraken_Gold_Rush.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Alibaba's Cave of Fortune",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1940257/03031f02-55a4-4ca7-9367-e15a54a95265.png?width=150&height=188",
+    "link": "/pgsoft/Alibaba's_Cave_of_Fortune.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Super Golf Drive",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1513328/65a7ad97-13c0-4192-ac69-1fb597920db1.png?width=150&height=188",
+    "link": "/pgsoft/Super_Golf_Drive.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Songkran Splash",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.1448762/4fbec36c-5f0c-4b22-af13-eb127af88449.png?width=150&height=188",
+    "link": "/pgsoft/Songkran_Splash.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Queen of Bounty",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.84/056d3fb9-8450-45c8-a3a6-d0206784a2f5.png?width=150&height=188",
+    "link": "/pgsoft/Queen_of_Bounty.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Phoenix Rises",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.82/5231c25a-6d11-4f48-b0c8-d4684744e693.png?width=150&height=188",
+    "link": "/pgsoft/Phoenix_Rises.html"
+  },
+  {
+    "operadora": "PG Soft",
+    "nome_jogo": "Muay Thai Champion",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/relaxgaming_rlx.pgsoft.pgsoft.64/23c3f26d-ee9d-45d6-8242-38d12f55ce61.png?width=150&height=188",
+    "link": "/pgsoft/Muay_Thai_Champion.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Red Wizard: Bank It Up",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_rwizw_pop/5c91b81c-87df-4635-a31d-dd734dc26758.png?width=150&height=188",
+    "link": "/playtech/Red_Wizard:_Bank_It_Up.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Rabbit and the Fox",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_rbitfox_pop/1b7b2b4c-fba3-49f0-96e2-561a5a853fd4.png?width=150&height=188",
+    "link": "/playtech/Rabbit_and_the_Fox.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Fire Blaze: White Witch",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_fbww_pop/825f86a7-f2a1-491b-a19b-06b394fefcf2.png?width=150&height=188",
+    "link": "/playtech/Fire_Blaze:_White_Witch.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Age of the Gods: Wheels of Olympus",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_aogwfot_pop/2291a979-ac5e-443d-af21-edb3cf0a7909.png?width=150&height=188",
+    "link": "/playtech/Age_of_the_Gods:_Wheels_of_Olympus.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Triple Money Jackpot",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_reelstrk_pop/e5029d66-5f11-4f7d-aa88-d80d50abf643.png?width=150&height=188",
+    "link": "/playtech/Triple_Money_Jackpot.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Mystic Mines",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_mmines_pop/ec6a3fa8-e55a-450e-8794-c774858bb282.png?width=150&height=188",
+    "link": "/playtech/Mystic_Mines.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Wizzy Trix",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_witr_pop/aca61592-0cec-48df-a4c8-9aaa5e5ebff0.png?width=150&height=188",
+    "link": "/playtech/Wizzy_Trix.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Toucan Mania",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_tmania_pop/9c27688b-07fb-4c46-b25b-4624caca690b.png?width=150&height=188",
+    "link": "/playtech/Toucan_Mania.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Cash Reveal",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_cashrlcr_pop/9ae36de5-0dd6-44c5-ba9e-b62d122daaa7.png?width=150&height=188",
+    "link": "/playtech/Cash_Reveal.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Age of the Gods: Gold Trio",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_aoggt_pop/975e54a9-1d2e-4c4e-94e8-9175d310cd11.png?width=150&height=188",
+    "link": "/playtech/Age_of_the_Gods:_Gold_Trio.html"
+  },
+  {
+    "operadora": "Playtech",
+    "nome_jogo": "Ka Ching Boom",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/playtech_gpas_kaching_pop/5f4c88d9-3b6b-426c-af5a-44bd6bed3e63.png?width=150&height=188",
+    "link": "/playtech/Ka_Ching_Boom.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sweet Bonanza 2500",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20swbon2500/71d07c59-ea73-48e9-a195-6a9d729cb024.png?width=150&height=188",
+    "link": "/pragmaticplay/Sweet_Bonanza_2500.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Bear Crazy",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20bigbbear/a9a3176a-9152-4b43-b87e-27f756717a44.png?width=150&height=188",
+    "link": "/pragmaticplay/Bear_Crazy.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Tigre Sortudo",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs5luckytig/6ad93903-756c-41a6-8feb-e5e50ec4f24e.png?width=150&height=188",
+    "link": "/pragmaticplay/Tigre_Sortudo.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Super Serge",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vswayssparkadv/538054a7-cd4a-4ada-b797-a8282afd7bd1.png?width=150&height=188",
+    "link": "/pragmaticplay/Super_Serge.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Touro Sortudo",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs10fortnhs/a4a8bb9a-3904-432e-b990-f23c286a2d7f.png?width=150&height=188",
+    "link": "/pragmaticplay/Touro_Sortudo.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Fury of Anubis",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20wraanu/b8025b5d-2ee8-4a2a-ad06-3137a01da1f7.png?width=150&height=188",
+    "link": "/pragmaticplay/Fury_of_Anubis.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Gates of Olympus Super Scatter",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20olympgold/05b9501c-cde6-4821-893c-70524dd77b10.png?width=150&height=188",
+    "link": "/pragmaticplay/Gates_of_Olympus_Super_Scatter.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sweet Bonanza 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20fruitswx/0263d7ae-ec83-4557-a73c-9f95a220004c.png?width=150&height=188",
+    "link": "/pragmaticplay/Sweet_Bonanza_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sugar Rush 1000",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20sugarrushx/92a3a3b8-84b0-4b7f-aa30-67e6a4356778.png?width=150&height=188",
+    "link": "/pragmaticplay/Sugar_Rush_1000.html"
+  },
+  {
+    "operadora": "Pragmatic Play",
+    "nome_jogo": "Sweet Rush Bonanza",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/prg_vs20swrbon/986576e2-e507-4b68-98a1-e0aa17fb7dd9.png?width=150&height=188",
+    "link": "/pragmaticplay/Sweet_Rush_Bonanza.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Tree",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_TREE/e5156716-ed9d-464e-890b-20090e8feb0b.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Tree.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Fortune Hook",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_FORTUNE_HOOK/c51b1bce-c0fb-43d0-bd54-ca8a00d4cdf1.png?width=150&height=188",
+    "link": "/tadagaming/Fortune_Hook.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "3 Coin Wild Horse",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_3_COIN_WILD_HORSE/8a38c1a4-6268-4fa0-92af-4f4d032954a0.png?width=150&height=188",
+    "link": "/tadagaming/3_Coin_Wild_Horse.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "King Arthur",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_3_COIN_WILD_HORSE/8a38c1a4-6268-4fa0-92af-4f4d032954a0.png?width=150&height=188",
+    "link": "/tadagaming/King_Arthur.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Pirate Queen",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_PIRATE_QUEEN_2/fc8df46c-11be-4229-a31f-fcbc38b97ad0.png?width=150&height=188",
+    "link": "/tadagaming/Pirate_Queen.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Mega Fishing",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_MEGA_FISHING/1ba85dcc-5b39-4a44-aba4-dd18d6cafaf9.png?width=150&height=188",
+    "link": "/tadagaming/Mega_Fishing.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Crazy Hunter",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_CRAZY_HUNTER/16776c03-98d7-458e-8be8-dddfd5863866.png?width=150&height=188",
+    "link": "/tadagaming/Crazy_Hunter.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Clover Coins 3x3",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_CLOVER_COINS_3X3/8a5c877b-ae31-4b26-9f04-6aa78d15ba16.png?width=150&height=188",
+    "link": "/tadagaming/Clover_Coins_3x3.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Ocean King - Jackpot",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_OCEAN_KING_JACKPOT/4b4246dc-5b59-43d4-86be-d892b379e0e1.png?width=150&height=188",
+    "link": "/tadagaming/Ocean_King_-_Jackpot.html"
+  },
+  {
+    "operadora": "Tada Gaming",
+    "nome_jogo": "Dinosaur Tycoon 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_OCEAN_KING_JACKPOT/4b4246dc-5b59-43d4-86be-d892b379e0e1.png?width=150&height=188",
+    "link": "/tadagaming/Dinosaur_Tycoon_2.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dead or Alive",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_deadoralive00000/dcf1646c-585d-4292-a416-d782faabf40b.png?width=150&height=188",
+    "link": "/netent/Dead_or_Alive.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dead or Alive 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_deadoralive2fb00/f81f5776-87d3-4e0a-a283-7abef6e98314.png?width=150&height=188",
+    "link": "/netent/Dead_or_Alive_2.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dead or Alive 3 Wanted",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_deadalive3r94f10/9c6af55b-9739-489a-91ee-224a75331ca5.png?width=150&height=188",
+    "link": "/netent/Dead_or_Alive_3_Wanted.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dead West",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_deadwestr94f0000/568fa196-8efd-44a7-b761-8562b473d44a.png?width=150&height=188",
+    "link": "/netent/Dead_West.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Divine Fortune Black",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_divinefortur94f1/9ecff611-43e7-45d9-bc60-4c8de53288b8.avif?width=150&height=188",
+    "link": "/netent/Divine_Fortune_Black.html"
+  }
+]
