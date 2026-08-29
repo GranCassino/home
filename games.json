@@ -1,5 +1,65 @@
 [
   {
+    "operadora": "NetEnt",
+    "nome_jogo": "Butterfly Staxx 2",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_butterflystaxx20/c9073afb-7510-4043-899e-1b2fdcc085bd.png?width=150&height=188",
+    "link": "/netent/Butterfly_Staxx_2.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cash Noire",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cashnoire0000000/5c954b9d-2fa7-4af3-be80-818367c682aa.png?width=150&height=188",
+    "link": "/netent/Cash_Noire.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cash-O-Matic",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cashnoire0000000/5c954b9d-2fa7-4af3-be80-818367c682aa.png?width=150&height=188",
+    "link": "/netent/Cash-O-Matic.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Codex of Fortune",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_codexoffortune00/ebc64a7c-2fe6-4486-b745-7c4d4b53ed7b.png?width=150&height=188",
+    "link": "/netent/Codex_of_Fortune.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Spinata Grande",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_colossalpinatas0/572fff82-289a-412c-9811-ab0570fdb1cd.png?width=150&height=188",
+    "link": "/netent/Spinata_Grande.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cornelius",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_corneliusf100000/d0cd8ecb-97f7-4e36-a8f9-59bdb7d82275.png?width=150&height=188",
+    "link": "/netent/Cornelius.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cupcakes",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cupcakesf1000000/5472c643-678a-4d9c-ab99-8743446f89c0.png?width=150&height=188",
+    "link": "/netent/Cupcakes.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Cursed Treasure",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_cursedtreasr96f1/c1261b71-2fb9-424b-b536-c4ac6095e30b.png?width=150&height=188",
+    "link": "/netent/Cursed_Treasure.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dazzle Me",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_dazzle0000000000/deb8dd2b-554b-456a-b240-33263a861c06.png?width=150&height=188",
+    "link": "/netent/Dazzle_Me.html"
+  },
+  {
+    "operadora": "NetEnt",
+    "nome_jogo": "Dazzle Me Megaways",
+    "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/evolution_dazzlemwr2000000/23e55517-1923-4d01-97b8-b509dbefa357.png?width=150&height=188",
+    "link": "/netent/Dazzle_Me_Megaways.html"
+  },
+  {
     "operadora": "Octoplay",
     "nome_jogo": "3 Cash Volcanos: Hold &amp; Win",
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/octoplay_3-cash-volcanos-hold-and-win/9cb297d0-b10a-4420-8c78-b3da2b62c7b8.png?width=150&height=188",
@@ -665,5 +725,4 @@
     "imagem": "https://prod-cdn-gaming.freetls.fastly.net/cdn/images/oryx_TD_OCEAN_KING_JACKPOT/4b4246dc-5b59-43d4-86be-d892b379e0e1.png?width=150&height=188",
     "link": "/tadagaming/Dinosaur_Tycoon_2.html"
   }
-  
 ]
